@@ -1,0 +1,486 @@
+{
+ "count": 40,
+ "generated": "2026-10-07",
+ "circuits": [
+  {
+   "id": "Melbourne",
+   "name": "Albert Park Circuit",
+   "lengthMetres": 5283,
+   "corners": 6,
+   "elevationRangeMetres": 3,
+   "centre": {
+    "lat": -37.84591,
+    "lon": 144.97037
+   },
+   "verifiedWithinMetres": 0.9
+  },
+  {
+   "id": "Estoril",
+   "name": "Autodromo do Estoril",
+   "lengthMetres": 4177,
+   "corners": 7,
+   "elevationRangeMetres": 22,
+   "centre": {
+    "lat": 38.75106,
+    "lon": -9.39427
+   },
+   "verifiedWithinMetres": 2.7
+  },
+  {
+   "id": "Imola",
+   "name": "Autodromo Enzo e Dino Ferrari",
+   "lengthMetres": 4908,
+   "corners": 7,
+   "elevationRangeMetres": 36,
+   "centre": {
+    "lat": 44.34086,
+    "lon": 11.7126
+   },
+   "verifiedWithinMetres": 4.5
+  },
+  {
+   "id": "Mexico City",
+   "name": "Autodromo Hermanos Rodriguez",
+   "lengthMetres": 4311,
+   "corners": 6,
+   "elevationRangeMetres": 3,
+   "centre": {
+    "lat": 19.40272,
+    "lon": -99.08972
+   },
+   "verifiedWithinMetres": 1.2
+  },
+  {
+   "id": "Portimao",
+   "name": "Autodromo Internacional do Algarve",
+   "lengthMetres": 4661,
+   "corners": 6,
+   "elevationRangeMetres": 34,
+   "centre": {
+    "lat": 37.23122,
+    "lon": -8.62765
+   },
+   "verifiedWithinMetres": 4.4
+  },
+  {
+   "id": "Jacarepagua",
+   "name": "Autodromo Internacional Nelson Piquet",
+   "lengthMetres": 4978,
+   "corners": 9,
+   "elevationRangeMetres": 2,
+   "centre": {
+    "lat": -22.97665,
+    "lon": -43.3952
+   },
+   "verifiedWithinMetres": 5.2
+  },
+  {
+   "id": "Mugello",
+   "name": "Autodromo Internazionale del Mugello",
+   "lengthMetres": 5252,
+   "corners": 8,
+   "elevationRangeMetres": 43,
+   "centre": {
+    "lat": 43.99647,
+    "lon": 11.37103
+   },
+   "verifiedWithinMetres": 1.6
+  },
+  {
+   "id": "SaoPaulo",
+   "name": "Autodromo Jose Carlos Pace",
+   "lengthMetres": 4306,
+   "corners": 6,
+   "elevationRangeMetres": 43,
+   "centre": {
+    "lat": -23.70094,
+    "lon": -46.69803
+   },
+   "verifiedWithinMetres": 1.1
+  },
+  {
+   "id": "Monza",
+   "name": "Autodromo Nazionale Monza",
+   "lengthMetres": 5795,
+   "corners": 6,
+   "elevationRangeMetres": 18,
+   "centre": {
+    "lat": 45.62342,
+    "lon": 9.28659
+   },
+   "verifiedWithinMetres": 0.8
+  },
+  {
+   "id": "BuenosAires",
+   "name": "Autodromo Oscar y Juan Galvez",
+   "lengthMetres": 4312,
+   "corners": 6,
+   "elevationRangeMetres": 9,
+   "centre": {
+    "lat": -34.69533,
+    "lon": -58.45969
+   },
+   "verifiedWithinMetres": 6.8
+  },
+  {
+   "id": "Sakhir",
+   "name": "Bahrain International Circuit",
+   "lengthMetres": 5430,
+   "corners": 7,
+   "elevationRangeMetres": 22,
+   "centre": {
+    "lat": 26.03223,
+    "lon": 50.51416
+   },
+   "verifiedWithinMetres": 2.4
+  },
+  {
+   "id": "Baku",
+   "name": "Baku City Circuit",
+   "lengthMetres": 5957,
+   "corners": 10,
+   "elevationRangeMetres": 23,
+   "centre": {
+    "lat": 40.36895,
+    "lon": 49.84082
+   },
+   "verifiedWithinMetres": 3.2
+  },
+  {
+   "id": "Catalunya",
+   "name": "Circuit de Barcelona-Catalunya",
+   "lengthMetres": 4671,
+   "corners": 7,
+   "elevationRangeMetres": 33,
+   "centre": {
+    "lat": 41.569,
+    "lon": 2.25735
+   },
+   "verifiedWithinMetres": 1.7
+  },
+  {
+   "id": "Monaco",
+   "name": "Circuit de Monaco",
+   "lengthMetres": 3332,
+   "corners": 11,
+   "elevationRangeMetres": 36,
+   "centre": {
+    "lat": 43.73714,
+    "lon": 7.42529
+   },
+   "verifiedWithinMetres": 1.2
+  },
+  {
+   "id": "MagnyCours",
+   "name": "Circuit de Nevers Magny-Cours",
+   "lengthMetres": 4468,
+   "corners": 7,
+   "elevationRangeMetres": 29,
+   "centre": {
+    "lat": 46.86416,
+    "lon": 3.16617
+   },
+   "verifiedWithinMetres": 3
+  },
+  {
+   "id": "Spa",
+   "name": "Circuit de Spa-Francorchamps",
+   "lengthMetres": 6992,
+   "corners": 7,
+   "elevationRangeMetres": 102,
+   "centre": {
+    "lat": 50.43466,
+    "lon": 5.96867
+   },
+   "verifiedWithinMetres": 2.1
+  },
+  {
+   "id": "Montreal",
+   "name": "Circuit Gilles Villeneuve",
+   "lengthMetres": 4375,
+   "corners": 6,
+   "elevationRangeMetres": 5,
+   "centre": {
+    "lat": 45.50441,
+    "lon": -73.52645
+   },
+   "verifiedWithinMetres": 2.2
+  },
+  {
+   "id": "Austin",
+   "name": "Circuit of the Americas",
+   "lengthMetres": 5528,
+   "corners": 10,
+   "elevationRangeMetres": 34,
+   "centre": {
+    "lat": 30.13521,
+    "lon": -97.63474
+   },
+   "verifiedWithinMetres": 1.5
+  },
+  {
+   "id": "PaulRicard",
+   "name": "Circuit Paul Ricard",
+   "lengthMetres": 5828,
+   "corners": 7,
+   "elevationRangeMetres": 29,
+   "centre": {
+    "lat": 43.25282,
+    "lon": 5.79221
+   },
+   "verifiedWithinMetres": 1.3
+  },
+  {
+   "id": "Zandvoort",
+   "name": "Circuit Zandvoort",
+   "lengthMetres": 4268,
+   "corners": 8,
+   "elevationRangeMetres": 8,
+   "centre": {
+    "lat": 52.38768,
+    "lon": 4.54555
+   },
+   "verifiedWithinMetres": 3
+  },
+  {
+   "id": "Madrid",
+   "name": "Circuito de Madring",
+   "lengthMetres": 5449,
+   "corners": 9,
+   "elevationRangeMetres": 35,
+   "centre": {
+    "lat": 40.47283,
+    "lon": -3.62147
+   },
+   "verifiedWithinMetres": 3.9
+  },
+  {
+   "id": "Hockenheim",
+   "name": "Hockenheimring",
+   "lengthMetres": 4562,
+   "corners": 7,
+   "elevationRangeMetres": 19,
+   "centre": {
+    "lat": 49.32959,
+    "lon": 8.57172
+   },
+   "verifiedWithinMetres": 2
+  },
+  {
+   "id": "Budapest",
+   "name": "Hungaroring",
+   "lengthMetres": 4384,
+   "corners": 10,
+   "elevationRangeMetres": 35,
+   "centre": {
+    "lat": 47.58275,
+    "lon": 19.25085
+   },
+   "verifiedWithinMetres": 1.5
+  },
+  {
+   "id": "IMS",
+   "name": "Indianapolis Motor Speedway",
+   "lengthMetres": 4091,
+   "corners": 5,
+   "elevationRangeMetres": 4,
+   "centre": {
+    "lat": 39.79473,
+    "lon": -86.23534
+   },
+   "verifiedWithinMetres": 2.6
+  },
+  {
+   "id": "Istanbul",
+   "name": "Intercity Istanbul Park",
+   "lengthMetres": 5322,
+   "corners": 5,
+   "elevationRangeMetres": 43,
+   "centre": {
+    "lat": 40.95722,
+    "lon": 29.41088
+   },
+   "verifiedWithinMetres": 7.2
+  },
+  {
+   "id": "Jeddah",
+   "name": "Jeddah Corniche Circuit",
+   "lengthMetres": 6212,
+   "corners": 7,
+   "elevationRangeMetres": 1,
+   "centre": {
+    "lat": 21.63894,
+    "lon": 39.10273
+   },
+   "verifiedWithinMetres": 4.4
+  },
+  {
+   "id": "Kyalami",
+   "name": "Kyalami Grand Prix Circuit",
+   "lengthMetres": 4532,
+   "corners": 7,
+   "elevationRangeMetres": 45,
+   "centre": {
+    "lat": -25.99732,
+    "lon": 28.06695
+   },
+   "verifiedWithinMetres": 3.7
+  },
+  {
+   "id": "LasVegas",
+   "name": "Las Vegas Strip Circuit",
+   "lengthMetres": 6236,
+   "corners": 6,
+   "elevationRangeMetres": 0,
+   "centre": {
+    "lat": 36.1165,
+    "lon": -115.16576
+   },
+   "verifiedWithinMetres": 9.5
+  },
+  {
+   "id": "Lusail",
+   "name": "Lusail International Circuit",
+   "lengthMetres": 5432,
+   "corners": 9,
+   "elevationRangeMetres": 9,
+   "centre": {
+    "lat": 25.49177,
+    "lon": 51.4543
+   },
+   "verifiedWithinMetres": 4.8
+  },
+  {
+   "id": "Singapore",
+   "name": "Marina Bay Street Circuit",
+   "lengthMetres": 4952,
+   "corners": 10,
+   "elevationRangeMetres": 0,
+   "centre": {
+    "lat": 1.29068,
+    "lon": 103.85796
+   },
+   "verifiedWithinMetres": 3
+  },
+  {
+   "id": "Miami",
+   "name": "Miami International Autodrome",
+   "lengthMetres": 5432,
+   "corners": 5,
+   "elevationRangeMetres": 4,
+   "centre": {
+    "lat": 25.95762,
+    "lon": -80.23775
+   },
+   "verifiedWithinMetres": 3.5
+  },
+  {
+   "id": "Nuerburgring",
+   "name": "Nurburgring",
+   "lengthMetres": 5146,
+   "corners": 8,
+   "elevationRangeMetres": 57,
+   "centre": {
+    "lat": 50.33102,
+    "lon": 6.9401
+   },
+   "verifiedWithinMetres": 3
+  },
+  {
+   "id": "Spielberg",
+   "name": "Red Bull Ring",
+   "lengthMetres": 4311,
+   "corners": 7,
+   "elevationRangeMetres": 62,
+   "centre": {
+    "lat": 47.22341,
+    "lon": 14.76201
+   },
+   "verifiedWithinMetres": 1.9
+  },
+  {
+   "id": "Sepang",
+   "name": "Sepang International Circuit",
+   "lengthMetres": 5566,
+   "corners": 8,
+   "elevationRangeMetres": 28,
+   "centre": {
+    "lat": 2.76075,
+    "lon": 101.73698
+   },
+   "verifiedWithinMetres": 6.2
+  },
+  {
+   "id": "Shanghai",
+   "name": "Shanghai International Circuit",
+   "lengthMetres": 5461,
+   "corners": 7,
+   "elevationRangeMetres": 6,
+   "centre": {
+    "lat": 31.3402,
+    "lon": 121.2193
+   },
+   "verifiedWithinMetres": 2.7
+  },
+  {
+   "id": "Silverstone",
+   "name": "Silverstone Circuit",
+   "lengthMetres": 5890,
+   "corners": 6,
+   "elevationRangeMetres": 14,
+   "centre": {
+    "lat": 52.07177,
+    "lon": -1.01636
+   },
+   "verifiedWithinMetres": 2.8
+  },
+  {
+   "id": "Sochi",
+   "name": "Sochi Autodrom",
+   "lengthMetres": 5846,
+   "corners": 8,
+   "elevationRangeMetres": 2,
+   "centre": {
+    "lat": 43.40782,
+    "lon": 39.95789
+   },
+   "verifiedWithinMetres": 2.4
+  },
+  {
+   "id": "Suzuka",
+   "name": "Suzuka International Racing Course",
+   "lengthMetres": 5823,
+   "corners": 8,
+   "elevationRangeMetres": 43,
+   "centre": {
+    "lat": 34.84459,
+    "lon": 136.53278
+   },
+   "verifiedWithinMetres": 1.7
+  },
+  {
+   "id": "WatkinsGlen",
+   "name": "Watkins Glen International",
+   "lengthMetres": 5461,
+   "corners": 8,
+   "elevationRangeMetres": 40,
+   "centre": {
+    "lat": 42.33541,
+    "lon": -76.92498
+   },
+   "verifiedWithinMetres": 4.4
+  },
+  {
+   "id": "YasMarina",
+   "name": "Yas Marina Circuit",
+   "lengthMetres": 5303,
+   "corners": 7,
+   "elevationRangeMetres": 8,
+   "centre": {
+    "lat": 24.46935,
+    "lon": 54.60559
+   },
+   "verifiedWithinMetres": 1.8
+  }
+ ]
+}

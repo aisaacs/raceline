@@ -1,0 +1,374 @@
+{
+  "schema": "raceline.scene-validation/1",
+  "passed": true,
+  "sceneCount": 40,
+  "checks": [
+    "Decomposable node transforms",
+    "Unit rotation quaternions",
+    "Finite road and structure vertices",
+    "Actual transformed structure triangles do not overlap the driving surface in XZ (0.01 m² accumulated tolerance per group)"
+  ],
+  "limitations": "Does not establish surveyed accuracy, terrain contact, or clearance between buildings. Intended bridges and tunnels outside the architecture groups are not tested.",
+  "scenes": [
+    {
+      "id": "Austin",
+      "meshes": 292,
+      "architectureGroups": 41,
+      "roadTriangles": 7938,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Baku",
+      "meshes": 327,
+      "architectureGroups": 70,
+      "roadTriangles": 6443,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Budapest",
+      "meshes": 189,
+      "architectureGroups": 29,
+      "roadTriangles": 6635,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "BuenosAires",
+      "meshes": 386,
+      "architectureGroups": 41,
+      "roadTriangles": 12371,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Catalunya",
+      "meshes": 433,
+      "architectureGroups": 63,
+      "roadTriangles": 6440,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Estoril",
+      "meshes": 320,
+      "architectureGroups": 47,
+      "roadTriangles": 14373,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Hockenheim",
+      "meshes": 216,
+      "architectureGroups": 31,
+      "roadTriangles": 11809,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "IMS",
+      "meshes": 514,
+      "architectureGroups": 74,
+      "roadTriangles": 13177,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Imola",
+      "meshes": 489,
+      "architectureGroups": 94,
+      "roadTriangles": 7065,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Istanbul",
+      "meshes": 146,
+      "architectureGroups": 19,
+      "roadTriangles": 16971,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Jacarepagua",
+      "meshes": 131,
+      "architectureGroups": 12,
+      "roadTriangles": 11233,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Jeddah",
+      "meshes": 169,
+      "architectureGroups": 20,
+      "roadTriangles": 7442,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Kyalami",
+      "meshes": 246,
+      "architectureGroups": 45,
+      "roadTriangles": 14672,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "LasVegas",
+      "meshes": 490,
+      "architectureGroups": 114,
+      "roadTriangles": 8519,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Lusail",
+      "meshes": 254,
+      "architectureGroups": 46,
+      "roadTriangles": 7138,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Madrid",
+      "meshes": 238,
+      "architectureGroups": 45,
+      "roadTriangles": 7719,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "MagnyCours",
+      "meshes": 423,
+      "architectureGroups": 52,
+      "roadTriangles": 14437,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Melbourne",
+      "meshes": 254,
+      "architectureGroups": 53,
+      "roadTriangles": 7021,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Mexico City",
+      "meshes": 355,
+      "architectureGroups": 66,
+      "roadTriangles": 6304,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Miami",
+      "meshes": 291,
+      "architectureGroups": 56,
+      "roadTriangles": 7267,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Monaco",
+      "meshes": 277,
+      "architectureGroups": 46,
+      "roadTriangles": 15639,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Montreal",
+      "meshes": 182,
+      "architectureGroups": 29,
+      "roadTriangles": 9424,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Monza",
+      "meshes": 498,
+      "architectureGroups": 63,
+      "roadTriangles": 8341,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Mugello",
+      "meshes": 241,
+      "architectureGroups": 33,
+      "roadTriangles": 13534,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Nuerburgring",
+      "meshes": 327,
+      "architectureGroups": 45,
+      "roadTriangles": 12498,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "PaulRicard",
+      "meshes": 275,
+      "architectureGroups": 43,
+      "roadTriangles": 14051,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Portimao",
+      "meshes": 158,
+      "architectureGroups": 24,
+      "roadTriangles": 13077,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Sakhir",
+      "meshes": 338,
+      "architectureGroups": 51,
+      "roadTriangles": 6735,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "SaoPaulo",
+      "meshes": 202,
+      "architectureGroups": 31,
+      "roadTriangles": 10372,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Sepang",
+      "meshes": 248,
+      "architectureGroups": 41,
+      "roadTriangles": 13280,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Shanghai",
+      "meshes": 417,
+      "architectureGroups": 57,
+      "roadTriangles": 7591,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Silverstone",
+      "meshes": 553,
+      "architectureGroups": 77,
+      "roadTriangles": 7956,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Singapore",
+      "meshes": 378,
+      "architectureGroups": 103,
+      "roadTriangles": 6199,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Sochi",
+      "meshes": 307,
+      "architectureGroups": 68,
+      "roadTriangles": 15942,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Spa",
+      "meshes": 220,
+      "architectureGroups": 27,
+      "roadTriangles": 9260,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Spielberg",
+      "meshes": 254,
+      "architectureGroups": 30,
+      "roadTriangles": 6424,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Suzuka",
+      "meshes": 560,
+      "architectureGroups": 102,
+      "roadTriangles": 6128,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "WatkinsGlen",
+      "meshes": 331,
+      "architectureGroups": 48,
+      "roadTriangles": 11643,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "YasMarina",
+      "meshes": 326,
+      "architectureGroups": 55,
+      "roadTriangles": 8212,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Zandvoort",
+      "meshes": 212,
+      "architectureGroups": 35,
+      "roadTriangles": 6065,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

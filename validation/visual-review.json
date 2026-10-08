@@ -1,0 +1,260 @@
+{
+  "schema": "raceline.visual-review/1",
+  "date": "2026-10-07",
+  "scope": "40 pit facilities, 80 entry/exit junctions, and Yas Marina tunnel portals. Screenshots show the stylised supplied models; reference URLs and configuration eras are in authoring/pit-facilities.json.",
+  "geometryReport": "details.json",
+  "regressionTests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "repeatableBuild": {
+    "id": "YasMarina",
+    "identical": true,
+    "sha256": "088d91e19342b24c6c151f5736d906706e51af72d4a2577924e7f6415df086b9"
+  },
+  "circuits": [
+    {
+      "id": "Melbourne",
+      "sha256": "e73c230c852a294e71514d1a38b7e8d6afff644c49c03f6661f7990e646a0eff",
+      "facilityCapture": "pit-views/final-facilities-00.png",
+      "junctionCapture": "pit-views/final-junctions-00.png"
+    },
+    {
+      "id": "Estoril",
+      "sha256": "895591bc3578e67d10ae61c1b5ed6b699c18d046537b98b9253c653fd263a25a",
+      "facilityCapture": "pit-views/final-facilities-00.png",
+      "junctionCapture": "pit-views/final-junctions-00.png"
+    },
+    {
+      "id": "Imola",
+      "sha256": "4ac92cf30ea63836690a2516532ff81c7ae06849752e42df1b278cddeebfba8f",
+      "facilityCapture": "pit-views/final-facilities-00.png",
+      "junctionCapture": "pit-views/final-junctions-00.png"
+    },
+    {
+      "id": "Mexico City",
+      "sha256": "06b6d28741a28760cc4dfb282230e57281ef79b0fdefa021e5cf91fac3c857e3",
+      "facilityCapture": "pit-views/final-facilities-00.png",
+      "junctionCapture": "pit-views/final-junctions-00.png"
+    },
+    {
+      "id": "Portimao",
+      "sha256": "1f4f6d54f139d73764994f273fddf7a84ed93db4987f369b3e0fb9dc6b7005ca",
+      "facilityCapture": "pit-views/final-facilities-01.png",
+      "junctionCapture": "pit-views/final-junctions-01.png"
+    },
+    {
+      "id": "Jacarepagua",
+      "sha256": "055fc7c75c4589d97f6d9c3cad249bba8168d429b0878f464b81b77f03868e86",
+      "facilityCapture": "pit-views/final-facilities-01.png",
+      "junctionCapture": "pit-views/final-junctions-01.png"
+    },
+    {
+      "id": "Mugello",
+      "sha256": "35a324ee77b9f75d5ed18e239d0abf84eb78c8bd8ec0db2632ab933749fd1e56",
+      "facilityCapture": "pit-views/final-facilities-01.png",
+      "junctionCapture": "pit-views/final-junctions-01.png"
+    },
+    {
+      "id": "SaoPaulo",
+      "sha256": "bf3bd6d841aa9e541a46a6ba67ae9ed2c54ddc1d0398e5a222f79ecc29fb1c23",
+      "facilityCapture": "pit-views/final-facilities-01.png",
+      "junctionCapture": "pit-views/final-junctions-01.png"
+    },
+    {
+      "id": "Monza",
+      "sha256": "a275afb607de0179f3b0a8b62bd1ba5206338a4ad7183e18ef5152b9f7307712",
+      "facilityCapture": "pit-views/final-facilities-02.png",
+      "junctionCapture": "pit-views/final-junctions-02.png"
+    },
+    {
+      "id": "BuenosAires",
+      "sha256": "281f656bb7c81c3f9ac41b75f4463329a73da21bfa3bc620201c8cce70b0b445",
+      "facilityCapture": "pit-views/final-facilities-02.png",
+      "junctionCapture": "pit-views/final-junctions-02.png"
+    },
+    {
+      "id": "Sakhir",
+      "sha256": "aac4a5c0b963f2a7956dac9395d81abeacbc4384df5fb7a5a8251a73fe562c91",
+      "facilityCapture": "pit-views/final-facilities-02.png",
+      "junctionCapture": "pit-views/final-junctions-02.png"
+    },
+    {
+      "id": "Baku",
+      "sha256": "1def8327beea8cbfb9589bcf1b094d6bef3caf7eea0d60d0e7d14eca39940a81",
+      "facilityCapture": "pit-views/final-facilities-02.png",
+      "junctionCapture": "pit-views/final-junctions-02.png"
+    },
+    {
+      "id": "Catalunya",
+      "sha256": "5432bcef95863849e1ea328de81b3ac05dd63d0ad5576cfce83152a7253c5f3b",
+      "facilityCapture": "pit-views/final-facilities-03.png",
+      "junctionCapture": "pit-views/final-junctions-03.png"
+    },
+    {
+      "id": "Monaco",
+      "sha256": "96739a0b98f4f991b170cb361fba5b6f1aceee46d667c03af190762d0fcb3e47",
+      "facilityCapture": "pit-views/final-facilities-03.png",
+      "junctionCapture": "pit-views/final-junctions-03.png"
+    },
+    {
+      "id": "MagnyCours",
+      "sha256": "64ace4e37924ae47a920fe7acf532f644402527aa539a8f62d6abd8bbba91d13",
+      "facilityCapture": "pit-views/final-facilities-03.png",
+      "junctionCapture": "pit-views/final-junctions-03.png"
+    },
+    {
+      "id": "Spa",
+      "sha256": "8964ec652263dc7591af506cc0c42e2aa546071eac182ff7fd990ea0893eb6b1",
+      "facilityCapture": "pit-views/final-facilities-03.png",
+      "junctionCapture": "pit-views/final-junctions-03.png"
+    },
+    {
+      "id": "Montreal",
+      "sha256": "800aa0449e6d76c1a344ae674da52c535a807aad57bd40a7dd9caecf6e6b4fdc",
+      "facilityCapture": "pit-views/final-facilities-04.png",
+      "junctionCapture": "pit-views/final-junctions-04.png"
+    },
+    {
+      "id": "Austin",
+      "sha256": "670d192039c3b859c44ecf1119e4f8869872ba63da0f24bbdd505ae7d1ace482",
+      "facilityCapture": "pit-views/final-facilities-04.png",
+      "junctionCapture": "pit-views/final-junctions-04.png"
+    },
+    {
+      "id": "PaulRicard",
+      "sha256": "8d8b13c812b2551339a69f0442752a2fff645bb89f05a19993b84f94db9deab1",
+      "facilityCapture": "pit-views/final-facilities-04.png",
+      "junctionCapture": "pit-views/final-junctions-04.png"
+    },
+    {
+      "id": "Zandvoort",
+      "sha256": "9d6d8ce0cf621e1feaead6b6adb7837a9f3df209ff00533fad4d444b93ae319e",
+      "facilityCapture": "pit-views/final-facilities-04.png",
+      "junctionCapture": "pit-views/final-junctions-04.png"
+    },
+    {
+      "id": "Madrid",
+      "sha256": "eb7e2018309a845a37406b527f3009c67c9c98a8f173beca0c02f1c09ccd9535",
+      "facilityCapture": "pit-views/final-facilities-05.png",
+      "junctionCapture": "pit-views/final-junctions-05.png"
+    },
+    {
+      "id": "Hockenheim",
+      "sha256": "12e959efc895a504124e715560d4d57f5c78f0456b2eca2ecaa2f01a74bb445a",
+      "facilityCapture": "pit-views/final-facilities-05.png",
+      "junctionCapture": "pit-views/final-junctions-05.png"
+    },
+    {
+      "id": "Budapest",
+      "sha256": "cc7134b0b6fa3ec5813dc27908acae33578c7169dd591efda82dfeeb3ed1d90a",
+      "facilityCapture": "pit-views/final-facilities-05.png",
+      "junctionCapture": "pit-views/final-junctions-05.png"
+    },
+    {
+      "id": "IMS",
+      "sha256": "e78db07312f01d95b6aef7e3e7a91ea93c958043d1c0033104f2f49382c8bdad",
+      "facilityCapture": "pit-views/final-facilities-05.png",
+      "junctionCapture": "pit-views/final-junctions-05.png"
+    },
+    {
+      "id": "Istanbul",
+      "sha256": "887b055bc83b4be8b7d212462aefc64256bc42c2c9c090623a3b71fc52840d85",
+      "facilityCapture": "pit-views/final-facilities-06.png",
+      "junctionCapture": "pit-views/final-junctions-06.png"
+    },
+    {
+      "id": "Jeddah",
+      "sha256": "88b6a655dc871b2b66184dcf7867b2348135d6b4a33e657e1d8ed763158f3c05",
+      "facilityCapture": "pit-views/final-facilities-06.png",
+      "junctionCapture": "pit-views/final-junctions-06.png"
+    },
+    {
+      "id": "Kyalami",
+      "sha256": "3f3aaa329ec8fed8595af1f2fa5cc8f2d30b673fa49c5c0e7dc215f667503733",
+      "facilityCapture": "pit-views/final-facilities-06.png",
+      "junctionCapture": "pit-views/final-junctions-06.png"
+    },
+    {
+      "id": "LasVegas",
+      "sha256": "c8d4f939ce77debc3df6d757c6deae5e50fde2b88ce50bb975d324dadb3ea39d",
+      "facilityCapture": "pit-views/final-facilities-06.png",
+      "junctionCapture": "pit-views/final-junctions-06.png"
+    },
+    {
+      "id": "Lusail",
+      "sha256": "0a3e9a30594aa7034f997a1c8e0a9c695f4ee49f03cb0094bd010920a7bccd61",
+      "facilityCapture": "pit-views/final-facilities-07.png",
+      "junctionCapture": "pit-views/final-junctions-07.png"
+    },
+    {
+      "id": "Singapore",
+      "sha256": "451f8f1c9f12dab5d48b0dfb0f8f10a2021880090f856307d6f5917a706b88b3",
+      "facilityCapture": "pit-views/final-facilities-07.png",
+      "junctionCapture": "pit-views/final-junctions-07.png"
+    },
+    {
+      "id": "Miami",
+      "sha256": "12e206ccc2dc30d39811c490e86d057a77253211d7cb62156c0ea4281e5216d9",
+      "facilityCapture": "pit-views/final-facilities-07.png",
+      "junctionCapture": "pit-views/final-junctions-07.png"
+    },
+    {
+      "id": "Nuerburgring",
+      "sha256": "c7764ed734b18ca5a4cde31f28a9159ad89dbfca3b62d204ad87b147261fb2f7",
+      "facilityCapture": "pit-views/final-facilities-07.png",
+      "junctionCapture": "pit-views/final-junctions-07.png"
+    },
+    {
+      "id": "Spielberg",
+      "sha256": "fa2f4cd2d7a811fcaeaa468e8c3374b01ea91bd46fb31d0a097b3674aab380a2",
+      "facilityCapture": "pit-views/final-facilities-08.png",
+      "junctionCapture": "pit-views/final-junctions-08.png"
+    },
+    {
+      "id": "Sepang",
+      "sha256": "9c8c3a64c53b4d4b3fd9780f80aab17addec82e04f37c6e851571954b5733124",
+      "facilityCapture": "pit-views/final-facilities-08.png",
+      "junctionCapture": "pit-views/final-junctions-08.png"
+    },
+    {
+      "id": "Shanghai",
+      "sha256": "1dd44d52139ca588f08319c23a14351c0a198b830655d7ffe2aea99e21e10c8d",
+      "facilityCapture": "pit-views/final-facilities-08.png",
+      "junctionCapture": "pit-views/final-junctions-08.png"
+    },
+    {
+      "id": "Silverstone",
+      "sha256": "6d55456a15af3f42a84b6fd941af1b071c6d3ce611d544a4e07e84bb6d94db50",
+      "facilityCapture": "pit-views/final-facilities-08.png",
+      "junctionCapture": "pit-views/final-junctions-08.png"
+    },
+    {
+      "id": "Sochi",
+      "sha256": "0760cae942ecfcc051308a6671957893e160ebb9a49da626148bcad3cf3a68f0",
+      "facilityCapture": "pit-views/final-facilities-09.png",
+      "junctionCapture": "pit-views/final-junctions-09.png"
+    },
+    {
+      "id": "Suzuka",
+      "sha256": "e1bc3c683057c773edfe5dae1ff7b2d7ada13090d3edad5a693ffeda80502616",
+      "facilityCapture": "pit-views/final-facilities-09.png",
+      "junctionCapture": "pit-views/final-junctions-09.png"
+    },
+    {
+      "id": "WatkinsGlen",
+      "sha256": "662f93c0701c57fe846bc22b6a98625a1a1ec1eefe11972bd65da243f4094e8f",
+      "facilityCapture": "pit-views/final-facilities-09.png",
+      "junctionCapture": "pit-views/final-junctions-09.png"
+    },
+    {
+      "id": "YasMarina",
+      "sha256": "088d91e19342b24c6c151f5736d906706e51af72d4a2577924e7f6415df086b9",
+      "facilityCapture": "pit-views/final-facilities-09.png",
+      "junctionCapture": "pit-views/final-junctions-09.png"
+    }
+  ],
+  "correction": "Shared-road pit approaches meet an edge lane with one divider. The existing outside track line is retained. Collapsed source road triangles no longer duplicate paving during clipping.",
+  "reportedCircuitsCapture": "Estoril-Imola-Mexico-close.png",
+  "viewerCapture": "Imola-viewer-final.png"
+}

@@ -1,0 +1,514 @@
+{
+  "schema": "raceline.scene-validation/1",
+  "passed": false,
+  "sceneCount": 40,
+  "checks": [
+    "Decomposable node transforms",
+    "Unit rotation quaternions",
+    "Finite road and structure vertices",
+    "Actual transformed structure triangles do not overlap the driving surface in XZ (0.01 m² accumulated tolerance per group)"
+  ],
+  "limitations": "Does not establish surveyed accuracy, terrain contact, or clearance between buildings. Intended bridges and tunnels outside the architecture groups are not tested.",
+  "scenes": [
+    {
+      "id": "Austin",
+      "meshes": 284,
+      "architectureGroups": 41,
+      "roadTriangles": 5305,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Baku",
+      "meshes": 318,
+      "architectureGroups": 69,
+      "roadTriangles": 5434,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Non-unit quaternion: hero-02-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Budapest",
+      "meshes": 183,
+      "architectureGroups": 29,
+      "roadTriangles": 4189,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "BuenosAires",
+      "meshes": 380,
+      "architectureGroups": 41,
+      "roadTriangles": 8130,
+      "overlaps": {
+        "hero-01": 8106.332,
+        "hero-01-architecture": 76.341
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Architecture overlaps driving surface: hero-01",
+        "Architecture overlaps driving surface: hero-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Catalunya",
+      "meshes": 427,
+      "architectureGroups": 63,
+      "roadTriangles": 4494,
+      "overlaps": {
+        "pit-01": 19266.943,
+        "pit-01-architecture": 102.644
+      },
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Estoril",
+      "meshes": 312,
+      "architectureGroups": 47,
+      "roadTriangles": 7733,
+      "overlaps": {
+        "hero-01": 8743.813,
+        "hero-01-architecture": 77.175
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Architecture overlaps driving surface: hero-01",
+        "Architecture overlaps driving surface: hero-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Hockenheim",
+      "meshes": 208,
+      "architectureGroups": 31,
+      "roadTriangles": 8473,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "IMS",
+      "meshes": 508,
+      "architectureGroups": 74,
+      "roadTriangles": 7739,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Imola",
+      "meshes": 479,
+      "architectureGroups": 93,
+      "roadTriangles": 4647,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Istanbul",
+      "meshes": 138,
+      "architectureGroups": 19,
+      "roadTriangles": 9894,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Jacarepagua",
+      "meshes": 125,
+      "architectureGroups": 12,
+      "roadTriangles": 9262,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Jeddah",
+      "meshes": 163,
+      "architectureGroups": 20,
+      "roadTriangles": 5963,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Kyalami",
+      "meshes": 238,
+      "architectureGroups": 45,
+      "roadTriangles": 8472,
+      "overlaps": {
+        "hero-01": 13054.999,
+        "hero-01-architecture": 125.948
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Architecture overlaps driving surface: hero-01",
+        "Architecture overlaps driving surface: hero-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "LasVegas",
+      "meshes": 482,
+      "architectureGroups": 114,
+      "roadTriangles": 5833,
+      "overlaps": {
+        "pit-01": 8222.845,
+        "pit-01-architecture": 1103.359
+      },
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Lusail",
+      "meshes": 248,
+      "architectureGroups": 46,
+      "roadTriangles": 5189,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Madrid",
+      "meshes": 230,
+      "architectureGroups": 45,
+      "roadTriangles": 5253,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "MagnyCours",
+      "meshes": 415,
+      "architectureGroups": 52,
+      "roadTriangles": 8401,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Melbourne",
+      "meshes": 248,
+      "architectureGroups": 53,
+      "roadTriangles": 5041,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Mexico City",
+      "meshes": 349,
+      "architectureGroups": 66,
+      "roadTriangles": 4093,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Miami",
+      "meshes": 285,
+      "architectureGroups": 56,
+      "roadTriangles": 5199,
+      "overlaps": {
+        "pit-01": 128.145,
+        "pit-01-architecture": 29.38
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Monaco",
+      "meshes": 271,
+      "architectureGroups": 46,
+      "roadTriangles": 9213,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Montreal",
+      "meshes": 171,
+      "architectureGroups": 28,
+      "roadTriangles": 4167,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Monza",
+      "meshes": 489,
+      "architectureGroups": 62,
+      "roadTriangles": 5394,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Mugello",
+      "meshes": 235,
+      "architectureGroups": 33,
+      "roadTriangles": 9810,
+      "overlaps": {
+        "pit-01": 7131.77,
+        "pit-01-architecture": 125.755
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Nuerburgring",
+      "meshes": 317,
+      "architectureGroups": 44,
+      "roadTriangles": 9476,
+      "overlaps": {
+        "hero-01": 9298.462,
+        "hero-01-architecture": 25.824
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: hero-01",
+        "Architecture overlaps driving surface: hero-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "PaulRicard",
+      "meshes": 269,
+      "architectureGroups": 43,
+      "roadTriangles": 10928,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Portimao",
+      "meshes": 152,
+      "architectureGroups": 24,
+      "roadTriangles": 8706,
+      "overlaps": {
+        "pit-01": 14224.348,
+        "pit-01-architecture": 284.937
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Sakhir",
+      "meshes": 332,
+      "architectureGroups": 51,
+      "roadTriangles": 5144,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "SaoPaulo",
+      "meshes": 194,
+      "architectureGroups": 30,
+      "roadTriangles": 4156,
+      "overlaps": {},
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "Sepang",
+      "meshes": 237,
+      "architectureGroups": 40,
+      "roadTriangles": 10412,
+      "overlaps": {
+        "pit-01": 30775.682,
+        "pit-01-architecture": 963.957
+      },
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Shanghai",
+      "meshes": 402,
+      "architectureGroups": 54,
+      "roadTriangles": 5276,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Silverstone",
+      "meshes": 545,
+      "architectureGroups": 77,
+      "roadTriangles": 5667,
+      "overlaps": {
+        "hero-01": 391.501,
+        "hero-01-architecture": 63.899
+      },
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Architecture overlaps driving surface: hero-01",
+        "Architecture overlaps driving surface: hero-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Singapore",
+      "meshes": 370,
+      "architectureGroups": 103,
+      "roadTriangles": 4661,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Sochi",
+      "meshes": 299,
+      "architectureGroups": 68,
+      "roadTriangles": 10774,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Spa",
+      "meshes": 212,
+      "architectureGroups": 27,
+      "roadTriangles": 6649,
+      "overlaps": {
+        "pit-01": 16095.035,
+        "pit-01-architecture": 243.051
+      },
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Spielberg",
+      "meshes": 241,
+      "architectureGroups": 29,
+      "roadTriangles": 4122,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Suzuka",
+      "meshes": 552,
+      "architectureGroups": 102,
+      "roadTriangles": 3266,
+      "overlaps": {
+        "pit-01": 39027.649
+      },
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01"
+      ],
+      "passed": false
+    },
+    {
+      "id": "WatkinsGlen",
+      "meshes": 325,
+      "architectureGroups": 48,
+      "roadTriangles": 9992,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: hero-01-mapped-placement",
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    },
+    {
+      "id": "YasMarina",
+      "meshes": 313,
+      "architectureGroups": 53,
+      "roadTriangles": 5101,
+      "overlaps": {
+        "pit-01": 39741.367,
+        "pit-01-architecture": 771.385
+      },
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement",
+        "Architecture overlaps driving surface: pit-01",
+        "Architecture overlaps driving surface: pit-01-architecture"
+      ],
+      "passed": false
+    },
+    {
+      "id": "Zandvoort",
+      "meshes": 205,
+      "architectureGroups": 35,
+      "roadTriangles": 4150,
+      "overlaps": {},
+      "errors": [
+        "Non-unit quaternion: pit-01-mapped-placement"
+      ],
+      "passed": false
+    }
+  ]
+}

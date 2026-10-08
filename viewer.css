@@ -1,0 +1,219 @@
+/* Circuit Library viewer.
+   No framework, no CDN, no build step: a GitHub Page should still work in ten
+   years, and every dependency is a way for it not to. */
+
+:root {
+  --bg: #0b0c0f;
+  --panel: #14161b;
+  --edge: #272b33;
+  --text: #e9eaee;
+  --dim: #878d99;
+  --road: #4a515e;
+  --line: #b14fe8;
+  --brake: #ffb020;
+  --start: #17c964;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--line); }
+a:hover { color: #cf86f1; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+.mono { font-family: var(--mono); }
+.dim { color: var(--dim); }
+
+header { border-bottom: 1px solid var(--edge); padding: 34px 0 24px; }
+h1 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.sub { margin: 8px 0 0; color: var(--dim); max-width: 60ch; }
+.meta { margin: 14px 0 0; font-size: 13px; color: var(--dim); font-family: var(--mono); }
+
+main {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 28px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  align-items: start;
+}
+
+/* ---- circuit list ---- */
+
+#filter {
+  width: 100%;
+  padding: 9px 11px;
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  border-radius: 2px;
+  color: var(--text);
+  font: 13px var(--mono);
+}
+#filter:focus { outline: 1px solid var(--line); }
+
+#circuits { list-style: none; margin: 10px 0 0; padding: 0; max-height: 72vh; overflow-y: auto; }
+#circuits li { border-bottom: 1px solid var(--edge); }
+#circuits button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 10px;
+  background: none;
+  border: 0;
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+}
+#circuits button:hover { background: var(--panel); }
+#circuits button[aria-current="true"] { background: var(--panel); box-shadow: inset 2px 0 0 var(--line); }
+#circuits .nm { display: block; }
+#circuits .sm { display: block; font: 11px var(--mono); color: var(--dim); }
+
+/* ---- detail ---- */
+
+.empty { color: var(--dim); padding: 60px 0; }
+.titles h2 { margin: 0; font-size: 25px; font-weight: 600; }
+.titles p { margin: 2px 0 0; font-size: 12px; }
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1px;
+  background: var(--edge);
+  border: 1px solid var(--edge);
+  margin: 18px 0 22px;
+}
+.facts > div { background: var(--bg); padding: 11px 13px; }
+.facts dt { font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--dim); }
+.facts dd { margin: 3px 0 0; font: 600 20px/1.1 var(--mono); font-variant-numeric: tabular-nums; }
+
+figure { margin: 0 0 24px; }
+.plan canvas, .profile canvas {
+  display: block;
+  width: 100%;
+  background: var(--panel);
+  border: 1px solid var(--edge);
+}
+/* The plan sets its own height per circuit, from the circuit's proportions.
+   The profile is always the same shape. */
+.profile canvas { height: 170px; }
+figcaption { margin-top: 8px; font-size: 12px; color: var(--dim); font-family: var(--mono); }
+figcaption.head { margin: 0 0 8px; }
+.k { display: inline-block; width: 11px; height: 3px; margin: 0 4px 0 14px; vertical-align: middle; }
+figcaption .k:first-child { margin-left: 0; }
+.k-road { background: var(--road); height: 7px; }
+.k-line { background: var(--line); }
+.k-brake { background: var(--brake); height: 7px; width: 7px; border-radius: 50%; }
+.k-start { background: var(--start); height: 7px; width: 3px; }
+
+h3 { margin: 26px 0 10px; font-size: 13px; letter-spacing: 2.4px; text-transform: uppercase; color: var(--dim); }
+
+.tablewrap { overflow-x: auto; max-width: 100%; }
+#detail { min-width: 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--edge); }
+th { font: 11px var(--mono); letter-spacing: 1.4px; text-transform: uppercase; color: var(--dim); }
+td.num, th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--panel); }
+.name { font-weight: 600; }
+
+.dl { margin-top: 22px; }
+.btn {
+  display: inline-block;
+  padding: 9px 15px;
+  border: 1px solid var(--edge);
+  background: var(--panel);
+  color: var(--text);
+  text-decoration: none;
+  font: 12px/1 var(--mono);
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.btn:hover { border-color: var(--line); color: var(--text); }
+
+footer { border-top: 1px solid var(--edge); padding: 22px 0 46px; }
+footer p { margin: 0; font-size: 12px; color: var(--dim); max-width: 85ch; }
+
+@media (max-width: 760px) {
+  main { grid-template-columns: 1fr; }
+  #circuits { max-height: 260px; }
+}
+
+/* ---- plan / 3D tabs ---- */
+
+.tabs { display: flex; align-items: center; gap: 1px; margin-bottom: 14px; }
+.tab {
+  padding: 8px 15px;
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  color: var(--dim);
+  cursor: pointer;
+  font: 12px/1 var(--mono);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.tab[aria-selected="true"] { color: var(--text); border-color: var(--line); }
+.tab:disabled { opacity: .4; cursor: default; }
+#sceneStat { margin-left: auto; font-size: 11px; }
+
+.scene canvas {
+  display: block;
+  width: 100%;
+  height: 520px;
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  touch-action: none;       /* orbit, rather than scrolling the page */
+  cursor: grab;
+}
+.scene canvas:active { cursor: grabbing; }
+@media (max-width: 760px) { .scene canvas { height: 340px; } }
+
+/* The viewport owns flight input; the rest of the page keeps normal shortcuts. */
+[hidden] { display: none !important; }
+#sceneViewport { position: relative; border: 1px solid var(--edge); background: var(--panel); }
+#sceneViewport canvas { border: 0; height: min(66vh, 650px); min-height: 360px; }
+#sceneViewport canvas:focus-visible { outline: 2px solid var(--line); outline-offset: -2px; }
+#sceneViewport canvas[data-mode="fly"] { cursor: crosshair; }
+.scene-toolbar { display: flex; gap: 6px; padding: 10px; flex-wrap: wrap; align-items: center; border-bottom: 1px solid var(--edge); }
+.scene-toolbar button, #flightPad button, #landmarks button {
+  font: 12px var(--sans); color: var(--text); background: #1c2028;
+  border: 1px solid #414754; border-radius: 4px; padding: 8px 12px; cursor: pointer;
+}
+.scene-toolbar button:hover, #landmarks button:hover { border-color: var(--line); }
+button[aria-pressed="true"] { background: #362143 !important; border-color: var(--line) !important; }
+#landmarks button:disabled { opacity: .45; cursor: wait; }
+#speedControl { display: flex; align-items: center; gap: 8px; font-size: 12px; margin-left: auto; }
+#flySpeed { width: 90px; accent-color: var(--line); }
+#speedValue { min-width: 55px; font: 11px var(--mono); }
+#cameraHelp { margin: 0; padding: 8px 12px; color: #aab1c0; font: 11px/1.6 var(--mono); }
+#flightPad { display: flex; justify-content: center; gap: 5px; padding: 8px; flex-wrap: wrap; touch-action: none; }
+#flightPad button { user-select: none; -webkit-user-select: none; }
+#flightPad button:active { background: #593269; }
+#sceneViewport:fullscreen { display: flex; flex-direction: column; width: 100%; height: 100%; }
+#sceneViewport:fullscreen canvas { height: 0; flex: 1; min-height: 0; }
+.landmark-panel { padding: 14px 0 0; }
+.landmark-heading { font-size: 12px; color: #b5bac4; margin: 0 0 8px; }
+#landmarks { display: flex; flex-wrap: wrap; gap: 6px; }
+#landmarkNote { margin: 8px 0 0; font-size: 12px; }
+.dl { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+@media (max-width: 760px) {
+  header { padding-top: 20px; }
+  #circuits { max-height: 140px; }
+  .tabs { flex-wrap: wrap; row-gap: 8px; }
+  #sceneStat { font-size: 10px; }
+}

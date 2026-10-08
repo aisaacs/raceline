@@ -1,0 +1,230 @@
+{
+  "schema": "raceline.placement-repair/1",
+  "circuitsRepaired": 37,
+  "placementsRepaired": 46,
+  "check": "Compare rendered world-space mesh bounds with exact upstream affine transforms; differences include the existing mesh quantization. Binary chunks are compared byte-for-byte with the pre-repair scenes.",
+  "scenes": [
+    {
+      "id": "Austin",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.008069
+    },
+    {
+      "id": "Baku",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.013797
+    },
+    {
+      "id": "Budapest",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.006077
+    },
+    {
+      "id": "BuenosAires",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.00859
+    },
+    {
+      "id": "Catalunya",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.01519
+    },
+    {
+      "id": "Estoril",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.007276
+    },
+    {
+      "id": "Hockenheim",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004581
+    },
+    {
+      "id": "IMS",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.001668
+    },
+    {
+      "id": "Imola",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.00358
+    },
+    {
+      "id": "Istanbul",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.011396
+    },
+    {
+      "id": "Jeddah",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.006542
+    },
+    {
+      "id": "Kyalami",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004634
+    },
+    {
+      "id": "LasVegas",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.010985
+    },
+    {
+      "id": "Lusail",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.012857
+    },
+    {
+      "id": "MagnyCours",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004629
+    },
+    {
+      "id": "Mexico City",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.005363
+    },
+    {
+      "id": "Miami",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.013504
+    },
+    {
+      "id": "Monaco",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004054
+    },
+    {
+      "id": "Montreal",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.0052
+    },
+    {
+      "id": "Monza",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.005786
+    },
+    {
+      "id": "Mugello",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.0064
+    },
+    {
+      "id": "Nuerburgring",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.008999
+    },
+    {
+      "id": "PaulRicard",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.007248
+    },
+    {
+      "id": "Portimao",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.010946
+    },
+    {
+      "id": "Sakhir",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.001634
+    },
+    {
+      "id": "SaoPaulo",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.008562
+    },
+    {
+      "id": "Sepang",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.010575
+    },
+    {
+      "id": "Shanghai",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.007301
+    },
+    {
+      "id": "Silverstone",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.011005
+    },
+    {
+      "id": "Singapore",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.013161
+    },
+    {
+      "id": "Sochi",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.005581
+    },
+    {
+      "id": "Spa",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004499
+    },
+    {
+      "id": "Spielberg",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004498
+    },
+    {
+      "id": "Suzuka",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.00863
+    },
+    {
+      "id": "WatkinsGlen",
+      "placementsRepaired": 2,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.008307
+    },
+    {
+      "id": "YasMarina",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.00488
+    },
+    {
+      "id": "Zandvoort",
+      "placementsRepaired": 1,
+      "compressedGeometryBytesUnchanged": true,
+      "maxBoundsDifferenceFromExactSourceMetres": 0.004231
+    }
+  ]
+}

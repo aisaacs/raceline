@@ -1,0 +1,1722 @@
+{
+  "schema": "raceline.scene-transforms/1",
+  "description": "Exact upstream mapped-placement matrices. The original matrices contain shear and must be represented as two valid glTF TRS nodes, not decomposed as one. Source is braking-point/apex-edition/www/pack.",
+  "circuits": {
+    "Austin": {
+      "sourceSha256": "74a3e0a151c9518246ec4d06afd327eeafd82c086225d98cc48133b453a1e0b1",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -1.871133399929087,
+            0.0,
+            -0.6009181223788392,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.5968509048853455,
+            0.0,
+            -1.5815746711059961,
+            0.0,
+            -1686.5984454684,
+            1.4026497491136247,
+            155.218626065814,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "ebe369fb531e5d1e88b637aba79c85c02d888b9cf8f5b9b28fe9b3f3f71b8dab"
+    },
+    "Baku": {
+      "sourceSha256": "73251a58a0775cc66f4d055fb8a138a8017496982cfe740c8c0adf86b7d75662",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            1.3372165460386864,
+            0.0,
+            -0.9839707815397606,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.9738833285664428,
+            0.0,
+            -0.5108387312938001,
+            0.0,
+            -252.74795855053492,
+            -0.1817379221742157,
+            -25.060913331852248,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        },
+        {
+          "name": "hero-02-mapped-placement",
+          "matrix": [
+            2.6866825967042365,
+            0.0,
+            0.36054500130130845,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -4.612562875709522,
+            0.0,
+            5.872070862626097,
+            0.0,
+            5115.563423475039,
+            17.517844392672124,
+            -4338.663262923577,
+            1.0
+          ],
+          "children": [
+            "hero-02/glass",
+            "hero-02/purple",
+            "hero-02-foundation/concrete",
+            "hero-02-architecture/metal"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "d8a5a8cbc37d07a05a0b4285f7d0f8762784755a6288f4da08b9060318d88d8e"
+    },
+    "Budapest": {
+      "sourceSha256": "9f42638494aa632223a7d241d6ad63acd7a04516e9400e9a34875bac199700b1",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -0.9846779421240347,
+            0.0,
+            -1.294647886988624,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -1.2932429845636964,
+            0.0,
+            -0.37183124901922343,
+            0.0,
+            182.9670503681136,
+            -7.551508934705637,
+            237.42724873558313,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "068a36fdea322bf9d3ac5912e01f7f3d218b4f921265b2afed7be010c554b653"
+    },
+    "BuenosAires": {
+      "sourceSha256": "537dbc8b3636da00b1db02bc95ef88352790f0890607c83d9caf6f3e860709d9",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.19569441151891032,
+            0.0,
+            -0.989123758734126,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.987501929709135,
+            0.0,
+            1.0621574757700243,
+            0.0,
+            -138.85731231279186,
+            -1.3870425911538646,
+            -49.568467476212234,
+            1.0
+          ],
+          "children": [
+            "hero-01/blue",
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "a3acb4dcb15a2e16e5a5a5451e870ca93fee7657915a2d0008b40f9b62b4354c"
+    },
+    "Catalunya": {
+      "sourceSha256": "e14ff9447a119c0180ac3e0b60d64e13816504b56cd37e7caee93400e623825c",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            2.777684768712509,
+            0.0,
+            0.5082393186519825,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.5542974718305669,
+            0.0,
+            2.2770079466786703,
+            0.0,
+            -800.9640483041641,
+            5.971891780205983,
+            71.74924978268994,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "c704d05b8b3417f6cd341feb47223508cfe093fa25839048a352c95f48955613"
+    },
+    "Estoril": {
+      "sourceSha256": "d5cf35d6ba43595cb71cffd5d7c717c0434232c09f4da66115c170177d4a0ed3",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -0.22329507146122574,
+            0.0,
+            -0.8491851850819062,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.8447484737792781,
+            0.0,
+            1.2708970609795913,
+            0.0,
+            161.56869175377267,
+            -10.357619507065994,
+            140.75959020153869,
+            1.0
+          ],
+          "children": [
+            "hero-01/blue",
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "59fbc5579840ddc059bd0f69dec50aaae79cd7d2249a2d9e85fa488fbee1f8ed"
+    },
+    "Hockenheim": {
+      "sourceSha256": "cf44b2a910a50c1f106f00dce29a18e4cf70ee55b2d1a57e951115d2977a1a35",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            0.8412205552094225,
+            0.0,
+            0.1987417185702377,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.21604781894902989,
+            0.0,
+            1.1737074161082255,
+            0.0,
+            -176.0444640323745,
+            -2.20821698734553,
+            -167.32626993346145,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "58ac8d90eb5a314eaebe544dbf115dfdb0ee0216f9ac37c73161eed4fa8c3f73"
+    },
+    "IMS": {
+      "sourceSha256": "6f3cfaf0bf8213e23a0109fd9ebe77d7cd351b5b228a25f2062e5d13bd7cf574",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.9187999863916086,
+            0.0,
+            0.010386970043569348,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.0023945334068653486,
+            0.0,
+            1.185121387382362,
+            0.0,
+            124.38993273638198,
+            -0.8150535781093651,
+            -104.04317953375829,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01/red",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/metal"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "ce664c3eed6a1515abcbfd6bee16ca5c8cec542a0abffa3e88cc9081ecd8089b"
+    },
+    "Imola": {
+      "sourceSha256": "317dea7d387edc67c0f40d9410f8c86f8bc391e44b9819413271a71ba0354ff2",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -1.529944287434117,
+            0.0,
+            -0.0010397984096941959,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.0050411621965980894,
+            0.0,
+            0.6551861485274896,
+            0.0,
+            888.1459488072277,
+            -20.681587841874236,
+            -276.0031362231205,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "f9bff418d30b53052cefe3f472b07031e813b6a143356eff19ebe0c57419b0e9"
+    },
+    "Istanbul": {
+      "sourceSha256": "dd737e8a8f82b073a72bfedc75cb63d661a9e32fe48ecc62928d60356cc0fed9",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -1.9848251443172154,
+            0.0,
+            0.8406613966097926,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.84128491730167,
+            0.0,
+            2.076439681178659,
+            0.0,
+            -1568.4193103952443,
+            13.464219690126543,
+            -152.9018760470019,
+            1.0
+          ],
+          "children": [
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01/steel",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "aa6189aebdd73cabfc1ae14c5745b632d39da76ee7a4ee875a3e135e781d00dd"
+    },
+    "Jeddah": {
+      "sourceSha256": "74a4a726733f82b773817d63341e17669fbfb3bf5aa1620eac850ae3ac0df77c",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -2.7190042994203303,
+            0.0,
+            -2.454636797229269,
+            0.0,
+            0.0,
+            3.4665321688961646,
+            0.0,
+            0.0,
+            -1.2696905981809519,
+            0.0,
+            3.2845497101962793,
+            0.0,
+            -1394.5834514608969,
+            -0.5199798253344247,
+            6298.336114283633,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/metal"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "5c8279c0685521b28fadc3cddfebd585233c8401ac2d00edbe7382c756037d12"
+    },
+    "Kyalami": {
+      "sourceSha256": "8217ce4165d8f78ba050f5615e421f3f1df50f6c825b9ac9b0be2481a980c5c7",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.3469774166732332,
+            0.0,
+            -0.8528627965343198,
+            0.0,
+            0.0,
+            0.5106383117492502,
+            0.0,
+            0.0,
+            -0.7448895721596527,
+            0.0,
+            0.08330066485739894,
+            0.0,
+            -16.37690583224925,
+            9.555059751047597,
+            685.6093526295224,
+            1.0
+          ],
+          "children": [
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01/red",
+            "hero-01/steel",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "d2b0994aee86957e1c45cc42a1c7c12dfb9564c426104463f07412cc33cde413"
+    },
+    "LasVegas": {
+      "sourceSha256": "d35e40cf6f58565694794e4f1acd21a77ea7ad89837d0ef8fc0b55ef583e9ed3",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -1.410145273088369,
+            0.0,
+            1.1107891482412104,
+            0.0,
+            0.0,
+            1.25,
+            0.0,
+            0.0,
+            -1.3377034926082512,
+            0.0,
+            -1.55327622538309,
+            0.0,
+            2105.8584012340716,
+            -0.1875,
+            2081.656741963517,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "ae5b35bac63be265638fc0c4e358d328ca7d38f8f5ca70c7bef648f45bc9f790"
+    },
+    "Lusail": {
+      "sourceSha256": "177d1f59004926a7dff58e739621315cbf8580cb639003f7f627a632c6e4d008",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            3.103133188726489,
+            0.0,
+            -0.32969344221654284,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.20324888917875344,
+            0.0,
+            2.763940623308769,
+            0.0,
+            1397.709187327422,
+            0.10810222821391413,
+            -1003.619151754127,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "a3ecb5b2e3784773ef13cf13ae2ff73d320856f280e2d649fb049619ec243e81"
+    },
+    "MagnyCours": {
+      "sourceSha256": "ea148cda54ba680976723c3303345385eb400e38a1210abc0bb184324f7db920",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            1.001414085665723,
+            0.0,
+            -0.1337750553795066,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.1245084263825733,
+            0.0,
+            0.9460719998426186,
+            0.0,
+            34.737292237021364,
+            0.7690034869163274,
+            -3.3683162232171995,
+            1.0
+          ],
+          "children": [
+            "hero-01/blue",
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "65f340102ce3bf481d8f4db16d326ad16d3be4f9750c7f5911bd9c98378d9d14"
+    },
+    "Mexico City": {
+      "sourceSha256": "bec889b1331e17ac6b2ff11e55fb229ea6d7ce64254c2a0a695a5a61ecfd52be",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            1.9477015910265438,
+            0.0,
+            0.08887385921342848,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.05117796050672047,
+            0.0,
+            1.4549098295444176,
+            0.0,
+            744.882197481329,
+            0.3171320168330345,
+            432.59100411315353,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "50e86682300245679f919c529bf40c261e599b22c6b3e5960990a8bf56e96800"
+    },
+    "Miami": {
+      "sourceSha256": "4be1adac6161311186ae5295fce2f28204b075ef046944ee4cbe053471cdfbde",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.4484441681593479,
+            0.0,
+            1.2341977773815829,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.2364847348467252,
+            0.0,
+            -0.8255361383541812,
+            0.0,
+            -42.162029882666474,
+            -0.1488448908202975,
+            185.63655830851576,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/ground",
+            "hero-01/steel",
+            "hero-01/teal",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/concrete-light",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/structure"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -1.4118557701362275,
+            0.0,
+            -0.3008766972608295,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.3311789274704946,
+            0.0,
+            -1.1104062531830627,
+            0.0,
+            -244.9158002020461,
+            -0.14866828947623012,
+            -291.01426657129974,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "1598e432c6c3747e89ad6ed4cfa9ec3f419cb936b53263b4cf6c0fae0ca3bc87"
+    },
+    "Monaco": {
+      "sourceSha256": "b2773cf8bc8d6b034b9ad22352394d27817b1a8679a37336da91d6b1ee65b3d5",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.8772847948036745,
+            0.0,
+            1.7714209307538622,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -1.8756658557162702,
+            0.0,
+            1.2792764384526676,
+            0.0,
+            -273.54963859447923,
+            -8.254282915496262,
+            -3.616212195758237,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01/teal",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/glass",
+            "hero-01-architecture/ivory",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/white"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -0.437328022437807,
+            0.0,
+            -0.05110077178927989,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.06777940100262972,
+            0.0,
+            -0.7101313726947612,
+            0.0,
+            -473.388959882168,
+            -0.48635668687475153,
+            432.56900174173535,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "327650232eacb41ff5c15710bdba76af66fdc0320aeaa5f1f8537f053d503dec"
+    },
+    "Montreal": {
+      "sourceSha256": "0eb2fdfabbec2141d20011ff6b685d6ab100ab544517da7509bcab7508ee8921",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -0.9593575653091037,
+            0.0,
+            -0.2403724067903232,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.21937053715470045,
+            0.0,
+            -1.9753278095936866,
+            0.0,
+            687.4247488143149,
+            0.0939550502478732,
+            1125.1421808997513,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "6fb6af648357de4f3f9a67ffd5c3e221a69d33e3734abb30a932303063cd0d89"
+    },
+    "Monza": {
+      "sourceSha256": "49b942eb0a7a9031790e31351544bf8a53b507bc6e2e4035b72b91feac5e1269",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.6273120724810637,
+            0.0,
+            0.18474236928029056,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.18604795371284857,
+            0.0,
+            -1.1040703882039162,
+            0.0,
+            -327.7414971562125,
+            -0.8186021494571722,
+            1174.6403294480485,
+            1.0
+          ],
+          "children": [
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01/steel",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "cfa26aab014404e7309fe4c4a825319c9e0e3f42274eac0f4b1d77ce63036558"
+    },
+    "Mugello": {
+      "sourceSha256": "de0636f080ef8f73d395beebc11b6795c84b9d859a6afd31abbdcecab93a47cd",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -0.2291827457062639,
+            0.0,
+            -0.4002629374663568,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.3931917179969182,
+            0.0,
+            0.4495348647113714,
+            0.0,
+            -62.89268579536842,
+            5.410967305720355,
+            79.163604162926,
+            1.0
+          ],
+          "children": [
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/edge",
+            "hero-01/red",
+            "hero-01/roof",
+            "hero-01/steel",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/concrete-light",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/red",
+            "hero-01-architecture/white"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            0.1304120698110953,
+            0.0,
+            0.7051504016382494,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.7027091853387459,
+            0.0,
+            -1.1165582171029902,
+            0.0,
+            44.94343506012105,
+            -19.04174547210784,
+            227.59983917554672,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/cream",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/roof",
+            "pit-01/steel",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "6920d2c2b9385c6878732de9a0ea5a4c08e319994162649e7f101c95c62a4c57"
+    },
+    "Nuerburgring": {
+      "sourceSha256": "e53cc09315895ba671b678a2ee06d024f8a3d025e759c3dd237ed4152e7eea13",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -0.46362334204393685,
+            0.0,
+            -0.9022921607679694,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.9174283745188364,
+            0.0,
+            -0.41654376178867836,
+            0.0,
+            160.02711383517322,
+            -0.33128014448268317,
+            -83.05430352127004,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01/steel",
+            "hero-01/teal",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/white"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            1.1384274625709676,
+            0.0,
+            -1.5459953649519869,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -1.0889087269776891,
+            0.0,
+            -0.4071242426384888,
+            0.0,
+            -1112.7835896664374,
+            -0.2850102019711116,
+            -102.88839082610286,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "f365bf6e0f7f9be525930de99fbcca38b4fa44751c60f816170ea6d00b9f21a7"
+    },
+    "PaulRicard": {
+      "sourceSha256": "9083ecd13ffad3a45afdd6351a37cc1e62f2d10c2017db58fe9c5ec9fb3ad8aa",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.7280341174986654,
+            0.0,
+            1.448228112176114,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.475300868026111,
+            0.0,
+            -0.377447207344788,
+            0.0,
+            -98.95921528845037,
+            10.173388702566717,
+            163.8615268141196,
+            1.0
+          ],
+          "children": [
+            "hero-01/blue",
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "ebf6ec2b9ad071c5ff2c3386f0b2015dd4f5b08317160bffcfac911f32d5af9c"
+    },
+    "Portimao": {
+      "sourceSha256": "e0844ebea23fd4e49e87436cabeca0d2e05a78dede5c827f3d5b2d40fda4b347",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -0.5431549788299095,
+            0.0,
+            -0.33683149987006056,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.3410609729525694,
+            0.0,
+            -1.6066312098165219,
+            0.0,
+            -249.32257642784037,
+            -19.772876496468413,
+            -342.5531474984721,
+            1.0
+          ],
+          "children": [
+            "hero-01/blue",
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/edge",
+            "hero-01/glass",
+            "hero-01/steel",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/blue",
+            "hero-01-architecture/concrete-light",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/white"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            0.5847835704474525,
+            0.0,
+            -0.8206293397013859,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.8374318311291811,
+            0.0,
+            -2.1214989754096765,
+            0.0,
+            -1.3361438963429464,
+            4.055252902950849,
+            -192.39353792361695,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "f7503dfe99befa5bc494eacc874ba94f7004eafb670ee2eb993db4699a1aef3b"
+    },
+    "Sakhir": {
+      "sourceSha256": "f918da8c1b9b6c612a3763fadd3c1a95aa07d1671e6f6633b171dfe060e436ef",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.6604155687463057,
+            0.0,
+            0.5435163957708511,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.543602705535871,
+            0.0,
+            0.6605106801721956,
+            0.0,
+            -20.86709930158537,
+            4.142016266181519,
+            -76.21774093152919,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/metal"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "04fd7f09d576ffe05dde44c20931617e1fbaaca94e5ed2d400d5a83694d04070"
+    },
+    "SaoPaulo": {
+      "sourceSha256": "eb79248750b8f68fe7a7e85f4e6641eb76909a0fe5bdf1bd6fa9774091a25b01",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -1.6430932200953658,
+            0.0,
+            0.8695969227698707,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.870409722509184,
+            0.0,
+            1.6936759192918975,
+            0.0,
+            -143.89793032778564,
+            27.978443394561573,
+            223.52584635280266,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "164bd2c12c1fbce1f1c91ade27ba7d4256e6d578e00ab8a00909d04ee4c3779c"
+    },
+    "Sepang": {
+      "sourceSha256": "55c9fee653e4c9d97d74e7b98b68a2161ad0a94a2e629dd49463869cc609ac65",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -2.207580530605766,
+            0.0,
+            0.27062207564764423,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.27848670438713213,
+            0.0,
+            1.1365669863638437,
+            0.0,
+            321.65374868325654,
+            5.565052865019293,
+            -614.6666728753722,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "9491ea577d891d6170152c54dfbd7d7038d5e562dd964d9181f1f748f3a90578"
+    },
+    "Shanghai": {
+      "sourceSha256": "3f7f0ee1f59f8b54843c6579bbba0263bbb20fa8e1ee0728f04e4e6c684e6b3c",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            2.0284731961406517,
+            0.0,
+            -0.20451973260033074,
+            0.0,
+            0.0,
+            1.0256410411460892,
+            0.0,
+            0.0,
+            -0.22901838291261023,
+            0.0,
+            1.1602652063109515,
+            0.0,
+            316.2947681828796,
+            -1.7342238110941834,
+            -213.2556198559068,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "ba97c0c7f3e728211c23a28650ee9bfd916847b030bedc82e2377526c0ed22de"
+    },
+    "Silverstone": {
+      "sourceSha256": "95540e979a31dfcd577ca314bb74dabe7d3966f2662e18c1232e17d58f2d11e6",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -0.1574165823499151,
+            0.0,
+            1.0699731844849587,
+            0.0,
+            0.0,
+            0.933171303778319,
+            0.0,
+            0.0,
+            1.039265116118239,
+            0.0,
+            -0.7558646311919665,
+            0.0,
+            -500.2386997835994,
+            0.7382216094258691,
+            772.7781568205488,
+            1.0
+          ],
+          "children": [
+            "hero-01/concrete",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01/red",
+            "hero-01/roof",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/structure",
+            "hero-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "38317b9806e121ae10f526edd1435a15ae317192d8fe8e2102de1b0bc4dc50bb"
+    },
+    "Singapore": {
+      "sourceSha256": "ea13cfc6eae3907157900fdb5574b38e7082dfad9be4881f4ce670c2800826e0",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.6449684599271213,
+            0.0,
+            -1.4763772887989708,
+            0.0,
+            0.0,
+            2.937959566904166,
+            0.0,
+            0.0,
+            1.3944517035675597,
+            0.0,
+            0.5988953477386786,
+            0.0,
+            500.57068364951243,
+            -0.4406939350356249,
+            1093.8065269696033,
+            1.0
+          ],
+          "children": [
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01/teal",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/white"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -1.0688583832658864,
+            0.0,
+            0.4291543270581414,
+            0.0,
+            0.0,
+            0.9615384615384616,
+            0.0,
+            0.0,
+            0.4312028999822885,
+            0.0,
+            2.0774863200987865,
+            0.0,
+            1382.0763307863822,
+            -0.14423076923076922,
+            -135.79008470219782,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "d595d6038ef9b601435922bfec567b88c5eab6f309c1bd3a1e197f61e1b5000f"
+    },
+    "Sochi": {
+      "sourceSha256": "8cecd55e6daccb2c331551c052cc7952ea4fd6e7bb089f00339105b3c6e88057",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            0.6893305164603534,
+            0.0,
+            0.7636725614075959,
+            0.0,
+            0.0,
+            0.9962332309995611,
+            0.0,
+            0.0,
+            0.861412680497023,
+            0.0,
+            -0.6583131099407828,
+            0.0,
+            34.67464813808101,
+            -0.22834327305158642,
+            543.7931582972759,
+            1.0
+          ],
+          "children": [
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/glass",
+            "hero-01/roof",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/metal"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            1.3238862988506752,
+            0.0,
+            -1.4240750890621028,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.4314218727227191,
+            0.0,
+            -1.087206968124595,
+            0.0,
+            -562.3033765108171,
+            -0.670627260098621,
+            94.92365791845316,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "e8352b5134767dd510ae228d7093f6aa8ce2d3e8f2e7e357c6d61ad1b36323c9"
+    },
+    "Spa": {
+      "sourceSha256": "91f5a2913e9135a42f1580c5fe4f5d059b42927278e6df9fb138733746318e65",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            1.3041733710008319,
+            0.0,
+            0.4285319747303672,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.301334364059662,
+            0.0,
+            1.6931443221970646,
+            0.0,
+            260.0849669098624,
+            37.15374010227129,
+            162.56057608466722,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "2aebfc6fbe999336b0b1f41da30f789631476dd7e7b84aed3e2ce75dbbd4f695"
+    },
+    "Spielberg": {
+      "sourceSha256": "e00a6a19566686622c1aca81e25e9ce9b7619e8c1739211352e681b89039e7c3",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            1.900643545522224,
+            0.0,
+            -0.2517265025448361,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.2504036228411834,
+            0.0,
+            1.0402532480002495,
+            0.0,
+            -329.87576555417115,
+            0.7176494779371936,
+            5.8382733938001365,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "b3f871a60191ed60f4894171281405d97fdcbc0f74376ac2247a4c9346511502"
+    },
+    "Suzuka": {
+      "sourceSha256": "a2e5c2bfa9607c2bd08439ae53f8873dd442ee1c03ed277e2b6bcf0612f5e7ba",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            0.28226029210428266,
+            0.0,
+            -2.120109589767557,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -2.1216313866779677,
+            0.0,
+            -0.5601654175625379,
+            0.0,
+            191.25822768407835,
+            -7.326988367093804,
+            1305.7513641939156,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "c3c3f6e61bb4b5ceca300aa40818faca2b1752aa1b97446f99c918e7d95ea9ec"
+    },
+    "WatkinsGlen": {
+      "sourceSha256": "acd2e7eb23b1b0fc4cef2160ec31ea051de022a8bb93aa0ce8f4f516d0c93012",
+      "nodes": [
+        {
+          "name": "hero-01-mapped-placement",
+          "matrix": [
+            -0.9875222828037297,
+            0.0,
+            -0.07658972538853139,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.10008509844378782,
+            0.0,
+            0.2372936390533173,
+            0.0,
+            -738.8477739998851,
+            -3.485623742185531,
+            -370.6883517457753,
+            1.0
+          ],
+          "children": [
+            "hero-01/blue",
+            "hero-01/concrete",
+            "hero-01/cream",
+            "hero-01/dark",
+            "hero-01/glass",
+            "hero-01/steel",
+            "hero-01-foundation/concrete",
+            "hero-01-architecture/dark",
+            "hero-01-architecture/metal",
+            "hero-01-architecture/roof-dark",
+            "hero-01-architecture/white"
+          ]
+        },
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            -0.7415780937559837,
+            0.0,
+            0.8087957547543951,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            2.03123818306403,
+            0.0,
+            0.423990725413844,
+            0.0,
+            -532.5304929105187,
+            6.276598119784445,
+            -223.09588304728516,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "9b9d56e86665d4f63649cc125695b6a5430a5cbaf9423f2b604871d06c1c51ae"
+    },
+    "YasMarina": {
+      "sourceSha256": "6d1c8ba4a5427ddb3ba74ede68a65f7f1cf554940d2b6b4553d5edc11dfc42cd",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            2.387354153675811,
+            0.0,
+            -0.17328616320839202,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.1618256513077853,
+            0.0,
+            1.227558997056965,
+            0.0,
+            484.79575717874405,
+            2.4968451208091147,
+            18.190434296199015,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "03fbcfb7e69b8b7420ac40351323816ed53e94f1db6c2be8b9ba0ee7e8c0c588"
+    },
+    "Zandvoort": {
+      "sourceSha256": "e07bf53829d160b1ea0ebaeec9a2561080642e0e02ea7ad14214dd0c2368e2ee",
+      "nodes": [
+        {
+          "name": "pit-01-mapped-placement",
+          "matrix": [
+            0.7146360413361179,
+            0.0,
+            -0.04750114820702666,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            -0.05952724465728083,
+            0.0,
+            0.8166169382360811,
+            0.0,
+            58.65098578664862,
+            -13.461548887303442,
+            -230.84672934085418,
+            1.0
+          ],
+          "children": [
+            "pit-01/concrete",
+            "pit-01/dark",
+            "pit-01/glass",
+            "pit-01/orange",
+            "pit-01/roof",
+            "pit-01-foundation/concrete",
+            "pit-01-architecture/dark",
+            "pit-01-architecture/metal",
+            "pit-01-architecture/roof-dark",
+            "pit-01-architecture/white"
+          ]
+        }
+      ],
+      "compressedChunksSha256": "251da7c26f11ad821abe43bc0658a73a95551752d8d160fbf5312116afbe74ab"
+    }
+  }
+}

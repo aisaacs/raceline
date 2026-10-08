@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raceline — 40 racing circuits as georeferenced open data</title>
+<meta name="description" content="Forty motor-racing circuits as georeferenced open data: centrelines, solved racing lines, elevation profiles and corner geometry.">
+<link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Raceline</h1>
+    <p class="sub">Forty racing circuits as georeferenced open data — centrelines,
+      solved racing lines, elevation and corner geometry.</p>
+    <p class="meta">
+      <span id="statCircuits">—</span> circuits ·
+      <span id="statCorners">—</span> corners ·
+      data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> ·
+      code <a href="LICENSE-CODE.txt">MIT</a> ·
+      <a href="PROVENANCE.md">provenance</a>
+    </p>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav id="list" aria-label="Circuits">
+    <input id="filter" type="search" placeholder="Filter circuits" autocomplete="off" aria-label="Filter circuits">
+    <ol id="circuits"></ol>
+  </nav>
+
+  <section id="detail" aria-live="polite">
+    <div id="empty" class="empty">Select a circuit.</div>
+
+    <div id="view" hidden>
+      <div class="titles">
+        <h2 id="cName">—</h2>
+        <p id="cId" class="mono dim"></p>
+      </div>
+
+      <dl class="facts">
+        <div><dt>Length</dt><dd id="fLength">—</dd></div>
+        <div><dt>Corners</dt><dd id="fCorners">—</dd></div>
+        <div><dt>Elevation</dt><dd id="fElev">—</dd></div>
+        <div><dt>Width</dt><dd id="fWidth">—</dd></div>
+      </dl>
+
+      <div class="tabs" role="tablist">
+        <button id="tab3d" class="tab" role="tab" aria-selected="true" aria-controls="sceneFig">3D scene</button>
+        <button id="tabPlan" class="tab" role="tab" aria-selected="false" aria-controls="planFig">Plan</button>
+        <span id="sceneStat" class="dim mono"></span>
+      </div>
+
+      <figure class="plan" id="planFig" hidden>
+        <canvas id="map" width="900" height="900" role="img"
+                aria-label="Circuit plan with racing line and corner markers"></canvas>
+        <figcaption>
+          <span class="k k-road"></span> track
+          <span class="k k-line"></span> racing line
+          <span class="k k-brake"></span> braking point
+          <span class="k k-start"></span> start / finish
+        </figcaption>
+      </figure>
+
+      <figure class="scene" id="sceneFig">
+        <div id="sceneViewport">
+          <div class="scene-toolbar" aria-label="Camera controls">
+            <button id="orbitMode" type="button" aria-pressed="true">Orbit</button>
+            <button id="flyMode" type="button" aria-pressed="false">Fly</button>
+            <button id="resetCamera" type="button">Overview</button>
+            <button id="fullscreen" type="button">Full screen</button>
+            <label id="speedControl" hidden>Speed <input id="flySpeed" type="range" min="5" max="250" value="60" aria-label="Flight speed"><output id="speedValue">60 m/s</output></label>
+          </div>
+          <canvas id="scene" tabindex="0" aria-label="Three-dimensional circuit scene. Drag to look around. In fly mode use W A S D to move, Q and E to descend and climb." aria-describedby="cameraHelp"></canvas>
+          <div id="flightPad" hidden aria-label="Flight movement">
+            <button type="button" data-move="KeyA" aria-label="Fly left">←</button>
+            <button type="button" data-move="KeyW" aria-label="Fly forward">Forward</button>
+            <button type="button" data-move="KeyS" aria-label="Fly backward">Back</button>
+            <button type="button" data-move="KeyD" aria-label="Fly right">→</button>
+            <button type="button" data-move="KeyQ" aria-label="Fly down">Down</button>
+            <button type="button" data-move="KeyE" aria-label="Fly up">Up</button>
+          </div>
+          <p id="cameraHelp">Drag to orbit · right-drag to pan · scroll or pinch to zoom</p>
+        </div>
+        <div class="landmark-panel">
+          <p class="landmark-heading">Explore the signature features</p>
+          <div id="landmarks"></div>
+          <p id="landmarkNote" class="dim"></p>
+        </div>
+        <figcaption>Original stylised geometry and mapped landscape. Landmark shapes and placement are approximate. <a href="PROVENANCE.md">What is authored</a>.</figcaption>
+      </figure>
+
+      <figure class="profile">
+        <figcaption class="head">Elevation along the lap</figcaption>
+        <canvas id="elev" width="900" height="170" role="img"
+                aria-label="Elevation profile along one lap"></canvas>
+      </figure>
+
+      <h3>Corners</h3>
+      <div class="tablewrap">
+        <table id="corners">
+          <thead><tr>
+            <th>#</th><th>Name</th><th class="num">At</th>
+            <th class="num">Braking</th><th class="num">Radius</th><th>Load</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <p class="dl">
+        <a id="raw" class="btn" download>Download JSON</a>
+        <a id="modelDownload" class="btn" download>Download 3D model</a>
+        <span class="dim mono" id="rawSize"></span>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Circuit geometry © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>,
+     via <a href="https://github.com/bacinger/f1-circuits">bacinger/f1-circuits</a>.
+     Elevation from NASA SRTM (public domain). Racing lines, corner detection and
+     braking points are original derived work — see
+     <a href="PROVENANCE.md">PROVENANCE.md</a>. Not affiliated with Formula 1,
+     the FIA or any circuit operator.</p>
+</footer>
+
+<script src="viewer.js"></script>
+</body>
+</html>

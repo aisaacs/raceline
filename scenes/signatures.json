@@ -1,0 +1,4609 @@
+{
+  "schema": "raceline.signatures/1",
+  "notice": "Original stylised artwork, CC BY-SA 4.0. Map-derived positions © OpenStreetMap contributors, ODbL 1.0.",
+  "circuits": {
+    "Montreal": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            265.21023342356943,
+            7.117,
+            479.76986842094954
+          ],
+          "viewDistance": 376.6416795649021,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_canadian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_ers_battery_containment_area_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Island biosphere",
+          "position": [
+            -415.95029239050956,
+            36.73914832105687,
+            -945.3303144696157
+          ],
+          "viewDistance": 181.255689534449,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Wall of Champions",
+          "position": [
+            190.57428741455078,
+            5.818941005544077,
+            262.1205062866211
+          ],
+          "viewDistance": 220,
+          "meshPrefixes": [
+            "champions-wall/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            254.86922328351835,
+            1.7349999999999999,
+            581.386865949378
+          ],
+          "viewDistance": 363.6364267924501,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "mapped",
+          "sources": [
+            "https://www.openstreetmap.org/way/413000959",
+            "https://www.fia.com/system/files/decision-document/2025_canadian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_ers_battery_containment_area_red_zones.pdf"
+          ],
+          "note": "Mapped Montreal pit route: entry before Turn 13, working apron beside the garages, and exit through the Senna S. Fitted vertically to the supplied terrain."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry · before Turn 13",
+          "position": [
+            202.51687271602157,
+            4.094247131647156,
+            210.31997637634382
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "mapped",
+          "sources": [
+            "https://www.openstreetmap.org/way/413000959",
+            "https://www.fia.com/system/files/decision-document/2025_canadian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_ers_battery_containment_area_red_zones.pdf"
+          ],
+          "note": "Mapped Montreal pit route: entry before Turn 13, working apron beside the garages, and exit through the Senna S. Fitted vertically to the supplied terrain."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit · Senna S",
+          "position": [
+            303.37568979866296,
+            0.312,
+            951.2185669451347
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "mapped",
+          "sources": [
+            "https://www.openstreetmap.org/way/413000959",
+            "https://www.fia.com/system/files/decision-document/2025_canadian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_ers_battery_containment_area_red_zones.pdf"
+          ],
+          "note": "Mapped Montreal pit route: entry before Turn 13, working apron beside the garages, and exit through the Senna S. Fitted vertically to the supplied terrain."
+        }
+      ]
+    },
+    "Sepang": {
+      "features": [
+        {
+          "id": "signature-palm-canopy",
+          "name": "Palm canopy grandstand",
+          "position": [
+            68.8978849572347,
+            26.528961496072966,
+            67.84404701769989
+          ],
+          "viewDistance": 629.8499999999999,
+          "meshPrefixes": [
+            "signature-palm-canopy/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/way/144247993"
+          ],
+          "note": "Stylised paired palm canopies, fitted inside the widened track corridor."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -89.3197548645172,
+            24.509999999999998,
+            -23.87731869227745
+          ],
+          "viewDistance": 414.7773971520876,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.gt-world-challenge-asia.com/documents/notice/882/2025%2BGTWCA%2BSupplementary%2BRegulation%2Bas%2B09042025.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            3.4326792725664546,
+            18.977,
+            5.088005249252377
+          ],
+          "viewDistance": 396.5494518637748,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.gt-world-challenge-asia.com/documents/notice/882/2025%2BGTWCA%2BSupplementary%2BRegulation%2Bas%2B09042025.pdf"
+          ],
+          "note": "Northern Grand Prix pit lane: entry branches before the final hairpin, passes the garages and merges before Turn 1. Southern support pits excluded. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            413.8719648000335,
+            22.285145409796204,
+            -20.68726249689714
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.gt-world-challenge-asia.com/documents/notice/882/2025%2BGTWCA%2BSupplementary%2BRegulation%2Bas%2B09042025.pdf"
+          ],
+          "note": "Northern Grand Prix pit lane: entry branches before the final hairpin, passes the garages and merges before Turn 1. Southern support pits excluded. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -438.1612812610591,
+            18.561,
+            44.59058404647549
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.gt-world-challenge-asia.com/documents/notice/882/2025%2BGTWCA%2BSupplementary%2BRegulation%2Bas%2B09042025.pdf"
+          ],
+          "note": "Northern Grand Prix pit lane: entry branches before the final hairpin, passes the garages and merges before Turn 1. Southern support pits excluded. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Estoril": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            26.94913305579623,
+            20.401,
+            137.05875471403485
+          ],
+          "viewDistance": 299.5577414334872,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.funracingcars.com/documents/2021/ESTORIL/Briefing%20Estoril%20M3.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Estoril pit canopy and timing room",
+          "position": [
+            27.363142900082202,
+            31.734833181314446,
+            133.88798339280936
+          ],
+          "viewDistance": 599.1154829495637,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            46.57920147357915,
+            16.63682150237931,
+            151.52954061142086
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.funracingcars.com/documents/2021/ESTORIL/Briefing%20Estoril%20M3.pdf"
+          ],
+          "note": "Entry branches after the final curve; straight garage frontage; exit carries around the inside of Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            239.54488553088768,
+            20.682,
+            -254.00369513242924
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.funracingcars.com/documents/2021/ESTORIL/Briefing%20Estoril%20M3.pdf"
+          ],
+          "note": "Entry branches after the final curve; straight garage frontage; exit carries around the inside of Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -171.064508005887,
+            13.488,
+            480.39922015261794
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.funracingcars.com/documents/2021/ESTORIL/Briefing%20Estoril%20M3.pdf"
+          ],
+          "note": "Entry branches after the final curve; straight garage frontage; exit carries around the inside of Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Imola": {
+      "features": [
+        {
+          "id": "signature-timing-tower",
+          "name": "Imola timing tower",
+          "position": [
+            18.567659959362487,
+            14.964325924444708,
+            -429.93211194395855
+          ],
+          "viewDistance": 125,
+          "meshPrefixes": [
+            "signature-timing-tower/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/way/60890958"
+          ],
+          "note": "Original stylised model at the mapped landmark location."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            320.55263930581526,
+            3.74,
+            -404.1805648760809
+          ],
+          "viewDistance": 284.5712441438975,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_emilia_romagna_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            269.32325358488794,
+            2.3098992007337715,
+            -380.1963338946978
+          ],
+          "viewDistance": 286.90695231157054,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_emilia_romagna_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry branches after Rivazza; slight bend along the garage straight; long exit towards Tamburello. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            719.8943486269496,
+            4.1728176553574245,
+            -436.16541759052694
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_emilia_romagna_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry branches after Rivazza; slight bend along the garage straight; long exit towards Tamburello. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -190.30153060753725,
+            6.2940000000000005,
+            -418.34049185473066
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_emilia_romagna_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry branches after Rivazza; slight bend along the garage straight; long exit towards Tamburello. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Mexico City": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -376.773038534487,
+            5.852,
+            -438.65837280341
+          ],
+          "viewDistance": 364.10679805082367,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_mexico_city_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_quarantine_zone_area.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Stadium section",
+          "position": [
+            -547,
+            3,
+            -537
+          ],
+          "viewDistance": 580,
+          "meshPrefixes": [
+            "stand-map-01/",
+            "stand-map-02/",
+            "stand-map-04/",
+            "stand-map-05/",
+            "stand-map-06/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -351.7309145819456,
+            1.5798871947468398,
+            -469.62303345478534
+          ],
+          "viewDistance": 353.7075613685634,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_mexico_city_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_quarantine_zone_area.pdf"
+          ],
+          "note": "Entry follows the inside of the final Peraltada section; straight garage lane and long parallel exit. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -683.1305287664384,
+            1.764,
+            -474.48594442518583
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_mexico_city_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_quarantine_zone_area.pdf"
+          ],
+          "note": "Entry follows the inside of the final Peraltada section; straight garage lane and long parallel exit. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -7.392908852300718,
+            1.102,
+            -429.55519990475983
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_mexico_city_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_quarantine_zone_area.pdf"
+          ],
+          "note": "Entry follows the inside of the final Peraltada section; straight garage lane and long parallel exit. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Melbourne": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Albert Park pit pavilions",
+          "position": [
+            38.956249999999955,
+            6.022062636057837,
+            563.5117499999999
+          ],
+          "viewDistance": 265.70979800918155,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_australian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://formula1-data.com/media/37966",
+            "https://www.globe-trotter.com/blogs/journal/formula-one-insider-guide-to-melbourne"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Albert Park lake",
+          "position": [
+            27.570526123046875,
+            -0.5793117880821228,
+            -6.832000732421875
+          ],
+          "viewDistance": 3119.6632524222896,
+          "meshPrefixes": [
+            "water-"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -55.21904680659838,
+            0.563,
+            502.3299339545702
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_australian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://formula1-data.com/media/37966",
+            "https://www.globe-trotter.com/blogs/journal/formula-one-insider-guide-to-melbourne",
+            "https://www.openstreetmap.org/way/321789092",
+            "https://www.openstreetmap.org/way/321789093",
+            "https://www.openstreetmap.org/way/321789094",
+            "https://www.openstreetmap.org/way/321789095",
+            "https://www.openstreetmap.org/way/321789097",
+            "https://www.openstreetmap.org/way/993669986"
+          ],
+          "note": "Mapped pit service road, with the exit aligned to the FIA 2025 diagram. Entry inside Turn 14; exit before Turn 1. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            246.57130567265125,
+            0.515,
+            749.7124211855815
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_australian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://formula1-data.com/media/37966",
+            "https://www.globe-trotter.com/blogs/journal/formula-one-insider-guide-to-melbourne",
+            "https://www.openstreetmap.org/way/321789092",
+            "https://www.openstreetmap.org/way/321789093",
+            "https://www.openstreetmap.org/way/321789094",
+            "https://www.openstreetmap.org/way/321789095",
+            "https://www.openstreetmap.org/way/321789097",
+            "https://www.openstreetmap.org/way/993669986"
+          ],
+          "note": "Mapped pit service road, with the exit aligned to the FIA 2025 diagram. Entry inside Turn 14; exit before Turn 1. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -343.7594123021423,
+            1.9609999999999999,
+            211.1148254827096
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_australian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://formula1-data.com/media/37966",
+            "https://www.globe-trotter.com/blogs/journal/formula-one-insider-guide-to-melbourne",
+            "https://www.openstreetmap.org/way/321789092",
+            "https://www.openstreetmap.org/way/321789093",
+            "https://www.openstreetmap.org/way/321789094",
+            "https://www.openstreetmap.org/way/321789095",
+            "https://www.openstreetmap.org/way/321789097",
+            "https://www.openstreetmap.org/way/993669986"
+          ],
+          "note": "Mapped pit service road, with the exit aligned to the FIA 2025 diagram. Entry inside Turn 14; exit before Turn 1. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Portimao": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -162.3383073010158,
+            15.158,
+            -8.796051115497946
+          ],
+          "viewDistance": 438.08832628069666,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2021_portuguese_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Algarve sweeping grandstand roof",
+          "position": [
+            -249.5149283283547,
+            24.16295075878061,
+            10.351201970454952
+          ],
+          "viewDistance": 650,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -183.37205770766505,
+            3.4368259233113823,
+            13.190332482919342
+          ],
+          "viewDistance": 415.04894069370187,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2021_portuguese_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "F1 pit entry leaves the straight AFTER the final curve. The longer motorcycle shortcut is excluded. Exit tapers before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -86.99662457392154,
+            18.772,
+            380.98427775258955
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2021_portuguese_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "F1 pit entry leaves the straight AFTER the final curve. The longer motorcycle shortcut is excluded. Exit tapers before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -295.48432520243756,
+            8.469999999999999,
+            -353.42128626452006
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2021_portuguese_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "F1 pit entry leaves the straight AFTER the final curve. The longer motorcycle shortcut is excluded. Exit tapers before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Jacarepagua": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -135,
+            6.162465622038651,
+            -205
+          ],
+          "viewDistance": 306,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://suzanecarvalho.blogosfera.uol.com.br/2012/10/28/autodromo-de-jacarepagua-fecha-as-portas-para-dar-lugar-a-predios-comerciais-e-residenciais/",
+            "https://fr.motor1.com/news/93766/le-circuit-de-jacarepagua-rase-pour-les-jeux-olympiques-de-rio/"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -104.13983337937299,
+            2.185839226760855,
+            -234
+          ],
+          "viewDistance": 204.96370743415753,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://suzanecarvalho.blogosfera.uol.com.br/2012/10/28/autodromo-de-jacarepagua-fecha-as-portas-para-dar-lugar-a-predios-comerciais-e-residenciais/",
+            "https://fr.motor1.com/news/93766/le-circuit-de-jacarepagua-rase-pour-les-jeux-olympiques-de-rio/"
+          ],
+          "note": "Historic infield pit straight reconstructed from archival aerial and trackside photographs. Entry after final bend, exit before the first corner; heights follow this model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -360.6012178994435,
+            0.458023748303841,
+            -242.88606225698385
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://suzanecarvalho.blogosfera.uol.com.br/2012/10/28/autodromo-de-jacarepagua-fecha-as-portas-para-dar-lugar-a-predios-comerciais-e-residenciais/",
+            "https://fr.motor1.com/news/93766/le-circuit-de-jacarepagua-rase-pour-les-jeux-olympiques-de-rio/"
+          ],
+          "note": "Historic infield pit straight reconstructed from archival aerial and trackside photographs. Entry after final bend, exit before the first corner; heights follow this model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            155.88809367446234,
+            2.148,
+            -243.24435356279568
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://suzanecarvalho.blogosfera.uol.com.br/2012/10/28/autodromo-de-jacarepagua-fecha-as-portas-para-dar-lugar-a-predios-comerciais-e-residenciais/",
+            "https://fr.motor1.com/news/93766/le-circuit-de-jacarepagua-rase-pour-les-jeux-olympiques-de-rio/"
+          ],
+          "note": "Historic infield pit straight reconstructed from archival aerial and trackside photographs. Entry after final bend, exit before the first corner; heights follow this model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Mugello": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -2.3730528094191925,
+            12.777999999999999,
+            64.18602944140501
+          ],
+          "viewDistance": 299.86650409589106,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2020_tuscan_grand_prix_-_race_directors_event_notes_version_3.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Mugello solar grandstand",
+          "position": [
+            -49.81313283095653,
+            38.4253349632544,
+            -16.36200683582608
+          ],
+          "viewDistance": 333.85582001615893,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            37.71328765848925,
+            10.996303168253254,
+            -67.93170721614706
+          ],
+          "viewDistance": 299.79625242623376,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2020_tuscan_grand_prix_-_race_directors_event_notes_version_3.pdf"
+          ],
+          "note": "Entry branches after Bucine; the pit wall follows the main straight; exit rejoins before San Donato. Mapped horizontal alignment, fitted to model elevations. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -155.36580728806933,
+            6.763,
+            340.48093846532174
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2020_tuscan_grand_prix_-_race_directors_event_notes_version_3.pdf"
+          ],
+          "note": "Entry branches after Bucine; the pit wall follows the main straight; exit rejoins before San Donato. Mapped horizontal alignment, fitted to model elevations. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            236.69014668147582,
+            18.499,
+            -477.1018307354194
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_7_-_2020_tuscan_grand_prix_-_race_directors_event_notes_version_3.pdf"
+          ],
+          "note": "Entry branches after Bucine; the pit wall follows the main straight; exit rejoins before San Donato. Mapped horizontal alignment, fitted to model elevations. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "SaoPaulo": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -185.05923669888932,
+            44.558,
+            323.9569059550003
+          ],
+          "viewDistance": 354.6821216352777,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_sao_paulo_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones_map.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Interlagos uphill retaining wall",
+          "position": [
+            -212.71011795361537,
+            26.474312793471086,
+            -203.76550674438477
+          ],
+          "viewDistance": 1075.073662219609,
+          "meshPrefixes": [
+            "interlagos-wall/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Senna S",
+          "position": [
+            -159.3375,
+            37.9987,
+            521.1675
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -193.8999919825498,
+            37.088,
+            472.33589049632195
+          ],
+          "viewDistance": 345.91316988021765,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_sao_paulo_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones_map.pdf"
+          ],
+          "note": "Entry leaves the uphill final approach; the separated exit follows the Senna S before the Curva do Sol merge. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -312.39378729381696,
+            28.163999999999998,
+            -146.32524937322057
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_sao_paulo_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones_map.pdf"
+          ],
+          "note": "Entry leaves the uphill final approach; the separated exit follows the Senna S before the Curva do Sol merge. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            218.23192232400652,
+            29.005,
+            204.22970177669998
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_sao_paulo_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones_map.pdf"
+          ],
+          "note": "Entry leaves the uphill final approach; the separated exit follows the Senna S before the Curva do Sol merge. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Monza": {
+      "features": [
+        {
+          "id": "signature-historic-banking",
+          "name": "Historic banked oval",
+          "position": [
+            -448.8961364973384,
+            11.288759450364724,
+            -351.1780839998781
+          ],
+          "viewDistance": 720,
+          "meshPrefixes": [
+            "signature-historic-banking/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.monzanet.it/sopraelevata-monza/"
+          ],
+          "note": "Mapped historic north and south banking, with stylised banking and bridge clearance; not a surveyed structural reconstruction."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -568.9066069299655,
+            8.533999999999999,
+            484.0627082600349
+          ],
+          "viewDistance": 276.5558373007923,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_italian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Monza pit hospitality roof",
+          "position": [
+            -568.9052019555536,
+            18.246428469540568,
+            484.05923362166436
+          ],
+          "viewDistance": 553.1116752879295,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Parabolica and parkland",
+          "position": [
+            -14.210540771484375,
+            11.585500815364224,
+            62.91705322265625
+          ],
+          "viewDistance": 4674.116357922936,
+          "meshPrefixes": [
+            "road/",
+            "terrain-woodland/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -592.7681109639921,
+            2.209853715793037,
+            481.82191943689435
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_italian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry branches on the main straight after Parabolica; straight garages; long tapering exit before the first chicane. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -620.1849025091808,
+            3.1900000000000004,
+            797.8389164437397
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_italian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry branches on the main straight after Parabolica; straight garages; long tapering exit before the first chicane. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -569.3361006276334,
+            3.858,
+            162.76849246957903
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_italian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry branches on the main straight after Parabolica; straight garages; long tapering exit before the first chicane. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "BuenosAires": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -112.48559964586231,
+            10.440000000000001,
+            71.68763536376672
+          ],
+          "viewDistance": 319.74213572570403,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.toprace.com.ar/upload/material_previo/348/Kit_de_prensa_5%C2%B0_fecha_Top_Race_BS_AS.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Gálvez race-control tower",
+          "position": [
+            -112.48559964586235,
+            26.400425603807683,
+            71.68763536376673
+          ],
+          "viewDistance": 639.4842716134907,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -106.67117038385464,
+            6.95,
+            20.91948608579151
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.toprace.com.ar/upload/material_previo/348/Kit_de_prensa_5%C2%B0_fecha_Top_Race_BS_AS.pdf"
+          ],
+          "note": "Circuit 6: entry branches after the final corner with an offset at race control; garages inside the straight; exit rejoins before Turn 1. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -250.08859570623815,
+            0.9909279583758746,
+            240.05554438480752
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.toprace.com.ar/upload/material_previo/348/Kit_de_prensa_5%C2%B0_fecha_Top_Race_BS_AS.pdf"
+          ],
+          "note": "Circuit 6: entry branches after the final corner with an offset at race control; garages inside the straight; exit rejoins before Turn 1. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            38.67680120338111,
+            7.351,
+            -208.63425331868564
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.toprace.com.ar/upload/material_previo/348/Kit_de_prensa_5%C2%B0_fecha_Top_Race_BS_AS.pdf"
+          ],
+          "note": "Circuit 6: entry branches after the final corner with an offset at race control; garages inside the straight; exit rejoins before Turn 1. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Sakhir": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -345.0160380620184,
+            6.673965537911917,
+            -38.161662599212406
+          ],
+          "viewDistance": 482.1012176019321,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_bahrain_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf",
+            "https://www.racingcircuits.info/galleries/galleries-item.html?galTag=Bahrain+International+Circuit"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Sakhir tower",
+          "position": [
+            -278.74886042343377,
+            32.85919031937366,
+            -443.3113535139551
+          ],
+          "viewDistance": 140,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -368.54883094057,
+            3.089,
+            -52.11678648777607
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_bahrain_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf",
+            "https://www.racingcircuits.info/galleries/galleries-item.html?galTag=Bahrain+International+Circuit",
+            "https://www.openstreetmap.org/way/187123416"
+          ],
+          "note": "Entry branches after the final bend; straight pit garages; long tapered exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -388.94316378638877,
+            6.351,
+            283.0157915834546
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_bahrain_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf",
+            "https://www.racingcircuits.info/galleries/galleries-item.html?galTag=Bahrain+International+Circuit",
+            "https://www.openstreetmap.org/way/187123416"
+          ],
+          "note": "Entry branches after the final bend; straight pit garages; long tapered exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -359.7127895039545,
+            1.525,
+            -387.6554338218503
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_bahrain_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf",
+            "https://www.racingcircuits.info/galleries/galleries-item.html?galTag=Bahrain+International+Circuit",
+            "https://www.openstreetmap.org/way/187123416"
+          ],
+          "note": "Entry branches after the final bend; straight pit garages; long tapered exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Catalunya": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            181.49894462735313,
+            21.68,
+            -48.55297350605207
+          ],
+          "viewDistance": 360.86909340054444,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_spanish_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Main grandstand",
+          "position": [
+            317.0161361694336,
+            17.454408166027775,
+            -48.615760803222656
+          ],
+          "viewDistance": 480,
+          "meshPrefixes": [
+            "stand-map-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Campsa",
+          "position": [
+            -155.232,
+            19.8382,
+            -83.7312
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            276.42960290322424,
+            12.23413410566176,
+            -89.27614478217714
+          ],
+          "viewDistance": 351.6145314080276,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_spanish_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry peels off before the last corner; long straight lane and exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            424.0486826050575,
+            21.58270772539355,
+            -488.2181168675691
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_spanish_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry peels off before the last corner; long straight lane and exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            32.8806261892794,
+            6.086,
+            309.9584097729413
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_spanish_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry peels off before the last corner; long straight lane and exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Monaco": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Harbour-facing pit garages",
+          "position": [
+            -323.6899777947003,
+            10.049603959522251,
+            309.25248433547165
+          ],
+          "viewDistance": 257.0712560076267,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_monaco_grand_prix_-_race_directors_event_notes_-_circuit_map_pit_lane_map_ers_battery_containment_area_red_zones.pdf",
+            "https://www.mclaren.com/racing/formula-1/2018/monaco-grand-prix/engineers-lowdown/"
+          ],
+          "note": "Curved garage row between the pit lane and main straight, with doors facing the harbour. Approximate 220 m frontage and 10 m depth from the FIA garage allocation diagram; stylised geometry."
+        },
+        {
+          "id": "feature-1",
+          "name": "Casino facade",
+          "position": [
+            237.59643979526675,
+            56.434865268568466,
+            -278.13055899613784
+          ],
+          "viewDistance": 390.7905170358196,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Monaco harbour tunnel",
+          "position": [
+            266.0993194580078,
+            11.392384052276611,
+            -274.0724792480469
+          ],
+          "viewDistance": 625.8886057026568,
+          "meshPrefixes": [
+            "monaco-tunnel/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -305.06503477171805,
+            6.235889881059639,
+            331.1507116905884
+          ],
+          "viewDistance": 180,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_monaco_grand_prix_-_race_directors_event_notes_-_circuit_map_pit_lane_map_ers_battery_containment_area_red_zones.pdf",
+            "https://www.mclaren.com/racing/formula-1/2018/monaco-grand-prix/engineers-lowdown/",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+          ],
+          "note": "Tight entry before Rascasse; the garage lane runs behind the start straight and exits beyond Sainte Dévote. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -243.92491591562654,
+            6.268199497716169,
+            438.94386242768053
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_monaco_grand_prix_-_race_directors_event_notes_-_circuit_map_pit_lane_map_ers_battery_containment_area_red_zones.pdf",
+            "https://www.mclaren.com/racing/formula-1/2018/monaco-grand-prix/engineers-lowdown/",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+          ],
+          "note": "Tight entry before Rascasse; the garage lane runs behind the start straight and exits beyond Sainte Dévote. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -344.7474088574282,
+            6.312284230880226,
+            209.84403385621047
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_monaco_grand_prix_-_race_directors_event_notes_-_circuit_map_pit_lane_map_ers_battery_containment_area_red_zones.pdf",
+            "https://www.mclaren.com/racing/formula-1/2018/monaco-grand-prix/engineers-lowdown/",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf",
+            "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+          ],
+          "note": "Tight entry before Rascasse; the garage lane runs behind the start straight and exits beyond Sainte Dévote. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "MagnyCours": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -157.8249336976566,
+            12.979,
+            -23.19442563938067
+          ],
+          "viewDistance": 232.22370641546087,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.circuitmagnycours.com/wp-content/uploads/2024/01/CNMC-MAP-GENERAL-BOX-1.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Magny-Cours pits and timing tower",
+          "position": [
+            -157.82492988747632,
+            29.184601360713152,
+            -23.19442603273556
+          ],
+          "viewDistance": 464.4474138071623,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Adelaide",
+          "position": [
+            234.5525,
+            4.6356,
+            429.3084
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -3.9298019022857544,
+            11.398977386864708,
+            -109.94381456038063
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.circuitmagnycours.com/wp-content/uploads/2024/01/CNMC-MAP-GENERAL-BOX-1.pdf"
+          ],
+          "note": "Grand Prix pit row has 48 bays and race control at the entry end. Entry bypasses the final chicane; exit rejoins before Grande Courbe. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -251.95281860956788,
+            4.010613008269074,
+            75.48846598687264
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.circuitmagnycours.com/wp-content/uploads/2024/01/CNMC-MAP-GENERAL-BOX-1.pdf"
+          ],
+          "note": "Grand Prix pit row has 48 bays and race control at the entry end. Entry bypasses the final chicane; exit rejoins before Grande Courbe. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            68.18135206028339,
+            20.238,
+            -384.1765247456723
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.circuitmagnycours.com/wp-content/uploads/2024/01/CNMC-MAP-GENERAL-BOX-1.pdf"
+          ],
+          "note": "Grand Prix pit row has 48 bays and race control at the entry end. Entry bypasses the final chicane; exit rejoins before Grande Courbe. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Spa": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -206.1265696012302,
+            83.36200000000001,
+            -822.5819594651952
+          ],
+          "viewDistance": 355.9166367688147,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_belgian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Eau Rouge / Raidillon hillside",
+          "position": [
+            160,
+            95,
+            -650
+          ],
+          "viewDistance": 620,
+          "meshPrefixes": [
+            "stand-map-03/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -216.32285387367807,
+            66.40533871903189,
+            -775.8462642051675
+          ],
+          "viewDistance": 346.47097879405794,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_belgian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "F1 entry bypasses the second Bus Stop turn; F1 garage straight; exit rounds the inside of La Source. Endurance/support and karting pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -75.7581068037769,
+            41.80515450463388,
+            -512.7866263220332
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_belgian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "F1 entry bypasses the second Bus Stop turn; F1 garage straight; exit rounds the inside of La Source. Endurance/support and karting pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -274.18172103722947,
+            81.174,
+            -986.9025928983921
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_belgian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "F1 entry bypasses the second Bus Stop turn; F1 garage straight; exit rounds the inside of La Source. Endurance/support and karting pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Austin": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -634.8343208112674,
+            24.483999999999998,
+            203.91183936792092
+          ],
+          "viewDistance": 435.7034354227029,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_united_states_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_map_red_zones_map.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Observation tower",
+          "position": [
+            -379.16645898666894,
+            58.03051510723044,
+            51.12859345940066
+          ],
+          "viewDistance": 140,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Turn 11 hairpin",
+          "position": [
+            910.2933,
+            3.2553,
+            -517.5156
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -667.0989544352926,
+            14.014999999999999,
+            220.78569798626262
+          ],
+          "viewDistance": 413.09000252655,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_united_states_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_map_red_zones_map.pdf"
+          ],
+          "note": "Entry follows the inside of Turn 20; straight garage frontage; exit tapers before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -761.1254516860959,
+            16.007,
+            -36.002784661372345
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_united_states_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_map_red_zones_map.pdf"
+          ],
+          "note": "Entry follows the inside of Turn 20; straight garage frontage; exit tapers before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -336.3880292433146,
+            12.744,
+            483.2453120335054
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_united_states_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_map_red_zones_map.pdf"
+          ],
+          "note": "Entry follows the inside of Turn 20; straight garage frontage; exit tapers before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "PaulRicard": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            203.41341628998944,
+            15.812999999999999,
+            124.4755506571332
+          ],
+          "viewDistance": 312.9469729362984,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_6_-_2022_french_grand_prix_-_event_notes_-_pit_lane_drawing.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Le Castellet pit terrace and tower",
+          "position": [
+            203.41342438076362,
+            34.02148355327436,
+            124.47554694108274
+          ],
+          "viewDistance": 625.8939445351118,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Blue and red runoff",
+          "position": [
+            0.15264892578125,
+            15.277432799339294,
+            0.06500244140625
+          ],
+          "viewDistance": 3961.6901372820785,
+          "meshPrefixes": [
+            "painted-runoff"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            131.8067870858285,
+            3.0300000000000002,
+            134.54808994762288
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_6_-_2022_french_grand_prix_-_event_notes_-_pit_lane_drawing.pdf"
+          ],
+          "note": "Entry bypasses the final corner with the two bends shown in the FIA diagram; garages parallel to the straight; exit rejoins before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            432.6752050038879,
+            1.3634522694479283,
+            260.6724440084592
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_6_-_2022_french_grand_prix_-_event_notes_-_pit_lane_drawing.pdf"
+          ],
+          "note": "Entry bypasses the final corner with the two bends shown in the FIA diagram; garages parallel to the straight; exit rejoins before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -172.80491149604723,
+            6.844,
+            -91.62793847419215
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_6_-_2022_french_grand_prix_-_event_notes_-_pit_lane_drawing.pdf"
+          ],
+          "note": "Entry bypasses the final corner with the two bends shown in the FIA diagram; garages parallel to the straight; exit rejoins before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Zandvoort": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -269.07407091698167,
+            10.135,
+            -171.14754829561568
+          ],
+          "viewDistance": 200,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_dutch_grand_prix_-_event_notes_-_circuit_map_pit_lane_map_emergency_exit_map_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Dunes and banked final corner",
+          "position": [
+            -478.327,
+            4.47,
+            234.396
+          ],
+          "viewDistance": 3400.078482300861,
+          "meshPrefixes": [
+            "road/",
+            "terrain/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -280.04266434248376,
+            4.282,
+            -223.01547778024857
+          ],
+          "viewDistance": 180.1157420394743,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_dutch_grand_prix_-_event_notes_-_circuit_map_pit_lane_map_emergency_exit_map_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "Entry leaves the straight after the banked last corner; exit follows the inside of Tarzan before merging. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -406.60198530583085,
+            7.441,
+            77.1575922783081
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_dutch_grand_prix_-_event_notes_-_circuit_map_pit_lane_map_emergency_exit_map_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "Entry leaves the straight after the banked last corner; exit follows the inside of Tarzan before merging. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -174.8755602129501,
+            6.635,
+            -312.4990964023372
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_dutch_grand_prix_-_event_notes_-_circuit_map_pit_lane_map_emergency_exit_map_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "Entry leaves the straight after the banked last corner; exit follows the inside of Tarzan before merging. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Madrid": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -62.43532154838081,
+            17.27167026537962,
+            816.7602123140734
+          ],
+          "viewDistance": 460.9889114552707,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2026_spanish_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "IFEMA pavilions",
+          "position": [
+            250,
+            15,
+            430
+          ],
+          "viewDistance": 750,
+          "meshPrefixes": [
+            "urban-map-tile-"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Banked curve · supplied Madrid concept",
+          "position": [
+            -485.921,
+            8.715,
+            -411.269
+          ],
+          "viewDistance": 500,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "This is the supplied concept layout and authored banking, not an as-built 2026 circuit survey.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            202.66725640837515,
+            8.895157399392602,
+            784.1947970420863
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2026_spanish_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf"
+          ],
+          "note": "Two garage groups separated by the IFEMA hall frontage; pit entry rounds the final corner and exit bypasses the first chicane. Main scene retains its supplied concept layout. Route fitted vertically to the supplied model. The garage straight is moved 8 m toward the halls to preserve the driving centre of the supplied, widened Madrid concept track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            553.0458403813263,
+            3.088,
+            684.0002239204424
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2026_spanish_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf"
+          ],
+          "note": "Two garage groups separated by the IFEMA hall frontage; pit entry rounds the final corner and exit bypasses the first chicane. Main scene retains its supplied concept layout. Route fitted vertically to the supplied model. The garage straight is moved 8 m toward the halls to preserve the driving centre of the supplied, widened Madrid concept track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -191.07900386463214,
+            15.86011673154605,
+            857.3076878508115
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2026_spanish_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf"
+          ],
+          "note": "Two garage groups separated by the IFEMA hall frontage; pit entry rounds the final corner and exit bypasses the first chicane. Main scene retains its supplied concept layout. Route fitted vertically to the supplied model. The garage straight is moved 8 m toward the halls to preserve the driving centre of the supplied, widened Madrid concept track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Hockenheim": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -626.4006407712841,
+            21.104,
+            89.41909135739365
+          ],
+          "viewDistance": 236.83398195531458,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_11_-_2019_german_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Motodrom stadium",
+          "position": [
+            -510,
+            15,
+            330
+          ],
+          "viewDistance": 760,
+          "meshPrefixes": [
+            "stand-map-03/",
+            "stand-map-04/",
+            "stand-map-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Hairpin",
+          "position": [
+            722.7584,
+            2.0021,
+            -311.4384
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -635.5068438395086,
+            15.886999999999999,
+            137.29781571242378
+          ],
+          "viewDistance": 247.3017547662803,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_11_-_2019_german_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "Entry follows the inside of the final Südkurve; long straight garages; exit tapers towards Nordkurve. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -432.47562850880894,
+            14.463999999999999,
+            438.62084606196873
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_11_-_2019_german_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "Entry follows the inside of the final Südkurve; long straight garages; exit tapers towards Nordkurve. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -615.9391771352908,
+            17.921,
+            -201.10817664093304
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/doc_11_-_2019_german_grand_prix_-_race_directors_event_notes_version_2.pdf"
+          ],
+          "note": "Entry follows the inside of the final Südkurve; long straight garages; exit tapers towards Nordkurve. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Budapest": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -143.10794256485002,
+            37.077,
+            358.68665087849706
+          ],
+          "viewDistance": 373.485822162018,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_hungarian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Main straight grandstand",
+          "position": [
+            -191.08492279052734,
+            47.35933660310512,
+            430.7046813964844
+          ],
+          "viewDistance": 458.7565214819107,
+          "meshPrefixes": [
+            "stand-map-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Final corner",
+          "position": [
+            184.528,
+            23.6977,
+            572.5224
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -101.35756925494536,
+            35.6,
+            426.9045019256522
+          ],
+          "viewDistance": 361.2339768132757,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_hungarian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the inside of the final hairpin; the pit exit stays on the straight before Turn 1. Karting pit lane excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            104.65576207752292,
+            23.58,
+            454.32309038111777
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_hungarian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the inside of the final hairpin; the pit exit stays on the straight before Turn 1. Karting pit lane excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -480.03338504285,
+            31.134,
+            129.28941989761037
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_hungarian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the inside of the final hairpin; the pit exit stays on the straight before Turn 1. Karting pit lane excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "IMS": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -282.74302860559834,
+            7.23488960378654,
+            347.1313771121463
+          ],
+          "viewDistance": 358.9294165988853,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://indymotorspeedway.com/500maps.html",
+            "https://indymotorspeedway.com/tixpit.html"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Indianapolis Pagoda",
+          "position": [
+            -278.36778250483263,
+            32.91328236340918,
+            168.6405235974745
+          ],
+          "viewDistance": 140,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Yard of Bricks",
+          "position": [
+            -333.2714080810547,
+            2.478188633918762,
+            169.44365441919587
+          ],
+          "viewDistance": 150,
+          "meshPrefixes": [
+            "yard-of-bricks/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -323.2547585518903,
+            2.4730000000000003,
+            3.9588871339687097
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://indymotorspeedway.com/500maps.html",
+            "https://indymotorspeedway.com/tixpit.html",
+            "https://www.openstreetmap.org/way/388929552"
+          ],
+          "note": "Historical clockwise Formula One configuration: entry leaves the inside of the banked final corner, uses the garages south of the Pagoda, and exits around Turn 1. Historical entry reconstructed from the contemporary map; frontage and exit use mapped geometry. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -295.68020033917054,
+            1.9552813970799245,
+            517.480032863079
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://indymotorspeedway.com/500maps.html",
+            "https://indymotorspeedway.com/tixpit.html",
+            "https://www.openstreetmap.org/way/388929552"
+          ],
+          "note": "Historical clockwise Formula One configuration: entry leaves the inside of the banked final corner, uses the garages south of the Pagoda, and exits around Turn 1. Historical entry reconstructed from the contemporary map; frontage and exit use mapped geometry. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -285.429038806919,
+            2.134,
+            -484.6473148678007
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://indymotorspeedway.com/500maps.html",
+            "https://indymotorspeedway.com/tixpit.html",
+            "https://www.openstreetmap.org/way/388929552"
+          ],
+          "note": "Historical clockwise Formula One configuration: entry leaves the inside of the banked final corner, uses the garages south of the Pagoda, and exits around Turn 1. Historical entry reconstructed from the contemporary map; frontage and exit use mapped geometry. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Baku": {
+      "features": [
+        {
+          "id": "signature-old-city",
+          "name": "Old City walls and gate",
+          "position": [
+            -568.790798811619,
+            13.589,
+            80.96455439013545
+          ],
+          "viewDistance": 100,
+          "meshPrefixes": [
+            "signature-old-city/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/node/4827120023"
+          ],
+          "note": "Stylised walls at the mapped Old City gate; the surrounding street layout follows the supplied model."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            866.2050433845021,
+            6.122,
+            -404.41300491958276
+          ],
+          "viewDistance": 327.24314443527413,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_azerbaijan_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zone.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Flame tower silhouette",
+          "position": [
+            -1411.737194396449,
+            67.00868733109527,
+            1057.4820021958385
+          ],
+          "viewDistance": 705.4784952523697,
+          "meshPrefixes": [
+            "hero-02/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Castle entry",
+          "position": [
+            -608.524,
+            10.4982,
+            2.987
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            778.2380155838803,
+            2.2600000000000002,
+            -339.8350375846721
+          ],
+          "viewDistance": 322.63069574838136,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_azerbaijan_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zone.pdf"
+          ],
+          "note": "Entry includes the offset chicane before the garages; the separated exit bends around the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            488.2172346874156,
+            2.2600000000000002,
+            -216.32745630314184
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_azerbaijan_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zone.pdf"
+          ],
+          "note": "Entry includes the offset chicane before the garages; the separated exit bends around the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            1002.3983018054124,
+            2.2600000000000002,
+            -497.1368488313697
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_azerbaijan_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zone.pdf"
+          ],
+          "note": "Entry includes the offset chicane before the garages; the separated exit bends around the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Shanghai": {
+      "features": [
+        {
+          "id": "signature-main-grandstand",
+          "name": "Main grandstand lantern roof",
+          "position": [
+            -49.77879079478563,
+            17.376,
+            413.5296918728581
+          ],
+          "viewDistance": 418.4181540553319,
+          "meshPrefixes": [
+            "signature-main-grandstand/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/way/107371135"
+          ],
+          "note": "Original stylised model at the mapped landmark location."
+        },
+        {
+          "id": "signature-lotus-Section H",
+          "name": "Lotus canopy · Section H",
+          "position": [
+            582.7248889003628,
+            23.132,
+            378.24225662477335
+          ],
+          "viewDistance": 180,
+          "meshPrefixes": [
+            "signature-lotus-Section H/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/way/1372223261"
+          ],
+          "note": "Original stylised model at the mapped landmark location."
+        },
+        {
+          "id": "signature-lotus-Section K",
+          "name": "Lotus canopy · Section K",
+          "position": [
+            453.8430475725995,
+            23.917,
+            469.1507931850371
+          ],
+          "viewDistance": 180,
+          "meshPrefixes": [
+            "signature-lotus-Section K/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/way/1372223262"
+          ],
+          "note": "Original stylised model at the mapped landmark location."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -69.51750007594441,
+            7.114,
+            325.1268834923569
+          ],
+          "viewDistance": 386.8117220959457,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_chinese_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            24.121713226919756,
+            2.485920026294109,
+            333.0206099159481
+          ],
+          "viewDistance": 372.20141549308346,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_chinese_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf"
+          ],
+          "note": "Angled entry before the final corner; straight garage frontage between the two towers; exit rejoins before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            344.2275655282001,
+            2.5580759716599095,
+            231.22805763664718
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_chinese_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf"
+          ],
+          "note": "Angled entry before the final corner; straight garage frontage between the two towers; exit rejoins before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -332.15560293923403,
+            3.56,
+            425.70015449271847
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_chinese_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf"
+          ],
+          "note": "Angled entry before the final corner; straight garage frontage between the two towers; exit rejoins before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "YasMarina": {
+      "features": [
+        {
+          "id": "signature-yas-hotel",
+          "name": "Yas hotel and lattice roof",
+          "position": [
+            25,
+            22.661862268444374,
+            402
+          ],
+          "viewDistance": 450,
+          "meshPrefixes": [
+            "signature-yas-hotel/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/relation/2541470"
+          ],
+          "note": "Stylised twin hotel wings and elevated connecting bridge; original lattice artwork."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            30.51559090688602,
+            10.148,
+            148.14772958866848
+          ],
+          "viewDistance": 448.46180541481215,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_abu_dhabi_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            172.82663797725323,
+            3.3080543753497893,
+            100.43625869375599
+          ],
+          "viewDistance": 424.967878092005,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_abu_dhabi_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the inside of the final turn; pit exit drops into the tunnel underneath the circuit, then curves up towards Turn 2. Secondary pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Pit approach is offset up to 8 m towards the garages to accommodate the supplied widened main straight; the mapped tunnel crossing is retained. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -283.76319263509583,
+            4.9110000000000005,
+            207.49564164360115
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_abu_dhabi_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the inside of the final turn; pit exit drops into the tunnel underneath the circuit, then curves up towards Turn 2. Secondary pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Pit approach is offset up to 8 m towards the garages to accommodate the supplied widened main straight; the mapped tunnel crossing is retained. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            49.073009801386306,
+            3.439,
+            -244.93081453366605
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_abu_dhabi_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the inside of the final turn; pit exit drops into the tunnel underneath the circuit, then curves up towards Turn 2. Secondary pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Pit approach is offset up to 8 m towards the garages to accommodate the supplied widened main straight; the mapped tunnel crossing is retained. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Istanbul": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -274.97326611438916,
+            25.255,
+            491.1592893943132
+          ],
+          "viewDistance": 464.57930353058225,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Turkish%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Istanbul Park hospitality towers",
+          "position": [
+            -274.9732278597701,
+            53.213889760432814,
+            491.15931593319806
+          ],
+          "viewDistance": 768.3500419652569,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -269.23324511107944,
+            15.921182626918885,
+            552.4170924648012
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Turkish%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Entry cuts inside the final left turn; straight garage frontage; exit stays inside Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -638.3010798451345,
+            8.647637634580025,
+            586.3407589514824
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Turkish%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Entry cuts inside the final left turn; straight garage frontage; exit stays inside Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -0.5611954315201468,
+            9.144,
+            367.1972834579373
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Turkish%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Entry cuts inside the final left turn; straight garage frontage; exit stays inside Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Jeddah": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            77.99999999999994,
+            4.040043988227844,
+            689.9999999999999
+          ],
+          "viewDistance": 336.0908757107222,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_saudi_arabian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://www.motorsport.com/f1/news/saudi-arabia-f1-race-set-to-remain-in-jeddah-until-at-least-2027/10422657/"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Waterfront hospitality tower",
+          "position": [
+            456.152876550874,
+            131.0349125336973,
+            1649.5412705939639
+          ],
+          "viewDistance": 613.4072670674311,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Red Sea waterfront",
+          "position": [
+            120,
+            2,
+            750
+          ],
+          "viewDistance": 1600,
+          "meshPrefixes": [
+            "water-"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            106.62087889686885,
+            0.26,
+            680.2259410169494
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_saudi_arabian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://www.motorsport.com/f1/news/saudi-arabia-f1-race-set-to-remain-in-jeddah-until-at-least-2027/10422657/",
+            "https://www.formula1.com/en/latest/article/revealed-new-images-of-state-of-the-art-saudi-arabian-pit-and-team-building.3XR9bIkbSNnUljmD176uzD"
+          ],
+          "note": "Entry has the offset before the garages; exit continues beside the straight and bends towards Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            222.82224029951644,
+            0.26,
+            1039.5771049023165
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_saudi_arabian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://www.motorsport.com/f1/news/saudi-arabia-f1-race-set-to-remain-in-jeddah-until-at-least-2027/10422657/",
+            "https://www.formula1.com/en/latest/article/revealed-new-images-of-state-of-the-art-saudi-arabian-pit-and-team-building.3XR9bIkbSNnUljmD176uzD"
+          ],
+          "note": "Entry has the offset before the garages; exit continues beside the straight and bends towards Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -44.34986008295624,
+            0.26,
+            344.0470971884731
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_saudi_arabian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+            "https://www.motorsport.com/f1/news/saudi-arabia-f1-race-set-to-remain-in-jeddah-until-at-least-2027/10422657/",
+            "https://www.formula1.com/en/latest/article/revealed-new-images-of-state-of-the-art-saudi-arabian-pit-and-team-building.3XR9bIkbSNnUljmD176uzD"
+          ],
+          "note": "Entry has the offset before the garages; exit continues beside the straight and bends towards Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Kyalami": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            126.98736610266243,
+            15.898,
+            257.104910640983
+          ],
+          "viewDistance": 272.2329632844868,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.intercontinentalgtchallenge.com/documents/notice/3374/2023%2BKyalami%2B9%2Bhr%2BV1%2BBriefing%2BNotes.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Kyalami convention centre",
+          "position": [
+            126.98737081932607,
+            17.860209108645286,
+            257.1049127836725
+          ],
+          "viewDistance": 604.9621405055593,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            147.09484833201248,
+            7.320079584592782,
+            274.8425447843322
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.intercontinentalgtchallenge.com/documents/notice/3374/2023%2BKyalami%2B9%2Bhr%2BV1%2BBriefing%2BNotes.pdf"
+          ],
+          "note": "Entry peels off before the final hairpin, bends around the pit building, then continues parallel to the main straight before the Turn 1 merge. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            22.203685375738786,
+            11.046,
+            288.52306986368615
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.intercontinentalgtchallenge.com/documents/notice/3374/2023%2BKyalami%2B9%2Bhr%2BV1%2BBriefing%2BNotes.pdf"
+          ],
+          "note": "Entry peels off before the final hairpin, bends around the pit building, then continues parallel to the main straight before the Turn 1 merge. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            307.93191598283266,
+            1.5999999999999999,
+            105.75817329844622
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.intercontinentalgtchallenge.com/documents/notice/3374/2023%2BKyalami%2B9%2Bhr%2BV1%2BBriefing%2BNotes.pdf"
+          ],
+          "note": "Entry peels off before the final hairpin, bends around the pit building, then continues parallel to the main straight before the Turn 1 merge. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "LasVegas": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            418.5245283042558,
+            4.04,
+            761.4439081512345
+          ],
+          "viewDistance": 332.5493704705315,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_las_vegas_grand_prix_-_event_notes_-_circuit_map_v2_pit_lane_drawing_emergency_map_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Sphere",
+          "position": [
+            412.10890640461355,
+            54.37256348191268,
+            -502.16799484269745
+          ],
+          "viewDistance": 419.05024367379707,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            426.3072155374859,
+            0.26,
+            812.8678877818156
+          ],
+          "viewDistance": 327.2712253601396,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_las_vegas_grand_prix_-_event_notes_-_circuit_map_v2_pit_lane_drawing_emergency_map_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the final corner; exit turns inside Turn 1 before rejoining. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            289.21630111718974,
+            0.26,
+            942.7845020188563
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_las_vegas_grand_prix_-_event_notes_-_circuit_map_v2_pit_lane_drawing_emergency_map_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the final corner; exit turns inside Turn 1 before rejoining. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            550.9588263212778,
+            0.26,
+            664.9182693109055
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_las_vegas_grand_prix_-_event_notes_-_circuit_map_v2_pit_lane_drawing_emergency_map_exits_quarantine_zone_and_red_zones.pdf"
+          ],
+          "note": "Entry follows the final corner; exit turns inside Turn 1 before rejoining. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Lusail": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -292.0575955124612,
+            9.352,
+            204.63720036746247
+          ],
+          "viewDistance": 487.0139665892097,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_qatar_grand_prix_-_event_notes_-_circuit_map._pit_lane_drawing_emergency_exits_map_ers_battery_containment_area_red_zones_map.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Floodlit main straight",
+          "position": [
+            -292.058,
+            5.312,
+            204.637
+          ],
+          "viewDistance": 540,
+          "meshPrefixes": [
+            "floodlights/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -345.40506985646596,
+            5.422030008655238,
+            228.54746092139197
+          ],
+          "viewDistance": 458.0039523144035,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_qatar_grand_prix_-_event_notes_-_circuit_map._pit_lane_drawing_emergency_exits_map_ers_battery_containment_area_red_zones_map.pdf"
+          ],
+          "note": "2023–2025 entry after the final turn, followed by the offset before the garages. Long straight lane and exit towards Turn 1. The old 2021 F1 entry before the final bend is excluded. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -151.2401901878139,
+            5.664408418948699,
+            583.3995996272224
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_qatar_grand_prix_-_event_notes_-_circuit_map._pit_lane_drawing_emergency_exits_map_ers_battery_containment_area_red_zones_map.pdf"
+          ],
+          "note": "2023–2025 entry after the final turn, followed by the offset before the garages. Long straight lane and exit towards Turn 1. The old 2021 F1 entry before the final bend is excluded. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -549.3483052677509,
+            4.147,
+            -123.38126159810011
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_qatar_grand_prix_-_event_notes_-_circuit_map._pit_lane_drawing_emergency_exits_map_ers_battery_containment_area_red_zones_map.pdf"
+          ],
+          "note": "2023–2025 entry after the final turn, followed by the offset before the garages. Long straight lane and exit towards Turn 1. The old 2021 F1 entry before the final bend is excluded. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Singapore": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            658.0371455427993,
+            4.04,
+            -65.86579510709991
+          ],
+          "viewDistance": 397.155137907025,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_singapore_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_and_quarantine_zone.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Marina hotel silhouette",
+          "position": [
+            286.2340837329814,
+            95.49527853244149,
+            807.0442724268534
+          ],
+          "viewDistance": 650,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Singapore Flyer",
+          "position": [
+            571.1371548890661,
+            13.230000183582305,
+            147.15299620107976
+          ],
+          "viewDistance": 353.6153716992338,
+          "meshPrefixes": [
+            "hero-02/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            681.2107096452179,
+            0.26,
+            -59.56070253695177
+          ],
+          "viewDistance": 381.2360093596658,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_singapore_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_and_quarantine_zone.pdf"
+          ],
+          "note": "Entry branches before the final bend; long straight garages; exit rounds the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            593.5764964074139,
+            0.26,
+            217.31887369991048
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_singapore_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_and_quarantine_zone.pdf"
+          ],
+          "note": "Entry branches before the final bend; long straight garages; exit rounds the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            602.7424920882304,
+            0.26,
+            -395.38358378422913
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_singapore_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_and_quarantine_zone.pdf"
+          ],
+          "note": "Entry branches before the final bend; long straight garages; exit rounds the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Miami": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -87.86603571243319,
+            5.037,
+            -131.08498270022724
+          ],
+          "viewDistance": 299.71162440219763,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_miami_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_emergency_exits_and_red_zones_.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Hard Rock Stadium canopy",
+          "position": [
+            -156.35329736976757,
+            26.866404903151498,
+            -1.861531804126571
+          ],
+          "viewDistance": 1069.3645191583864,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "MIA Marina · display yachts",
+          "position": [
+            -643.5,
+            0.8500000238418579,
+            140.08038330078125
+          ],
+          "viewDistance": 340,
+          "meshPrefixes": [
+            "decorative-marina/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -79.44043931080465,
+            1.26,
+            -160.07386682891965
+          ],
+          "viewDistance": 300.11963539377183,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_miami_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_emergency_exits_and_red_zones_.pdf"
+          ],
+          "note": "Entry shortcuts inside the final two corners; the exit curves inside Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -371.69158093031075,
+            1.1693686574016262,
+            -214.9783101844085
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_miami_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_emergency_exits_and_red_zones_.pdf"
+          ],
+          "note": "Entry shortcuts inside the final two corners; the exit curves inside Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            160.1389767912324,
+            1.1163607735265602,
+            29.462422471585153
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_miami_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_emergency_exits_and_red_zones_.pdf"
+          ],
+          "note": "Entry shortcuts inside the final two corners; the exit curves inside Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Spielberg": {
+      "features": [
+        {
+          "id": "signature-bull",
+          "name": "Steel bull and arch",
+          "position": [
+            -94.649,
+            24.989466201729385,
+            -45.762
+          ],
+          "viewDistance": 75,
+          "meshPrefixes": [
+            "signature-bull/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.redbullring.com/en/history/"
+          ],
+          "note": "Original stylised model at the mapped landmark location."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            210.20576704973988,
+            26.337,
+            267.56335990465857
+          ],
+          "viewDistance": 366.14967498753816,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_austrian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_red_zones.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            251.66143355206708,
+            20.764,
+            289.2499507949193
+          ],
+          "viewDistance": 355.28754359189867,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_austrian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_red_zones.pdf"
+          ],
+          "note": "Entry branches before Turn 10; garages beside main straight; exit follows the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            585.4280178903376,
+            1.521800734758366,
+            72.71662264668213
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_austrian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_red_zones.pdf"
+          ],
+          "note": "Entry branches before Turn 10; garages beside main straight; exit follows the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -150.08507595872393,
+            31.624,
+            314.84205498741653
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_austrian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_red_zones.pdf"
+          ],
+          "note": "Entry branches before Turn 10; garages beside main straight; exit follows the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Silverstone": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            -313.0618712007566,
+            16.997,
+            223.3855769839642
+          ],
+          "viewDistance": 451.230059327726,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_british_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Silverstone Wing",
+          "position": [
+            -313.0590342223042,
+            27.84060286359444,
+            223.4010818000511
+          ],
+          "viewDistance": 679.7880882778962,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Becketts",
+          "position": [
+            143.5365,
+            7.8769,
+            -87.1533
+          ],
+          "viewDistance": 360,
+          "meshPrefixes": [
+            "road/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Signature corner in the supplied layout; its elevation and road width retain the game model’s approximations.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -367.83757780679554,
+            12.435423294801646,
+            248.0006519898363
+          ],
+          "viewDistance": 290,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_british_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "International pit entry bypasses Club; garages at the Wing; exit curves out towards Abbey. National and Stowe lanes excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -223.80407762136198,
+            12.854,
+            661.410860886723
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_british_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "International pit entry bypasses Club; garages at the Wing; exit curves out towards Abbey. National and Stowe lanes excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            32.82703959646951,
+            7.274,
+            5.438683391633906
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_british_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones_.pdf"
+          ],
+          "note": "International pit entry bypasses Club; garages at the Wing; exit curves out towards Abbey. National and Stowe lanes excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Sochi": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            781.2689253411554,
+            6.061,
+            -362.702235635515
+          ],
+          "viewDistance": 377.8483628060364,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Russian%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Bolshoy-inspired Olympic arena",
+          "position": [
+            -710.2201146822272,
+            25.99247269340502,
+            323.5785574248846
+          ],
+          "viewDistance": 564.8525095982533,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            779.0198752109085,
+            1.633,
+            -303.9782491839582
+          ],
+          "viewDistance": 364.836311257523,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Russian%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Entry cuts inside the final right turn; straight garage lane; exit follows the opening curve before Turn 2. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            727.3476554399118,
+            1.757,
+            -491.0090152103283
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Russian%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Entry cuts inside the final right turn; straight garage lane; exit follows the opening curve before Turn 2. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            439.3939896367931,
+            1.2469999999999999,
+            11.937793014270133
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2021%20Russian%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf"
+          ],
+          "note": "Entry cuts inside the final right turn; straight garage lane; exit follows the opening curve before Turn 2. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Suzuka": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            606.5372545230628,
+            38.476,
+            16.5766070937172
+          ],
+          "viewDistance": 428.0321293496601,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_japanese_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_and_red_zone.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Suzuka observation wheel",
+          "position": [
+            565.7183383810457,
+            68.83889350891113,
+            -258.8195884039607
+          ],
+          "viewDistance": 140,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "feature-2",
+          "name": "Suzuka crossover bridge",
+          "position": [
+            -189.15855407714844,
+            12.078472137451172,
+            -44.460535526275635
+          ],
+          "viewDistance": 282.55246666120496,
+          "meshPrefixes": [
+            "bridge-deck/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            646.4128429736251,
+            28.999921796440535,
+            -1.675471322750257
+          ],
+          "viewDistance": 406.6977856960581,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_japanese_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_and_red_zone.pdf"
+          ],
+          "note": "Entry leaves after the final chicane; follows the last bend; long exit white line down the straight towards Turn 1. West-course pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            364.33940474835424,
+            42.942,
+            -261.5850573250326
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_japanese_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_and_red_zone.pdf"
+          ],
+          "note": "Entry leaves after the final chicane; follows the last bend; long exit white line down the straight towards Turn 1. West-course pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            901.1063717783381,
+            34.322,
+            295.70314010177987
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/system/files/decision-document/2025_japanese_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_and_red_zone.pdf"
+          ],
+          "note": "Entry leaves after the final chicane; follows the last bend; long exit white line down the straight towards Turn 1. West-course pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "WatkinsGlen": {
+      "features": [
+        {
+          "id": "pit-building",
+          "name": "Kendall paddock garages",
+          "position": [
+            -215.06119455037484,
+            21.302075571662833,
+            -304.87717012040196
+          ],
+          "viewDistance": 200,
+          "meshPrefixes": [
+            "pit-facility/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.theglen.com/wp-content/uploads/sites/1022/2024/07/18/NASCAR_FACILITY_MAP_2024.pdf",
+            "https://www.paddock-pal.com/?page_id=148",
+            "https://commons.wikimedia.org/wiki/File:Corvette_Racing_Pit_Box_WGI22.jpg"
+          ],
+          "note": "Detached infield garages and open pit working boxes, plus corrected frontstretch grandstand."
+        },
+        {
+          "id": "feature-1",
+          "name": "Watkins Glen control tower",
+          "position": [
+            -257.76490831571647,
+            43.437965104481975,
+            -422.3762748753715
+          ],
+          "viewDistance": 140,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            -318.44158863057595,
+            23.81,
+            -619.7696569504586
+          ],
+          "viewDistance": 190.02842946550584,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.theglen.com/wp-content/uploads/sites/1022/2024/07/18/NASCAR_FACILITY_MAP_2024.pdf",
+            "https://www.paddock-pal.com/?page_id=148",
+            "https://commons.wikimedia.org/wiki/File:Corvette_Racing_Pit_Box_WGI22.jpg",
+            "https://www.openstreetmap.org/way/823140403"
+          ],
+          "note": "Pit road branches inside the final turn and rejoins beyond The Ninety. Paddock garages are separate from the open American-style pit boxes. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            -339.50414140151787,
+            20.19025474458931,
+            -293.8671692825882
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.theglen.com/wp-content/uploads/sites/1022/2024/07/18/NASCAR_FACILITY_MAP_2024.pdf",
+            "https://www.paddock-pal.com/?page_id=148",
+            "https://commons.wikimedia.org/wiki/File:Corvette_Racing_Pit_Box_WGI22.jpg",
+            "https://www.openstreetmap.org/way/823140403"
+          ],
+          "note": "Pit road branches inside the final turn and rejoins beyond The Ninety. Paddock garages are separate from the open American-style pit boxes. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            -184.6075443541505,
+            35.499,
+            -858.965116047225
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.theglen.com/wp-content/uploads/sites/1022/2024/07/18/NASCAR_FACILITY_MAP_2024.pdf",
+            "https://www.paddock-pal.com/?page_id=148",
+            "https://commons.wikimedia.org/wiki/File:Corvette_Racing_Pit_Box_WGI22.jpg",
+            "https://www.openstreetmap.org/way/823140403"
+          ],
+          "note": "Pit road branches inside the final turn and rejoins beyond The Ninety. Paddock garages are separate from the open American-style pit boxes. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    },
+    "Nuerburgring": {
+      "features": [
+        {
+          "id": "signature-timing-tower",
+          "name": "Nürburgring timing tower",
+          "position": [
+            378.1231623465425,
+            71.67441603216216,
+            -551.7914337276153
+          ],
+          "viewDistance": 125,
+          "meshPrefixes": [
+            "signature-timing-tower/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.openstreetmap.org/way/33076412"
+          ],
+          "note": "Original stylised model at the mapped landmark location."
+        },
+        {
+          "id": "pit-building",
+          "name": "Pit garages and hospitality",
+          "position": [
+            250.7569413848878,
+            58.301,
+            -439.09316756945674
+          ],
+          "viewDistance": 364.29419501819825,
+          "meshPrefixes": [
+            "pit-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2020%20Eifel%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%204.pdf"
+          ],
+          "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
+        },
+        {
+          "id": "feature-1",
+          "name": "Nürburgring boulevard roofline",
+          "position": [
+            292.76853409101705,
+            78.53698093917907,
+            -296.35678603032034
+          ],
+          "viewDistance": 464.67327851193045,
+          "meshPrefixes": [
+            "hero-01/"
+          ],
+          "status": "retained",
+          "kind": "landmark",
+          "note": "Retained stylised geometry from the supplied scene.",
+          "sources": []
+        },
+        {
+          "id": "pitlane",
+          "name": "Pit lane",
+          "position": [
+            373.8726785577714,
+            56.469,
+            -520.1548997811913
+          ],
+          "viewDistance": 353.8054107768514,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2020%20Eifel%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%204.pdf"
+          ],
+          "note": "Entry branches before the final turn; garage straight; exit rejoins on the approach to Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-entry",
+          "name": "Pit entry",
+          "position": [
+            418.7632067374769,
+            52.156000000000006,
+            -736.6046097776433
+          ],
+          "viewDistance": 185,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2020%20Eifel%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%204.pdf"
+          ],
+          "note": "Entry branches before the final turn; garage straight; exit rejoins on the approach to Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        },
+        {
+          "id": "pit-exit",
+          "name": "Pit exit",
+          "position": [
+            79.82266677716042,
+            49.985,
+            -213.79233797933065
+          ],
+          "viewDistance": 210,
+          "meshPrefixes": [
+            "pitlane/asphalt",
+            "pitlane/markings"
+          ],
+          "status": "added",
+          "kind": "pitlane",
+          "method": "reference-authored",
+          "sources": [
+            "https://www.fia.com/sites/default/files/decision-document/2020%20Eifel%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%204.pdf"
+          ],
+          "note": "Entry branches before the final turn; garage straight; exit rejoins on the approach to Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+        }
+      ]
+    }
+  }
+}

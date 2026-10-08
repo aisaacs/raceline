@@ -1,0 +1,2698 @@
+{
+  "schema": "raceline.pit-facilities/1",
+  "notice": "Reference observations are visual checks, not survey certification. Local XZ geometry derives from OpenStreetMap (ODbL) and cited reference diagrams. Dates identify the represented racing configuration.",
+  "circuits": {
+    "Melbourne": {
+      "era": "2022–2026, before pit-building redevelopment",
+      "status": "reference-authored",
+      "buildingName": "Albert Park pit pavilions",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_australian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+          "type": "official pit diagram",
+          "observation": "Pages 2–3 visually inspected: entry inside Turn 14, straight lane at six garage sections, exit before Turn 1."
+        },
+        {
+          "url": "https://formula1-data.com/media/37966",
+          "type": "aerial photograph",
+          "observation": "2022 overhead pit-grid photograph: six blue and white roof sections with glazed hospitality above garage doors."
+        },
+        {
+          "url": "https://www.globe-trotter.com/blogs/journal/formula-one-insider-guide-to-melbourne",
+          "type": "aerial photograph",
+          "observation": "Main straight photograph shows garage apron and pit wall, with Fangio stand opposite."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "melbourne",
+          "polygon": [
+            [
+              7.051,
+              507.785
+            ],
+            [
+              -15.62,
+              530.705
+            ],
+            [
+              -41.939,
+              504.69
+            ],
+            [
+              -19.277,
+              481.758
+            ],
+            [
+              7.051,
+              507.785
+            ]
+          ],
+          "axis": [
+            1,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/321789092"
+        },
+        {
+          "add": true,
+          "style": "melbourne",
+          "polygon": [
+            [
+              -47.503,
+              453.872
+            ],
+            [
+              -70.165,
+              476.804
+            ],
+            [
+              -44.075,
+              502.586
+            ],
+            [
+              -21.422,
+              479.654
+            ],
+            [
+              -47.503,
+              453.872
+            ]
+          ],
+          "axis": [
+            1,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/321789093"
+        },
+        {
+          "add": true,
+          "style": "melbourne",
+          "polygon": [
+            [
+              35.207,
+              536.683
+            ],
+            [
+              9.864,
+              511.102
+            ],
+            [
+              -13.053,
+              533.789
+            ],
+            [
+              12.29,
+              559.381
+            ],
+            [
+              35.207,
+              536.683
+            ]
+          ],
+          "axis": [
+            1,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/321789094"
+        },
+        {
+          "add": true,
+          "style": "melbourne",
+          "polygon": [
+            [
+              37.589,
+              539.355
+            ],
+            [
+              14.822,
+              561.786
+            ],
+            [
+              40.323,
+              587.668
+            ],
+            [
+              63.091,
+              565.237
+            ],
+            [
+              37.589,
+              539.355
+            ]
+          ],
+          "axis": [
+            1,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/321789095"
+        },
+        {
+          "add": true,
+          "style": "melbourne",
+          "polygon": [
+            [
+              -76.345,
+              424.874
+            ],
+            [
+              -99.042,
+              447.772
+            ],
+            [
+              -72.345,
+              474.233
+            ],
+            [
+              -49.648,
+              451.323
+            ],
+            [
+              -76.345,
+              424.874
+            ]
+          ],
+          "axis": [
+            1,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/321789097"
+        },
+        {
+          "add": true,
+          "style": "melbourne",
+          "polygon": [
+            [
+              -133.193,
+              415.768
+            ],
+            [
+              -107.112,
+              441.805
+            ],
+            [
+              -101.75,
+              436.429
+            ],
+            [
+              -84.336,
+              418.985
+            ],
+            [
+              -110.417,
+              392.947
+            ],
+            [
+              -127.831,
+              410.391
+            ],
+            [
+              -133.193,
+              415.768
+            ]
+          ],
+          "axis": [
+            1,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/993669986"
+        }
+      ],
+      "route": {
+        "points": [
+          [
+            288.867,
+            716.421
+          ],
+          [
+            259.875,
+            739.653
+          ],
+          [
+            249.344,
+            748.614
+          ],
+          [
+            241.732,
+            752.878
+          ],
+          [
+            233.161,
+            755.36
+          ],
+          [
+            228.212,
+            755.973
+          ],
+          [
+            222.691,
+            756.318
+          ],
+          [
+            217.734,
+            756.507
+          ],
+          [
+            211.352,
+            756.117
+          ],
+          [
+            204.812,
+            754.826
+          ],
+          [
+            198.175,
+            752.488
+          ],
+          [
+            190.483,
+            749.316
+          ],
+          [
+            182.404,
+            744.228
+          ],
+          [
+            -155.047,
+            400.706
+          ],
+          [
+            -161.429,
+            394.906
+          ],
+          [
+            -181.884,
+            377.919
+          ],
+          [
+            -200,
+            355
+          ],
+          [
+            -237,
+            317
+          ],
+          [
+            -295,
+            258
+          ],
+          [
+            -345,
+            210
+          ],
+          [
+            -384,
+            180
+          ]
+        ],
+        "width": 6,
+        "note": "Mapped pit service road, with the exit aligned to the FIA 2025 diagram. Entry inside Turn 14; exit before Turn 1. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "junctionBlend": {
+          "exit": 36
+        }
+      }
+    },
+    "Suzuka": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_japanese_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_and_red_zone.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry leaves after the final chicane; follows the last bend; long exit white line down the straight towards Turn 1. West-course pits excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          120917578
+        ],
+        "width": 6,
+        "note": "Entry leaves after the final chicane; follows the last bend; long exit white line down the straight towards Turn 1. West-course pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Shanghai": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_chinese_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Angled entry before the final corner; straight garage frontage between the two towers; exit rejoins before Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          107371147,
+          107371138
+        ],
+        "width": 6,
+        "note": "Angled entry before the final corner; straight garage frontage between the two towers; exit rejoins before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Silverstone": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_british_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones_.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "International pit entry bypasses Club; garages at the Wing; exit curves out towards Abbey. National and Stowe lanes excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          227902927
+        ],
+        "width": 6,
+        "note": "International pit entry bypasses Club; garages at the Wing; exit curves out towards Abbey. National and Stowe lanes excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Monza": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_italian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry branches on the main straight after Parabolica; straight garages; long tapering exit before the first chicane."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          38168747
+        ],
+        "width": 6,
+        "note": "Entry branches on the main straight after Parabolica; straight garages; long tapering exit before the first chicane. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Sakhir": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_bahrain_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry branches after the final bend; straight pit garages; long tapered exit before Turn 1."
+        },
+        {
+          "url": "https://www.racingcircuits.info/galleries/galleries-item.html?galTag=Bahrain+International+Circuit",
+          "type": "Aerial photographs",
+          "observation": "Tan garage row has repeated white tensile canopy peaks. The OSM grandstand tag on the garage footprint is incorrect."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "sakhir",
+          "polygon": [
+            [
+              -350.94783992630784,
+              156.9192199998923
+            ],
+            [
+              -350.8178057490099,
+              153.55735599975856
+            ],
+            [
+              -337.00417507869247,
+              154.06942799981036
+            ],
+            [
+              -336.0339200642348,
+              127.909227999812
+            ],
+            [
+              -341.03523457208564,
+              127.71998399997341
+            ],
+            [
+              -340.7751662174898,
+              120.55097600003916
+            ],
+            [
+              -340.06497955762796,
+              120.58437200003394
+            ],
+            [
+              -339.2347613488898,
+              98.08660000012236
+            ],
+            [
+              -344.3260995182203,
+              97.89735599988828
+            ],
+            [
+              -344.0060153895416,
+              89.2143960000588
+            ],
+            [
+              -339.99496115441286,
+              89.35911199977252
+            ],
+            [
+              -328.14184577127537,
+              -230.46324799994483
+            ],
+            [
+              -333.67329961673954,
+              -230.6747560000436
+            ],
+            [
+              -333.3832233747469,
+              -238.66753200011277
+            ],
+            [
+              -337.57432493283477,
+              -238.8233799999566
+            ],
+            [
+              -337.874403803249,
+              -230.6636239999135
+            ],
+            [
+              -344.64618364618826,
+              -230.91966000013716
+            ],
+            [
+              -344.34610477577405,
+              -239.1573399999044
+            ],
+            [
+              -348.45718530151464,
+              -239.3354520000084
+            ],
+            [
+              -349.1773745905087,
+              -222.0251920002089
+            ],
+            [
+              -352.84833943869415,
+              -222.16990799992263
+            ],
+            [
+              -365.40163885327195,
+              78.95069199994904
+            ],
+            [
+              -361.03048997364624,
+              79.12880400005304
+            ],
+            [
+              -361.4405977630938,
+              88.93609599997046
+            ],
+            [
+              -346.90677780378235,
+              89.5483560000066
+            ],
+            [
+              -347.25686981914714,
+              97.81943199976863
+            ],
+            [
+              -363.081028921595,
+              97.1626440000031
+            ],
+            [
+              -363.2710788729758,
+              101.53752000011036
+            ],
+            [
+              -359.50008773417846,
+              101.69336799995418
+            ],
+            [
+              -360.08024021674237,
+              115.45251999978132
+            ],
+            [
+              -363.90124450120095,
+              115.2966719999375
+            ],
+            [
+              -364.06128656518496,
+              119.24853199984722
+            ],
+            [
+              -358.4498116873734,
+              119.48230399981068
+            ],
+            [
+              -358.76989581605216,
+              127.10772399993726
+            ],
+            [
+              -362.47086855163434,
+              126.95187600009345
+            ],
+            [
+              -363.56115511425776,
+              153.23452799994084
+            ],
+            [
+              -353.7085655341184,
+              153.6464120000083
+            ],
+            [
+              -353.8786102272347,
+              157.7986479998867
+            ],
+            [
+              -354.37874167816193,
+              159.0009040000943
+            ],
+            [
+              -354.39874693642645,
+              160.34787600001562
+            ],
+            [
+              -353.8085918247303,
+              161.56126399995782
+            ],
+            [
+              -352.73831051966073,
+              162.37389999996265
+            ],
+            [
+              -351.407960860706,
+              162.6188040000562
+            ],
+            [
+              -350.10761908843733,
+              162.21805200011883
+            ],
+            [
+              -349.13736407397965,
+              161.28296399986948
+            ],
+            [
+              -348.68724576871375,
+              160.0139160000678
+            ],
+            [
+              -348.87729572009454,
+              158.6780759998811
+            ],
+            [
+              -349.6374955249069,
+              157.56487599992323
+            ],
+            [
+              -350.94783992630784,
+              156.9192199998923
+            ]
+          ],
+          "axis": [
+            -0.04,
+            1
+          ],
+          "height": 8,
+          "source": "https://www.openstreetmap.org/way/187123416"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          187123422
+        ],
+        "width": 6,
+        "note": "Entry branches after the final bend; straight pit garages; long tapered exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "junctionBlend": {
+          "entry": 30
+        }
+      },
+      "replacePrefixes": [
+        "stand-map-02/"
+      ]
+    },
+    "Montreal": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_canadian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_ers_battery_containment_area_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 2,
+          "observation": "Entry before Turn 13 bypasses the final chicane; garages on the lake side; exit carries through the Senna S."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ]
+    },
+    "Spielberg": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_austrian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exit_map_quarantine_zone_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry branches before Turn 10; garages beside main straight; exit follows the inside of Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          289111668
+        ],
+        "width": 6,
+        "note": "Entry branches before Turn 10; garages beside main straight; exit follows the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Lusail": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_qatar_grand_prix_-_event_notes_-_circuit_map._pit_lane_drawing_emergency_exits_map_ers_battery_containment_area_red_zones_map.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "2023–2025 entry after the final turn, followed by the offset before the garages. Long straight lane and exit towards Turn 1. The old 2021 F1 entry before the final bend is excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          1004121314,
+          196193732
+        ],
+        "width": 6,
+        "note": "2023–2025 entry after the final turn, followed by the offset before the garages. Long straight lane and exit towards Turn 1. The old 2021 F1 entry before the final bend is excluded. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Imola": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_emilia_romagna_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry branches after Rivazza; slight bend along the garage straight; long exit towards Tamburello."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          196368195
+        ],
+        "width": 6,
+        "note": "Entry branches after Rivazza; slight bend along the garage straight; long exit towards Tamburello. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Monaco": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_monaco_grand_prix_-_race_directors_event_notes_-_circuit_map_pit_lane_map_ers_battery_containment_area_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Tight entry before Rascasse; the garage lane runs behind the start straight and exits beyond Sainte Dévote."
+        },
+        {
+          "url": "https://www.mclaren.com/racing/formula-1/2018/monaco-grand-prix/engineers-lowdown/",
+          "type": "aerial photograph",
+          "observation": "Visually inspected the curved white/red-roof garage row between the start straight and the pit lane. Garage doors face the harbour/pit lane, away from the start straight."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "monaco",
+          "height": 10,
+          "axis": [
+            -0.6082410634408834,
+            -0.7937523598354231
+          ],
+          "polygon": [
+            [
+              -256.6628138981967,
+              450.25699971837327
+            ],
+            [
+              -288.6803499584942,
+              408.4742324382307
+            ],
+            [
+              -280.74282636014,
+              402.39182180382187
+            ],
+            [
+              -248.72529029984247,
+              444.17458908396446
+            ]
+          ],
+          "source": "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+        },
+        {
+          "add": true,
+          "style": "monaco",
+          "height": 10,
+          "axis": [
+            -0.4174776440490271,
+            -0.908687194098868
+          ],
+          "polygon": [
+            [
+              -291.65996084846273,
+              403.5288147546348
+            ],
+            [
+              -317.286748018216,
+              347.7492211428695
+            ],
+            [
+              -308.1998760772273,
+              343.5744447023792
+            ],
+            [
+              -282.5730889074741,
+              399.35403831414453
+            ]
+          ],
+          "source": "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+        },
+        {
+          "add": true,
+          "style": "monaco",
+          "height": 10,
+          "axis": [
+            -0.28105119464825745,
+            -0.9596927768753849
+          ],
+          "polygon": [
+            [
+              -318.8523717641141,
+              343.56159153208216
+            ],
+            [
+              -338.12451159404054,
+              277.75388908534376
+            ],
+            [
+              -328.5275838252867,
+              274.94337713886114
+            ],
+            [
+              -309.2554439953602,
+              340.75107958559954
+            ]
+          ],
+          "source": "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+        },
+        {
+          "add": true,
+          "style": "monaco",
+          "height": 10,
+          "axis": [
+            -0.26260161068912163,
+            -0.9649043445147707
+          ],
+          "polygon": [
+            [
+              -338.75676104924753,
+              275.51564903664826
+            ],
+            [
+              -347.06286275755406,
+              244.99567772613506
+            ],
+            [
+              -337.4138193124063,
+              242.36966161924386
+            ],
+            [
+              -329.1077176040998,
+              272.889632929757
+            ]
+          ],
+          "source": "https://www.fia.com/sites/default/files/dossier_media_2025_gb_-_bat2.pdf"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          850261588
+        ],
+        "width": 5,
+        "note": "Tight entry before Rascasse; the garage lane runs behind the start straight and exits beyond Sainte Dévote. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      },
+      "replacePrefixes": [
+        "pit-01/",
+        "pit-01-"
+      ],
+      "buildingNote": "Curved garage row between the pit lane and main straight, with doors facing the harbour. Approximate 220 m frontage and 10 m depth from the FIA garage allocation diagram; stylised geometry.",
+      "buildingName": "Harbour-facing pit garages"
+    },
+    "Catalunya": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_spanish_grand_prix_-_race_director_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 2,
+          "observation": "Entry peels off before the last corner; long straight lane and exit before Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          33742214,
+          178416729,
+          178416733
+        ],
+        "width": 6,
+        "note": "Entry peels off before the last corner; long straight lane and exit before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Budapest": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_hungarian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry follows the inside of the final hairpin; the pit exit stays on the straight before Turn 1. Karting pit lane excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          231417580
+        ],
+        "width": 6,
+        "note": "Entry follows the inside of the final hairpin; the pit exit stays on the straight before Turn 1. Karting pit lane excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "SaoPaulo": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_sao_paulo_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones_map.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry leaves the uphill final approach; the separated exit follows the Senna S before the Curva do Sol merge."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          33779109
+        ],
+        "width": 6,
+        "note": "Entry leaves the uphill final approach; the separated exit follows the Senna S before the Curva do Sol merge. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Spa": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_belgian_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "F1 entry bypasses the second Bus Stop turn; F1 garage straight; exit rounds the inside of La Source. Endurance/support and karting pits excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          323851541
+        ],
+        "width": 6,
+        "note": "F1 entry bypasses the second Bus Stop turn; F1 garage straight; exit rounds the inside of La Source. Endurance/support and karting pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Jeddah": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_saudi_arabian_grand_prix_-_event_notes_-_circuit_map_pit_lane_and_quarantine_zone.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry has the offset before the garages; exit continues beside the straight and bends towards Turn 1."
+        },
+        {
+          "url": "https://www.motorsport.com/f1/news/saudi-arabia-f1-race-set-to-remain-in-jeddah-until-at-least-2027/10422657/",
+          "type": "Night aerial",
+          "observation": "Pit building on Red Sea side of the garages; 280 m, four storeys, glazed terraces and roof pergolas. Footprint reconstructed from the aerial relative to the mapped lane."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "jeddah",
+          "height": 15,
+          "axis": [
+            0.325,
+            0.946
+          ],
+          "polygon": [
+            [
+              49.055,
+              551.8725
+            ],
+            [
+              140.055,
+              816.7525
+            ],
+            [
+              106.945,
+              828.1275
+            ],
+            [
+              15.945,
+              563.2475
+            ]
+          ],
+          "source": "https://www.formula1.com/en/latest/article/revealed-new-images-of-state-of-the-art-saudi-arabian-pit-and-team-building.3XR9bIkbSNnUljmD176uzD"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          1121870473,
+          1257884704,
+          1257884703
+        ],
+        "width": 6,
+        "note": "Entry has the offset before the garages; exit continues beside the straight and bends towards Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Baku": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_azerbaijan_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_and_red_zone.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 2,
+          "observation": "Entry includes the offset chicane before the garages; the separated exit bends around the inside of Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          1513267145
+        ],
+        "width": 6,
+        "note": "Entry includes the offset chicane before the garages; the separated exit bends around the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Zandvoort": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_dutch_grand_prix_-_event_notes_-_circuit_map_pit_lane_map_emergency_exit_map_quarantine_zone_and_red_zones_.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry leaves the straight after the banked last corner; exit follows the inside of Tarzan before merging."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          38144527
+        ],
+        "width": 6,
+        "note": "Entry leaves the straight after the banked last corner; exit follows the inside of Tarzan before merging. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Austin": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_united_states_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_map_red_zones_map.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry follows the inside of Turn 20; straight garage frontage; exit tapers before Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          514836373
+        ],
+        "width": 6,
+        "note": "Entry follows the inside of Turn 20; straight garage frontage; exit tapers before Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Singapore": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_singapore_grand_prix_-_event_notes_-_circuit_map_pit_lane_emergency_exits_map_and_quarantine_zone.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 2,
+          "observation": "Entry branches before the final bend; long straight garages; exit rounds the inside of Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          100484287
+        ],
+        "width": 6,
+        "note": "Entry branches before the final bend; long straight garages; exit rounds the inside of Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Mexico City": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_mexico_city_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_quarantine_zone_area.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry follows the inside of the final Peraltada section; straight garage lane and long parallel exit."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          638504647,
+          772763791
+        ],
+        "width": 6,
+        "note": "Entry follows the inside of the final Peraltada section; straight garage lane and long parallel exit. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "YasMarina": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_abu_dhabi_grand_prix_-_event_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry follows the inside of the final turn; pit exit drops into the tunnel underneath the circuit, then curves up towards Turn 2. Secondary pits excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "width": 6,
+        "note": "Entry follows the inside of the final turn; pit exit drops into the tunnel underneath the circuit, then curves up towards Turn 2. Secondary pits excluded. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Pit approach is offset up to 8 m towards the garages to accommodate the supplied widened main straight; the mapped tunnel crossing is retained. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "points": [
+          [
+            -265.50430969689126,
+            257.7161039998527
+          ],
+          [
+            -269.4457186730551,
+            244.2018560001191
+          ],
+          [
+            -274.29902175739596,
+            234.85097599999852
+          ],
+          [
+            -285.52545143706607,
+            213.18810399995647
+          ],
+          [
+            -289.4161996296024,
+            205.10627200003304
+          ],
+          [
+            -291.604745488219,
+            196.74614000002128
+          ],
+          [
+            -292.5875646930426,
+            188.71996799995733
+          ],
+          [
+            -293.1043046869083,
+            183.9332079997826
+          ],
+          [
+            -292.9725866490445,
+            181.26152799980466
+          ],
+          [
+            -292.31399646044554,
+            176.81986000010332
+          ],
+          [
+            -290.97655176950866,
+            172.912527999923
+          ],
+          [
+            -288.36245532741214,
+            168.34840799997713
+          ],
+          [
+            -284.69461458384524,
+            163.47259199994815
+          ],
+          [
+            -279.73998993224916,
+            159.33148799980435
+          ],
+          [
+            -274.23822881689887,
+            156.72659999981596
+          ],
+          [
+            -266.5073932154538,
+            154.67831200000424
+          ],
+          [
+            -164.3144602239381,
+            140.83010399992736
+          ],
+          [
+            -101.99156404815022,
+            132.39204799979595
+          ],
+          [
+            97.32822355988031,
+            112.33940799982969
+          ],
+          [
+            187.35243629366045,
+            98.1461080000704
+          ],
+          [
+            252.56299714342202,
+            83.68390799983538
+          ],
+          [
+            260.65859038784987,
+            78.7469400001381
+          ],
+          [
+            263.7083695695759,
+            77.11053599999835
+          ],
+          [
+            266.54537345992196,
+            74.36093199990074
+          ],
+          [
+            268.2982365781892,
+            71.42208399996454
+          ],
+          [
+            269.7471349932508,
+            68.08248400009097
+          ],
+          [
+            270.4057251825697,
+            65.24382400013911
+          ],
+          [
+            270.780614982422,
+            61.40328399994834
+          ],
+          [
+            270.5779718471916,
+            58.520095999871614
+          ],
+          [
+            269.8585887180955,
+            55.0803080000137
+          ],
+          [
+            268.46035108594157,
+            51.4735399997864
+          ],
+          [
+            266.4237875789277,
+            49.046763999902
+          ],
+          [
+            263.19162957571024,
+            46.35282000005935
+          ],
+          [
+            253.79912026710372,
+            40.69776400002033
+          ],
+          [
+            245.35903369343214,
+            34.88686000013749
+          ],
+          [
+            242.2079329437309,
+            31.758767999967205
+          ],
+          [
+            240.34361610205883,
+            27.851435999786872
+          ],
+          [
+            239.40132552399336,
+            24.567495999772774
+          ],
+          [
+            238.1145416166841,
+            20.381863999899593
+          ],
+          [
+            217.75903870341506,
+            -63.753792000134496
+          ],
+          [
+            207.7687321467067,
+            -110.67517199992034
+          ],
+          [
+            205.70177216980423,
+            -118.65681599985942
+          ],
+          [
+            202.40882122536973,
+            -126.67185600018877
+          ],
+          [
+            198.59913028706956,
+            -133.30652800020653
+          ],
+          [
+            194.374020922159,
+            -140.16384000005766
+          ],
+          [
+            189.3687354869353,
+            -147.03228400003889
+          ],
+          [
+            184.1506747603316,
+            -153.28846799998394
+          ],
+          [
+            178.80089599586415,
+            -158.49824399996078
+          ],
+          [
+            172.20486195084553,
+            -164.16443200012986
+          ],
+          [
+            157.8881244612514,
+            -173.52644399998508
+          ],
+          [
+            105.57579915519096,
+            -207.5680999999381
+          ],
+          [
+            69.58637837512997,
+            -231.5352960000156
+          ],
+          [
+            61.75422120714964,
+            -237.29054000003896
+          ],
+          [
+            53.141887968136274,
+            -244.59313199995233
+          ],
+          [
+            44.86391590293701,
+            -253.54326000013555
+          ],
+          [
+            39.64585517561339,
+            -259.87736800020025
+          ],
+          [
+            34.34673719477355,
+            -268.10391600023286
+          ],
+          [
+            30.27361018146577,
+            -277.0429119998905
+          ],
+          [
+            27.710174522996823,
+            -282.54212000008573
+          ],
+          [
+            25.16700317826691,
+            -290.1786719999469
+          ]
+        ],
+        "tunnel": {
+          "descent": [
+            145,
+            105
+          ],
+          "portalIn": [
+            252,
+            80
+          ],
+          "portalOut": [
+            242,
+            32
+          ],
+          "ascent": [
+            210,
+            -100
+          ],
+          "floor": -1.5,
+          "clearance": 4
+        }
+      }
+    },
+    "Miami": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_miami_grand_prix_-_event_notes_-_circuit_map_pit_lane_quarantine_zone_emergency_exits_and_red_zones_.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry shortcuts inside the final two corners; the exit curves inside Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          1017340352
+        ],
+        "width": 6,
+        "note": "Entry shortcuts inside the final two corners; the exit curves inside Turn 1. Horizontal alignment uses selected mapped ways; heights fit the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "LasVegas": {
+      "era": "2025 Grand Prix configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2025_las_vegas_grand_prix_-_event_notes_-_circuit_map_v2_pit_lane_drawing_emergency_map_exits_quarantine_zone_and_red_zones.pdf",
+          "type": "official pit diagram and reference photographs",
+          "page": 3,
+          "observation": "Entry follows the final corner; exit turns inside Turn 1 before rejoining."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          1223479152
+        ],
+        "width": 6,
+        "note": "Entry follows the final corner; exit turns inside Turn 1 before rejoining. Horizontal alignment uses selected mapped ways; heights fit the supplied model. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "junctionBlend": {
+          "exit": 30
+        }
+      }
+    },
+    "Hockenheim": {
+      "era": "2019 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/doc_11_-_2019_german_grand_prix_-_race_directors_event_notes_version_2.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 7,
+          "observation": "Entry follows the inside of the final Südkurve; long straight garages; exit tapers towards Nordkurve."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          15446020
+        ],
+        "width": 6,
+        "note": "Entry follows the inside of the final Südkurve; long straight garages; exit tapers towards Nordkurve. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Istanbul": {
+      "era": "2021 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/decision-document/2021%20Turkish%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 11,
+          "observation": "Entry cuts inside the final left turn; straight garage frontage; exit stays inside Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          295742111
+        ],
+        "width": 6,
+        "note": "Entry cuts inside the final left turn; straight garage frontage; exit stays inside Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Mugello": {
+      "era": "2020 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/doc_7_-_2020_tuscan_grand_prix_-_race_directors_event_notes_version_3.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 11,
+          "observation": "Entry branches after Bucine; the pit wall follows the main straight; exit rejoins before San Donato."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          197788411
+        ],
+        "width": 6,
+        "note": "Entry branches after Bucine; the pit wall follows the main straight; exit rejoins before San Donato. Mapped horizontal alignment, fitted to model elevations. The final connection is tangent-blended into this model’s widened main track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "junctionBlend": {
+          "entry": 80
+        }
+      }
+    },
+    "Nuerburgring": {
+      "era": "2020 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/decision-document/2020%20Eifel%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%204.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 13,
+          "observation": "Entry branches before the final turn; garage straight; exit rejoins on the approach to Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          30815119
+        ],
+        "width": 6,
+        "note": "Entry branches before the final turn; garage straight; exit rejoins on the approach to Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "PaulRicard": {
+      "era": "2022 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/doc_6_-_2022_french_grand_prix_-_event_notes_-_pit_lane_drawing.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 2,
+          "observation": "Entry bypasses the final corner with the two bends shown in the FIA diagram; garages parallel to the straight; exit rejoins before Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          799477739
+        ],
+        "width": 6,
+        "note": "Entry bypasses the final corner with the two bends shown in the FIA diagram; garages parallel to the straight; exit rejoins before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Portimao": {
+      "era": "2021 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/doc_7_-_2021_portuguese_grand_prix_-_race_directors_event_notes_version_2.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 8,
+          "observation": "F1 pit entry leaves the straight AFTER the final curve. The longer motorcycle shortcut is excluded. Exit tapers before Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "width": 6,
+        "note": "F1 pit entry leaves the straight AFTER the final curve. The longer motorcycle shortcut is excluded. Exit tapers before Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "points": [
+          [
+            -79.41722050067338,
+            434.57726800001774
+          ],
+          [
+            -101.21207992897766,
+            299.7019560002673
+          ],
+          [
+            -252.6504565820369,
+            -228.40012399998898
+          ],
+          [
+            -269.5173201411358,
+            -283.13616799974
+          ],
+          [
+            -275.7482213929484,
+            -299.80077199990404
+          ],
+          [
+            -282.7590932139514,
+            -318.3355519997758
+          ],
+          [
+            -292.1541932520281,
+            -341.1561519999006
+          ],
+          [
+            -305.22756358823165,
+            -370.45557599980384
+          ],
+          [
+            -319.24930723008026,
+            -398.89783599997287
+          ]
+        ]
+      }
+    },
+    "Sochi": {
+      "era": "2021 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/sites/default/files/decision-document/2021%20Russian%20Grand%20Prix%20-%20Race%20Directors%27%20Event%20Notes%20Version%202.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 12,
+          "observation": "Entry cuts inside the final right turn; straight garage lane; exit follows the opening curve before Turn 2."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          306234479
+        ],
+        "width": 6,
+        "note": "Entry cuts inside the final right turn; straight garage lane; exit follows the opening curve before Turn 2. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Estoril": {
+      "era": "2021 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.funracingcars.com/documents/2021/ESTORIL/Briefing%20Estoril%20M3.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 3,
+          "observation": "Entry branches after the final curve; straight garage frontage; exit carries around the inside of Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          363050271
+        ],
+        "width": 6,
+        "note": "Entry branches after the final curve; straight garage frontage; exit carries around the inside of Turn 1. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Kyalami": {
+      "era": "2023 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.intercontinentalgtchallenge.com/documents/notice/3374/2023%2BKyalami%2B9%2Bhr%2BV1%2BBriefing%2BNotes.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 9,
+          "observation": "Entry peels off before the final hairpin, bends around the pit building, then continues parallel to the main straight before the Turn 1 merge."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          793806972
+        ],
+        "width": 6,
+        "note": "Entry peels off before the final hairpin, bends around the pit building, then continues parallel to the main straight before the Turn 1 merge. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "Sepang": {
+      "era": "2025 event configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.gt-world-challenge-asia.com/documents/notice/882/2025%2BGTWCA%2BSupplementary%2BRegulation%2Bas%2B09042025.pdf",
+          "type": "Official event pit drawing / aerial reference",
+          "page": 6,
+          "observation": "Northern Grand Prix pit lane: entry branches before the final hairpin, passes the garages and merges before Turn 1. Southern support pits excluded."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "pit-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          23410526,
+          144359483
+        ],
+        "width": 6,
+        "note": "Northern Grand Prix pit lane: entry branches before the final hairpin, passes the garages and merges before Turn 1. Southern support pits excluded. Mapped horizontal alignment, fitted to model elevations. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "BuenosAires": {
+      "era": "Supplied circuit configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.toprace.com.ar/upload/material_previo/348/Kit_de_prensa_5%C2%B0_fecha_Top_Race_BS_AS.pdf",
+          "type": "Circuit plan and facility reference",
+          "observation": "Circuit 6: entry branches after the final corner with an offset at race control; garages inside the straight; exit rejoins before Turn 1."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          48747026
+        ],
+        "width": 6,
+        "note": "Circuit 6: entry branches after the final corner with an offset at race control; garages inside the straight; exit rejoins before Turn 1. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "MagnyCours": {
+      "era": "Supplied circuit configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.circuitmagnycours.com/wp-content/uploads/2024/01/CNMC-MAP-GENERAL-BOX-1.pdf",
+          "type": "Circuit plan and facility reference",
+          "observation": "Grand Prix pit row has 48 bays and race control at the entry end. Entry bypasses the final chicane; exit rejoins before Grande Courbe."
+        }
+      ],
+      "buildings": [
+        {
+          "structureId": "hero-01"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          195975305
+        ],
+        "width": 6,
+        "note": "Grand Prix pit row has 48 bays and race control at the entry end. Entry bypasses the final chicane; exit rejoins before Grande Courbe. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      }
+    },
+    "WatkinsGlen": {
+      "era": "Supplied circuit configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.theglen.com/wp-content/uploads/sites/1022/2024/07/18/NASCAR_FACILITY_MAP_2024.pdf",
+          "type": "Circuit plan and facility reference",
+          "observation": "Pit road branches inside the final turn and rejoins beyond The Ninety. Paddock garages are separate from the open American-style pit boxes."
+        },
+        {
+          "url": "https://www.paddock-pal.com/?page_id=148",
+          "type": "Annotated paddock aerial photograph",
+          "observation": "Detached Kendall garages are the diagonal building inside the final corner. The building on the outside of the start straight is the frontstretch grandstand, not pit garages."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Corvette_Racing_Pit_Box_WGI22.jpg",
+          "type": "Pit-box photograph, 2022",
+          "observation": "Open concrete working boxes have a low crew wall; garage bays do not open directly onto pit road."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "detached": true,
+          "style": "watkins",
+          "height": 6,
+          "polygon": [
+            [
+              -253.67784695501084,
+              -353.6448960000347
+            ],
+            [
+              -161.99098571914755,
+              -272.4258240000721
+            ],
+            [
+              -176.43277727058248,
+              -256.12857600024614
+            ],
+            [
+              -268.1278674470123,
+              -337.32538399994854
+            ],
+            [
+              -253.67784695501084,
+              -353.6448960000347
+            ]
+          ],
+          "source": "https://www.openstreetmap.org/way/823140403",
+          "replaceMappedFootprint": true
+        },
+        {
+          "add": true,
+          "structureId": "pit-01",
+          "role": "grandstand"
+        }
+      ],
+      "route": {
+        "wayIds": [
+          50289311,
+          20164027
+        ],
+        "width": 6,
+        "note": "Pit road branches inside the final turn and rejoins beyond The Ninety. Paddock garages are separate from the open American-style pit boxes. Route fitted vertically to the supplied model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      },
+      "replacePrefixes": [
+        "pit-01/",
+        "building-map-way-823140403/",
+        "pit-01-"
+      ],
+      "openPitBoxes": [
+        {
+          "center": [
+            -314,
+            -524
+          ],
+          "axis": [
+            0.06025,
+            -0.99818
+          ],
+          "width": 380,
+          "depth": 0
+        }
+      ],
+      "buildingName": "Kendall paddock garages",
+      "buildingNote": "Detached infield garages and open pit working boxes, plus corrected frontstretch grandstand."
+    },
+    "IMS": {
+      "era": "2000–2007 Formula One configuration",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://indymotorspeedway.com/500maps.html",
+          "type": "Circuit plan and facility reference",
+          "observation": "Historical clockwise Formula One configuration: entry leaves the inside of the banked final corner, uses the garages south of the Pagoda, and exits around Turn 1."
+        },
+        {
+          "url": "https://indymotorspeedway.com/tixpit.html",
+          "type": "Garage photographs and description",
+          "observation": "F1 garages below suites and rooftop seating, south of the Pagoda. Existing misclassified stand is replaced."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "ims",
+          "height": 7.5,
+          "polygon": [
+            [
+              -275.33075098457624,
+              197.4777387029431
+            ],
+            [
+              -271.7417152198603,
+              496.5640524292685
+            ],
+            [
+              -290.15530622662044,
+              496.7850155213496
+            ],
+            [
+              -293.7443419913364,
+              197.69870179502425
+            ]
+          ],
+          "axis": [
+            0.012,
+            1
+          ],
+          "source": "https://www.openstreetmap.org/way/388929552"
+        }
+      ],
+      "route": {
+        "points": [
+          [
+            -304.889,
+            570.57
+          ],
+          [
+            -301,
+            550
+          ],
+          [
+            -296,
+            526
+          ],
+          [
+            -295.22396048971694,
+            505.3250839997309
+          ],
+          [
+            -298.7307675440743,
+            491.77743999960705
+          ],
+          [
+            -301.28817073684615,
+            286.05808000011814
+          ],
+          [
+            -302.63102124197746,
+            173.5358239997745
+          ],
+          [
+            -321.7987154048022,
+            137.03399599954673
+          ],
+          [
+            -325.9470115539055,
+            -242.09965999999758
+          ],
+          [
+            -327.8971384028571,
+            -290.2455600002512
+          ],
+          [
+            -322.38888537255195,
+            -472.62111599982893
+          ],
+          [
+            -320.7808860413655,
+            -477.6750440003574
+          ],
+          [
+            -317.8300362038322,
+            -483.107459999772
+          ],
+          [
+            -312.1079534744681,
+            -486.5695119998901
+          ],
+          [
+            -302.3060001002829,
+            -490.07609200052855
+          ],
+          [
+            -281.0342217050869,
+            -490.8442000000131
+          ],
+          [
+            -265.26214315276843,
+            -492.78116800050134
+          ],
+          [
+            -260.7888258619706,
+            -494.7849280001882
+          ],
+          [
+            -256.88857216406745,
+            -497.1449120000831
+          ],
+          [
+            -248.63474580664501,
+            -503.33430400043403
+          ],
+          [
+            -241.80930183349125,
+            -511.21575999999334
+          ]
+        ],
+        "width": 6,
+        "note": "Historical clockwise Formula One configuration: entry leaves the inside of the banked final corner, uses the garages south of the Pagoda, and exits around Turn 1. Historical entry reconstructed from the contemporary map; frontage and exit use mapped geometry. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      },
+      "replacePrefixes": [
+        "stand-map-04/",
+        "stand-map-08/",
+        "stand-map-09/",
+        "stand-map-10/"
+      ]
+    },
+    "Madrid": {
+      "era": "2026 pit reference on supplied concept circuit",
+      "status": "reference-authored",
+      "references": [
+        {
+          "url": "https://www.fia.com/system/files/decision-document/2026_spanish_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf",
+          "type": "Circuit plan and facility reference",
+          "observation": "Two garage groups separated by the IFEMA hall frontage; pit entry rounds the final corner and exit bypasses the first chicane. Main scene retains its supplied concept layout."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "madrid",
+          "height": 9,
+          "axis": [
+            0.986,
+            -0.169
+          ],
+          "polygon": [
+            [
+              309.2856350537565,
+              746.3223196510297
+            ],
+            [
+              509.4455000000001,
+              712.0150000000002
+            ],
+            [
+              511.6425000000001,
+              724.8330000000002
+            ],
+            [
+              311.4826350537565,
+              759.1403196510297
+            ]
+          ]
+        },
+        {
+          "add": true,
+          "style": "madrid",
+          "height": 9,
+          "axis": [
+            0.986,
+            -0.169
+          ],
+          "polygon": [
+            [
+              -152.77185690323836,
+              825.6465753718533
+            ],
+            [
+              25.70421380647679,
+              795.0558492562936
+            ],
+            [
+              27.901213806476786,
+              807.8738492562936
+            ],
+            [
+              -150.57485690323836,
+              838.4645753718532
+            ]
+          ]
+        }
+      ],
+      "route": {
+        "wayIds": [
+          1552567031
+        ],
+        "width": 6,
+        "note": "Two garage groups separated by the IFEMA hall frontage; pit entry rounds the final corner and exit bypasses the first chicane. Main scene retains its supplied concept layout. Route fitted vertically to the supplied model. The garage straight is moved 8 m toward the halls to preserve the driving centre of the supplied, widened Madrid concept track. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking.",
+        "points": [
+          [
+            554.3734700628529,
+            630.0727520000274
+          ],
+          [
+            554.2513858787202,
+            637.9041140000559
+          ],
+          [
+            554.1293016945874,
+            645.7354760000844
+          ],
+          [
+            554.0072175104547,
+            653.5668380001129
+          ],
+          [
+            553.8851333263219,
+            661.3982000001414
+          ],
+          [
+            553.7630491421892,
+            669.2295620001698
+          ],
+          [
+            553.6409649580564,
+            677.0609240001984
+          ],
+          [
+            553.5188807739238,
+            684.8922860002268
+          ],
+          [
+            553.396796589791,
+            692.7236480002553
+          ],
+          [
+            553.2747124056583,
+            700.5550100002838
+          ],
+          [
+            553.1526282215256,
+            708.3863720003122
+          ],
+          [
+            553.0305440373928,
+            716.2177340003407
+          ],
+          [
+            552.9084598532601,
+            724.0490960003692
+          ],
+          [
+            548.9797476570333,
+            729.5540054905935
+          ],
+          [
+            542.790619373592,
+            732.5698209499351
+          ],
+          [
+            534.650006619944,
+            732.3670289111876
+          ],
+          [
+            526.5093938662959,
+            732.1642368724403
+          ],
+          [
+            518.3687811126479,
+            731.9614448336927
+          ],
+          [
+            510.2281683589997,
+            731.7586527949452
+          ],
+          [
+            502.3018071152132,
+            732.8080418027218
+          ],
+          [
+            494.42697011047505,
+            734.158561363159
+          ],
+          [
+            486.55213310573686,
+            735.5090809235961
+          ],
+          [
+            478.6772961009987,
+            736.8596004840332
+          ],
+          [
+            470.8024590962606,
+            738.2101200444703
+          ],
+          [
+            462.9276220915224,
+            739.5606396049075
+          ],
+          [
+            455.05278508678424,
+            740.9111591653445
+          ],
+          [
+            447.17794808204604,
+            742.2616787257816
+          ],
+          [
+            439.3031110773079,
+            743.6121982862187
+          ],
+          [
+            431.4282740725697,
+            744.9627178466559
+          ],
+          [
+            423.55343706783157,
+            746.313237407093
+          ],
+          [
+            415.6786000630934,
+            747.66375696753
+          ],
+          [
+            407.80376305835523,
+            749.0142765279671
+          ],
+          [
+            399.9289260536171,
+            750.3647960884043
+          ],
+          [
+            392.05408904887895,
+            751.7153156488414
+          ],
+          [
+            384.17925204414075,
+            753.0658352092785
+          ],
+          [
+            376.3044150394026,
+            754.4163547697157
+          ],
+          [
+            368.4295780346645,
+            755.7668743301527
+          ],
+          [
+            360.5547410299263,
+            757.1173938905898
+          ],
+          [
+            352.6799040251881,
+            758.4679134510269
+          ],
+          [
+            344.80506702044994,
+            759.8184330114641
+          ],
+          [
+            336.9302300157118,
+            761.1689525719012
+          ],
+          [
+            329.0553930109736,
+            762.5194721323383
+          ],
+          [
+            321.18055600623546,
+            763.8699916927753
+          ],
+          [
+            313.3057190014973,
+            765.2205112532125
+          ],
+          [
+            305.4308819967591,
+            766.5710308136496
+          ],
+          [
+            297.556044992021,
+            767.9215503740867
+          ],
+          [
+            289.68120798728285,
+            769.2720699345238
+          ],
+          [
+            281.80637098254465,
+            770.622589494961
+          ],
+          [
+            273.9315339778065,
+            771.973109055398
+          ],
+          [
+            266.0566969730683,
+            773.3236286158351
+          ],
+          [
+            258.1818599683302,
+            774.6741481762723
+          ],
+          [
+            250.30702296359206,
+            776.0246677367094
+          ],
+          [
+            242.43218595885386,
+            777.3751872971465
+          ],
+          [
+            234.55734895411572,
+            778.7257068575835
+          ],
+          [
+            226.68251194937758,
+            780.0762264180207
+          ],
+          [
+            218.8076749446394,
+            781.4267459784578
+          ],
+          [
+            210.93283793990125,
+            782.7772655388949
+          ],
+          [
+            203.0580009351631,
+            784.127785099332
+          ],
+          [
+            195.1831639304249,
+            785.4783046597692
+          ],
+          [
+            187.3083269256867,
+            786.8288242202062
+          ],
+          [
+            179.43348992094863,
+            788.1793437806433
+          ],
+          [
+            171.55865291621038,
+            789.5298633410804
+          ],
+          [
+            163.68381591147224,
+            790.8803829015176
+          ],
+          [
+            155.8089789067341,
+            792.2309024619547
+          ],
+          [
+            147.9341419019959,
+            793.5814220223917
+          ],
+          [
+            140.05930489725776,
+            794.9319415828289
+          ],
+          [
+            132.18446789251962,
+            796.282461143266
+          ],
+          [
+            124.30963088778142,
+            797.6329807037031
+          ],
+          [
+            116.43479388304328,
+            798.9835002641402
+          ],
+          [
+            108.55995687830514,
+            800.3340198245772
+          ],
+          [
+            100.68511987356695,
+            801.6845393850144
+          ],
+          [
+            92.8102828688288,
+            803.0350589454515
+          ],
+          [
+            84.93544586409067,
+            804.3855785058886
+          ],
+          [
+            77.06060885935247,
+            805.7360980663258
+          ],
+          [
+            69.18577185461433,
+            807.0866176267629
+          ],
+          [
+            61.31093484987618,
+            808.4371371871999
+          ],
+          [
+            53.436097845137986,
+            809.787656747637
+          ],
+          [
+            45.56126084039985,
+            811.1381763080742
+          ],
+          [
+            37.68642383566165,
+            812.4886958685113
+          ],
+          [
+            29.81158683092351,
+            813.8392154289484
+          ],
+          [
+            21.936749826185313,
+            815.1897349893854
+          ],
+          [
+            14.061912821447118,
+            816.5402545498226
+          ],
+          [
+            6.187075816709035,
+            817.8907741102597
+          ],
+          [
+            -1.6877611880291625,
+            819.2412936706968
+          ],
+          [
+            -9.562598192767359,
+            820.5918132311339
+          ],
+          [
+            -17.437435197505444,
+            821.9423327915711
+          ],
+          [
+            -25.31227220224364,
+            823.2928523520081
+          ],
+          [
+            -33.18710920698184,
+            824.6433719124452
+          ],
+          [
+            -41.06194621171992,
+            825.9938914728824
+          ],
+          [
+            -48.93678321645812,
+            827.3444110333195
+          ],
+          [
+            -56.811620221196314,
+            828.6949305937566
+          ],
+          [
+            -64.68645722593439,
+            830.0454501541936
+          ],
+          [
+            -72.56129423067259,
+            831.3959697146307
+          ],
+          [
+            -80.43613123541078,
+            832.7464892750679
+          ],
+          [
+            -88.31096824014887,
+            834.097008835505
+          ],
+          [
+            -96.18580524488706,
+            835.4475283959421
+          ],
+          [
+            -103.96915807370041,
+            837.3327221401179
+          ],
+          [
+            -111.57821932952858,
+            840.2365532997395
+          ],
+          [
+            -119.18728058535687,
+            843.1403844593611
+          ],
+          [
+            -126.79634184118515,
+            846.0442156189829
+          ],
+          [
+            -134.40540309701333,
+            848.9480467786046
+          ],
+          [
+            -142.08482727331614,
+            851.4406457585648
+          ],
+          [
+            -149.95966427805422,
+            852.7911653190018
+          ],
+          [
+            -157.8345012827923,
+            854.1416848794389
+          ],
+          [
+            -165.7093382875306,
+            855.4922044398761
+          ],
+          [
+            -173.5841752922687,
+            856.8427240003132
+          ],
+          [
+            -181.07012341523597,
+            857.7332840004377
+          ],
+          [
+            -187.21808533522068,
+            857.4382860005497
+          ],
+          [
+            -193.3660472552054,
+            857.1432880006618
+          ],
+          [
+            -198.45970992031192,
+            856.2415960004072
+          ],
+          [
+            -203.55337258541846,
+            855.3399040001526
+          ],
+          [
+            -209.17630194475626,
+            852.4066220002815
+          ],
+          [
+            -214.79923130409406,
+            849.4733400004103
+          ],
+          [
+            -219.49488541514515,
+            846.1838340003312
+          ],
+          [
+            -224.19053952619623,
+            842.894328000252
+          ],
+          [
+            -229.59752807429098,
+            838.3580380002359
+          ],
+          [
+            -235.00451662238572,
+            833.8217480002197
+          ]
+        ]
+      }
+    },
+    "Jacarepagua": {
+      "era": "Historic Grand Prix circuit; reconstructed pit area",
+      "status": "reference-authored",
+      "replacePrefixes": [
+        "hero-01/",
+        "pit-01/",
+        "pit-01-"
+      ],
+      "references": [
+        {
+          "url": "https://suzanecarvalho.blogosfera.uol.com.br/2012/10/28/autodromo-de-jacarepagua-fecha-as-portas-para-dar-lugar-a-predios-comerciais-e-residenciais/",
+          "type": "Historical aerial photograph",
+          "observation": "Pit complex inside the final-to-first-corner straight; original scene put both pit building and control tower outside the circuit. Reconstructed proportions, not a surveyed historical model."
+        },
+        {
+          "url": "https://fr.motor1.com/news/93766/le-circuit-de-jacarepagua-rase-pour-les-jeux-olympiques-de-rio/",
+          "type": "Trackside building photograph",
+          "observation": "Long low garage row with blue flat roof, and a blue glazed control tower."
+        }
+      ],
+      "buildings": [
+        {
+          "add": true,
+          "style": "jacarepagua",
+          "height": 5.5,
+          "axis": [
+            1,
+            0
+          ],
+          "polygon": [
+            [
+              -262.5,
+              -215
+            ],
+            [
+              -7.5,
+              -215
+            ],
+            [
+              -7.5,
+              -195
+            ],
+            [
+              -262.5,
+              -195
+            ]
+          ]
+        }
+      ],
+      "route": {
+        "points": [
+          [
+            -413.004,
+            -255.39
+          ],
+          [
+            -368,
+            -245
+          ],
+          [
+            -340,
+            -237
+          ],
+          [
+            -310,
+            -234
+          ],
+          [
+            -280,
+            -234
+          ],
+          [
+            0,
+            -234
+          ],
+          [
+            65,
+            -235
+          ],
+          [
+            110,
+            -238
+          ],
+          [
+            145,
+            -242
+          ],
+          [
+            180,
+            -246
+          ],
+          [
+            206.61,
+            -246.718
+          ]
+        ],
+        "width": 7,
+        "note": "Historic infield pit straight reconstructed from archival aerial and trackside photographs. Entry after final bend, exit before the first corner; heights follow this model. Shared-road approaches are fitted to the edge of this model’s widened track, with one merge divider and the existing outer track marking."
+      },
+      "clearPrefixes": [
+        "stand-01-foundation/"
+      ]
+    }
+  }
+}

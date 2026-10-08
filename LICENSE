@@ -1,0 +1,38 @@
+This repository is licensed in two parts.
+
+  DATA  — everything in circuits/
+          Open Data Commons Open Database License (ODbL) v1.0
+          Full text: LICENSE-DATA.txt
+
+  SCENES — everything in scenes/ (baked 3D circuit models)
+          A COMBINATION, and both parts must be satisfied:
+            * the original modelled geometry — grandstands, pit buildings,
+              barriers, foliage, landmarks — is CC BY-SA 4.0
+              (licenses/CC-BY-SA-4.0.txt)
+            * the map-derived components baked into them — water, coastlines,
+              woodland outlines — remain (c) OpenStreetMap contributors
+              under ODbL 1.0
+          No third-party photograph, sponsor logo, branded texture or
+          official architectural model is embedded in any scene.
+
+  CODE  — the viewer (index.html, viewer.js, scene.js, viewer.css), vendor/
+          and tools/
+          MIT License
+          Full text: LICENSE-CODE.txt
+          vendor/ is third-party; see licenses/.
+
+The data is ODbL as a PRECAUTION. The circuit outlines may descend from map
+data carrying share-alike obligations; the upstream repository labels them MIT
+and does not mention OpenStreetMap, while our own asset records attribute the
+traces to OSM. We could not establish which is correct, and chose the licence
+that meets the obligation if it exists. This is a judgement under uncertainty,
+not a finding that the obligation applies. Share-alike is a real restriction
+on you, so read PROVENANCE.md before relying on any of it.
+
+Required attribution when redistributing the data:
+
+  Circuit geometry (c) OpenStreetMap contributors, ODbL 1.0, via
+  bacinger/f1-circuits. Elevation from NASA SRTM. Racing lines and corner
+  data derived by Raceline.
+
+Third-party notices are in licenses/.
