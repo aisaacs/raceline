@@ -7,9 +7,11 @@ import{DrivingCorridor,drivingObstacles}from'./lib/driving-clearance.mjs';
 import{facilityClearance}from'./lib/facility-clearance.mjs';
 import{paintStripesAt}from'./lib/pit-merges.mjs';
 const catalogue=JSON.parse(readFileSync('scenes/signatures.json')),routes=JSON.parse(readFileSync('authoring/pitlanes.json')),index=JSON.parse(readFileSync('circuits/index.json')),facilities=JSON.parse(readFileSync('authoring/pit-facilities.json')).circuits;
-const results=[];
+const selected=process.argv.slice(2);
+for(const id of selected)if(!index.circuits.some(c=>c.id===id))throw new Error(`Unknown circuit ${id}`);
+const previous=selected.length?JSON.parse(readFileSync('validation/details.json')).circuits:[],results=previous.filter(r=>!selected.includes(r.id));
 const context=JSON.parse(readFileSync('authoring/scene-context.json')).circuits;
-for(const {id}of index.circuits){
+for(const {id}of index.circuits.filter(c=>!selected.length||selected.includes(c.id))){
  const g=await loadScene(`scenes/${id}.glb`),errors=[],features=catalogue.circuits[id]?.features||[],route=routes.circuits[id];
  const facility=facilities[id],tunnel=facility?.route?.tunnel;
  if(!facility?.references?.length)errors.push('Pit facility has no visual reference');
@@ -75,4 +77,5 @@ for(const {id}of index.circuits){
  const audit=auditScene(g);errors.push(...audit.errors);disposeScene(g);
  results.push({id,features:features.length,pitMethod:route?.method,mergePaintStripes,maxPitGrade:Math.round(maxGrade*1000)/1000,pitRoadOverlapSquareMetres:junction.removedArea,maxPitJoinGapMetres:maxJoinGap,...(tunnel?{minUnderpassClearanceMetres:minUnderpassClearance}:{}),blockedPitSegments:obstructions.size,blockedMainTrackSegments:mainObstructions.size,apronObstructionSquareMetres:apronObstruction,apronRoadOverlapSquareMetres:apronOverlap,buriedApronTriangles:buriedApron,buriedSamples:buried,uncoveredSamples:uncovered,passed:!errors.length,errors});console.log(id,errors.length?errors.join('; '):'PASS');
 }
+results.sort((a,b)=>index.circuits.findIndex(c=>c.id===a.id)-index.circuits.findIndex(c=>c.id===b.id));
 writeFileSync('validation/details.json',JSON.stringify({circuits:results,passed:results.every(r=>r.passed)},null,2)+'\n');if(results.some(r=>!r.passed))process.exitCode=1;

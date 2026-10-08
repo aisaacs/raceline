@@ -172,6 +172,22 @@ Jacarepaguá pits. Watkins Glen has detached paddock garages and open pit boxes.
 Yas Marina's pit exit descends through an underpass with four metres of headroom.
 Montreal enters before Turn 13 and exits through the Senna S.
 
+The landmark review also corrects Spielberg's steel bull, the Singapore and
+Suzuka observation wheels, and Baku's Flame Towers. Scene boundaries now extend
+beneath outlying architecture in 35 models, including Marina Bay Sands across
+the reservoir. Suzuka's floating G grandstand is grounded. Research sources and
+modelling decisions are in [`authoring/landmark-references.json`](authoring/landmark-references.json).
+
+The [landmark review page](tools/review-landmarks.html?ids=Spielberg,Singapore,Baku,Suzuka)
+provides circuit overviews and close-ups; add `&overview` to compare complete
+scenes. Final captures for all 40 circuits are in `validation/landmark-views/`.
+Run `node tools/validate-landmarks.mjs` for terrain-support and landmark-bound
+checks, alongside the driving and junction checks in `tools/validate-details.mjs`.
+Terrain extensions are frozen in `authoring/landscape-extensions.json`; normal
+builds require no GIS dependency. Regenerating those polygons uses
+`tools/export-landscape-inputs.mjs` and `tools/prepare-landscape-extensions.py`
+(the latter requires Shapely 2.1 or newer).
+
 These remain **stylised game models with widened roads and approximate terrain**.
 Reference review establishes the intended arrangement; it is not a survey.
 Madrid retains the supplied concept track, and Jacarepaguá is a reconstruction

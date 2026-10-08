@@ -27,13 +27,13 @@
           "id": "feature-1",
           "name": "Island biosphere",
           "position": [
-            -415.95029239050956,
-            36.73914832105687,
-            -945.3303144696157
+            -415.95029725726647,
+            36.411076636968936,
+            -945.3303031088312
           ],
           "viewDistance": 181.255689534449,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -256,12 +256,12 @@
           "name": "Estoril pit canopy and timing room",
           "position": [
             27.363142900082202,
-            31.734833181314446,
+            29.002093111153574,
             133.88798339280936
           ],
           "viewDistance": 599.1154829495637,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -700,12 +700,12 @@
           "name": "Algarve sweeping grandstand roof",
           "position": [
             -249.5149283283547,
-            24.16295075878061,
+            17.913060018559307,
             10.351201970454952
           ],
           "viewDistance": 650,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -893,12 +893,12 @@
           "name": "Mugello solar grandstand",
           "position": [
             -49.81313283095653,
-            38.4253349632544,
+            31.236378542862568,
             -16.36200683582608
           ],
           "viewDistance": 333.85582001615893,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -1134,13 +1134,13 @@
           "id": "feature-1",
           "name": "Monza pit hospitality roof",
           "position": [
-            -568.9052019555536,
-            18.246428469540568,
-            484.05923362166436
+            -568.9060713767169,
+            16.044822570736414,
+            484.0644898161395
           ],
           "viewDistance": 553.1116752879295,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -1256,12 +1256,12 @@
           "name": "Gálvez race-control tower",
           "position": [
             -112.48559964586235,
-            26.400425603807683,
+            23.69439684203749,
             71.68763536376673
           ],
           "viewDistance": 639.4842716134907,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -1359,13 +1359,13 @@
           "id": "feature-1",
           "name": "Sakhir tower",
           "position": [
-            -278.74886042343377,
-            32.85919031937366,
-            -443.3113535139551
+            -278.7488423428298,
+            32.10989267503889,
+            -443.3113344075028
           ],
-          "viewDistance": 140,
+          "viewDistance": 140.9906967856512,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -1590,12 +1590,12 @@
           "name": "Casino facade",
           "position": [
             237.59643979526675,
-            56.434865268568466,
+            47.22507135216286,
             -278.13055899613784
           ],
           "viewDistance": 390.7905170358196,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -1725,12 +1725,12 @@
           "name": "Magny-Cours pits and timing tower",
           "position": [
             -157.82492988747632,
-            29.184601360713152,
+            26.930147522080524,
             -23.19442603273556
           ],
           "viewDistance": 464.4474138071623,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -1948,12 +1948,12 @@
           "name": "Observation tower",
           "position": [
             -379.16645898666894,
-            58.03051510723044,
+            57.2513010303797,
             51.12859345940066
           ],
           "viewDistance": 140,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -2068,12 +2068,12 @@
           "name": "Le Castellet pit terrace and tower",
           "position": [
             203.41342438076362,
-            34.02148355327436,
+            29.237187240963962,
             124.47554694108274
           ],
           "viewDistance": 625.8939445351118,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -2654,13 +2654,13 @@
           "id": "feature-1",
           "name": "Indianapolis Pagoda",
           "position": [
-            -278.36778250483263,
-            32.91328236340918,
-            168.6405235974745
+            -278.3677682185997,
+            37.23483445048322,
+            168.6334529422245
           ],
-          "viewDistance": 140,
+          "viewDistance": 147.5027936179319,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -2796,24 +2796,27 @@
           "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
         },
         {
-          "id": "feature-1",
-          "name": "Flame tower silhouette",
+          "id": "signature-flame-towers",
+          "name": "Flame Towers",
           "position": [
-            -1411.737194396449,
-            67.00868733109527,
-            1057.4820021958385
+            -1411.737,
+            110.259,
+            1057.482
           ],
-          "viewDistance": 705.4784952523697,
+          "viewDistance": 460,
           "meshPrefixes": [
-            "hero-02/"
+            "signature-flame-towers/"
           ],
-          "status": "retained",
+          "status": "added",
           "kind": "landmark",
-          "note": "Retained stylised geometry from the supplied scene.",
-          "sources": []
+          "sources": [
+            "https://www.hok.com/projects/view/baku-flame-towers/",
+            "https://www.skyscrapercenter.com/complex/618"
+          ],
+          "note": "Three separate tapered, curving towers around a shared podium at the mapped landmark site. Published tower heights 182 / 165 / 161 m; stylised massing and approximate local terrain."
         },
         {
-          "id": "feature-2",
+          "id": "feature-1",
           "name": "Castle entry",
           "position": [
             -608.524,
@@ -3168,12 +3171,12 @@
           "name": "Istanbul Park hospitality towers",
           "position": [
             -274.9732278597701,
-            53.213889760432814,
+            43.282402361654185,
             491.15931593319806
           ],
-          "viewDistance": 768.3500419652569,
+          "viewDistance": 772.6385667791856,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3271,13 +3274,13 @@
           "id": "feature-1",
           "name": "Waterfront hospitality tower",
           "position": [
-            456.152876550874,
+            455.82173406789934,
             131.0349125336973,
-            1649.5412705939639
+            1649.8455434757116
           ],
-          "viewDistance": 613.4072670674311,
+          "viewDistance": 614.449857031112,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3398,12 +3401,12 @@
           "name": "Kyalami convention centre",
           "position": [
             126.98737081932607,
-            17.860209108645286,
+            12.809035111231625,
             257.1049127836725
           ],
           "viewDistance": 604.9621405055593,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3506,7 +3509,7 @@
           ],
           "viewDistance": 419.05024367379707,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3703,33 +3706,35 @@
           "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
         },
         {
+          "id": "signature-observation-wheel",
+          "name": "Singapore Flyer",
+          "position": [
+            571.137,
+            87.51815115770049,
+            147.153
+          ],
+          "viewDistance": 340,
+          "meshPrefixes": [
+            "signature-observation-wheel/"
+          ],
+          "status": "added",
+          "kind": "landmark",
+          "sources": [
+            "https://www.singaporeflyer.com/en/fun-facts"
+          ],
+          "note": "Circular 150 m wheel, 165 m overall height and 28 level capsules, at the mapped site. Original simplified structure."
+        },
+        {
           "id": "feature-1",
           "name": "Marina hotel silhouette",
           "position": [
             286.2340837329814,
-            95.49527853244149,
+            96.37838431498709,
             807.0442724268534
           ],
           "viewDistance": 650,
           "meshPrefixes": [
-            "hero-01/"
-          ],
-          "status": "retained",
-          "kind": "landmark",
-          "note": "Retained stylised geometry from the supplied scene.",
-          "sources": []
-        },
-        {
-          "id": "feature-2",
-          "name": "Singapore Flyer",
-          "position": [
-            571.1371548890661,
-            13.230000183582305,
-            147.15299620107976
-          ],
-          "viewDistance": 353.6153716992338,
-          "meshPrefixes": [
-            "hero-02/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3827,12 +3832,12 @@
           "name": "Hard Rock Stadium canopy",
           "position": [
             -156.35329736976757,
-            26.866404903151498,
+            26.734306942420307,
             -1.861531804126571
           ],
-          "viewDistance": 1069.3645191583864,
+          "viewDistance": 1069.3933443228789,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3849,7 +3854,7 @@
           ],
           "viewDistance": 340,
           "meshPrefixes": [
-            "decorative-marina/"
+            "decorative-marina"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -3931,7 +3936,7 @@
             24.989466201729385,
             -45.762
           ],
-          "viewDistance": 75,
+          "viewDistance": 40,
           "meshPrefixes": [
             "signature-bull/"
           ],
@@ -3940,7 +3945,12 @@
           "sources": [
             "https://www.redbullring.com/en/history/"
           ],
-          "note": "Original stylised model at the mapped landmark location."
+          "note": "Original faceted interpretation of the Corten-steel bull: perforated plates, lowered head, folded forelegs, gold horns and a transverse arch. Overall height approximately 17.2 m.",
+          "viewDirection": [
+            0.35,
+            0.28,
+            -1
+          ]
         },
         {
           "id": "pit-building",
@@ -4051,13 +4061,13 @@
           "id": "feature-1",
           "name": "Silverstone Wing",
           "position": [
-            -313.0590342223042,
-            27.84060286359444,
-            223.4010818000511
+            -313.06412239468335,
+            26.4246491784827,
+            223.40080225533256
           ],
-          "viewDistance": 679.7880882778962,
+          "viewDistance": 681.3023130594263,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -4172,12 +4182,12 @@
           "name": "Bolshoy-inspired Olympic arena",
           "position": [
             -710.2201146822272,
-            25.99247269340502,
+            25.641554102632103,
             323.5785574248846
           ],
-          "viewDistance": 564.8525095982533,
+          "viewDistance": 564.990466621883,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -4271,24 +4281,26 @@
           "note": "Stylised pit complex at mapped footprints, with a working apron facing the selected pit lane."
         },
         {
-          "id": "feature-1",
-          "name": "Suzuka observation wheel",
+          "id": "signature-observation-wheel",
+          "name": "Suzuka Circuit Wheel",
           "position": [
-            565.7183383810457,
-            68.83889350891113,
-            -258.8195884039607
+            565.718,
+            73.93071291246413,
+            -258.82
           ],
-          "viewDistance": 140,
+          "viewDistance": 125,
           "meshPrefixes": [
-            "hero-01/"
+            "signature-observation-wheel/"
           ],
-          "status": "retained",
+          "status": "added",
           "kind": "landmark",
-          "note": "Retained stylised geometry from the supplied scene.",
-          "sources": []
+          "sources": [
+            "https://www.suzukacircuit.jp/eng/park/attraction/circuit-wheel/"
+          ],
+          "note": "Original circular wheel at its mapped site, approximately 50 m above local ground, with level hanging gondolas."
         },
         {
-          "id": "feature-2",
+          "id": "feature-1",
           "name": "Suzuka crossover bridge",
           "position": [
             -189.15855407714844,
@@ -4397,12 +4409,12 @@
           "name": "Watkins Glen control tower",
           "position": [
             -257.76490831571647,
-            43.437965104481975,
+            42.722796645307206,
             -422.3762748753715
           ],
           "viewDistance": 140,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",
@@ -4527,13 +4539,13 @@
           "id": "feature-1",
           "name": "Nürburgring boulevard roofline",
           "position": [
-            292.76853409101705,
-            78.53698093917907,
-            -296.35678603032034
+            292.7685411653478,
+            76.366550599542,
+            -296.35677226243456
           ],
-          "viewDistance": 464.67327851193045,
+          "viewDistance": 467.59442162736275,
           "meshPrefixes": [
-            "hero-01/"
+            "hero-01"
           ],
           "status": "retained",
           "kind": "landmark",

@@ -1,0 +1,25 @@
+{
+  "reviewed": "2026-10-07",
+  "scope": "Visual pass over all 40 supplied circuit scenes. References below document the landmarks rebuilt in this pass; per-circuit pit references remain in pit-facilities.json.",
+  "Spielberg": {
+    "references": ["https://www.redbullring.com/en/history/", "https://commons.wikimedia.org/wiki/File:2021_4_Hours_of_Red_Bull_Ring_-_The_Bull.jpg"],
+    "observations": "Perforated weathering-steel plates, lowered head, folded forelegs, braced hind legs, gold horns and a transverse arch. Operator states 17.2 m including the arch.",
+    "implementation": "Original faceted interpretation at the mapped position; approximately 17.2 m overall. No photographic texture is embedded."
+  },
+  "Singapore": {
+    "references": ["https://storage.singaporegp.sg/web/2025/circuit-park-map/circuit-park-map.pdf?v=2", "https://www.singaporeflyer.com/en/fun-facts", "https://www.marinabaysands.com/guides/exceptional-experiences/marina-bay-sands-architecture.html", "https://www.openstreetmap.org/relation/9542146"],
+    "observations": "Flyer is circular, 150 m diameter, 165 m overall, with 28 capsules. Marina Bay Sands remains across the reservoir from the circuit.",
+    "implementation": "Rebuilt wheel without footprint-based vertical scaling. Retained mapped hotel position and extended land beneath it; reservoir extension follows the frozen OSM shoreline. Removed the former scene-boundary concrete edge across open water."
+  },
+  "Baku": {
+    "references": ["https://www.hok.com/projects/view/baku-flame-towers/", "https://www.skyscrapercenter.com/complex/618"],
+    "observations": "Three curved flame-shaped towers around a shared podium; reported heights 182, 165 and 161 m.",
+    "implementation": "Replaced the flattened blocks with three separate tapered towers at the mapped landmark site. Extended the approximate terrain beneath the complex."
+  },
+  "Suzuka": {
+    "references": ["https://www.suzukacircuit.jp/eng/park/attraction/circuit-wheel/"],
+    "observations": "The operator states approximately 50 m above local ground for the wheel's highest point.",
+    "implementation": "Replaced the distorted wheel with a circular 45 m rim and hanging gondolas, approximately 49 m overall. Lowered the floating G grandstand 9.37 m until its highest terrain support meets the lowest structure."
+  },
+  "limitations": "Original stylised geometry, approximate terrain and widened game roads. This pass does not establish survey accuracy, current-event configuration, or exact architectural detail."
+}

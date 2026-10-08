@@ -7,6 +7,9 @@ import{loadScene,disposeScene,auditScene}from'./lib/scene-audit.mjs';
 import{restoreBase,appendMeshes,combineMeshes,sceneTriangles,Surface}from'./lib/scene-additions.mjs';
 import{makePitLane}from'./lib/pitlanes.mjs';
 import{buildPitFacilities,pitFacility,facadeRectangle}from'./lib/pit-facilities.mjs';
+import{repairLandmarks,landmarkReplacements}from'./lib/landmark-repairs.mjs';
+import{groundStands}from'./lib/grounded-stands.mjs';
+import{extendLandscape}from'./lib/landscape-extensions.mjs';
 import{addSignatures}from'./lib/signature-landmarks.mjs';
 import{joinPitAsphalt}from'./lib/pit-junctions.mjs';
 import{DrivingCorridor}from'./lib/driving-clearance.mjs';
@@ -23,8 +26,8 @@ function catalogue(id,c,g){
   features.push({id:`feature-${features.length+1}`,name,position:position||box.getCenter(new T.Vector3()).toArray(),viewDistance:position?distance:Math.max(distance,box.getSize(new T.Vector3()).length()*1.5),meshPrefixes:prefix,status:'retained',kind:'landmark',note,sources});
  }
  for(const l of c.landmarks.filter(l=>l.id!=='pit-01')){
-  const p=l.id==='wall-01'?(id==='Montreal'?'champions-wall/':'interlagos-wall/'):l.id==='tunnel-01'?'monaco-tunnel/':l.id==='bridge-01'?'bridge-deck/':l.id+'/';
-  if(pitFacility(id)?.replacePrefixes?.includes(p))continue;
+  const p=l.id==='wall-01'?(id==='Montreal'?'champions-wall/':'interlagos-wall/'):l.id==='tunnel-01'?'monaco-tunnel/':l.id==='bridge-01'?'bridge-deck/':l.id;
+  if([...(pitFacility(id)?.replacePrefixes||[]),...(landmarkReplacements[id]||[])].some(prefix=>p.startsWith(prefix)||prefix.startsWith(p)))continue;
   feature(l.label,[p],null,l.radiusM?Math.min(650,Math.max(140,l.radiusM*4)):260);
  }
  const specials={
@@ -81,15 +84,16 @@ export async function buildDetails(id,destination){
  try{
   const glb=readGLB(destination);restoreBase(glb);writeGLB(baseline,glb);writeGLB(staged,glb);
   g=await loadScene(baseline);g.scene.userData.circuitId=id;
-  const removedPrefixes=pitFacility(id)?.replacePrefixes||[],removedNodes=[];g.scene.traverse(o=>{if(o.isMesh&&removedPrefixes.some(p=>originalName(g,o).startsWith(p)))removedNodes.push({node:g.parser.associations.get(o).nodes,indices:[]});});
+  const removedPrefixes=[...(pitFacility(id)?.replacePrefixes||[]),...(landmarkReplacements[id]||[])],removedNodes=[];g.scene.traverse(o=>{if(o.isMesh&&removedPrefixes.some(p=>originalName(g,o).startsWith(p)))removedNodes.push({node:g.parser.associations.get(o).nodes,indices:[]});});
   // Replacing a mapped building must also remove its copy in an urban tile.
   const replaceVolumes=(pitFacility(id)?.buildings||[]).filter(s=>s.replaceMappedFootprint).map(s=>{const r=facadeRectangle(s.polygon,s.axis);return new DrivingCorridor([[r.center[0]-r.axis[0]*(r.width/2+1),-100,r.center[1]-r.axis[1]*(r.width/2+1)],[r.center[0]+r.axis[0]*(r.width/2+1),-100,r.center[1]+r.axis[1]*(r.width/2+1)]],r.depth+2,{bottom:0,height:1000});});
   if(replaceVolumes.length)g.scene.traverse(o=>{if(!o.isMesh||!/^urban-map-tile-/.test(originalName(g,o)))return;const a=o.geometry.attributes.position,idx=o.geometry.index,v=new T.Vector3(),indices=[];let removed=0;for(let i=0;i<(idx?.count??a.count);i+=3){const ids=[0,1,2].map(k=>idx?idx.getX(i+k):i+k),tri=ids.map(k=>v.fromBufferAttribute(a,k).applyMatrix4(o.matrixWorld).toArray());if(replaceVolumes.some(d=>d.intersections(tri).length))removed++;else indices.push(...ids);}if(removed)removedNodes.push({node:g.parser.associations.get(o).nodes,indices});});
   const road=new Surface(sceneTriangles(g,n=>/^(road|bridge-deck)\//.test(n))),ground=new Surface(sceneTriangles(g,n=>/^terrain(?!-skirt)|^(runoff|shoulder|apron|paddock-ground|bridge-underpass-ground)\//.test(n))),arch=new Surface(sceneTriangles(g,n=>architecture.test(n)&&![...removedPrefixes,...(pitFacility(id)?.clearPrefixes||[])].some(p=>n.startsWith(p))));
-  const retained=catalogue(id,c,g),added=addSignatures(id,c,road,ground),facility=buildPitFacilities(id,c,ground,road);added.meshes.push(...facility.meshes);added.features.push(...facility.features);
+  const landscape=extendLandscape(id,c,g),stands=groundStands(g,new Surface([...ground.triangles,...sceneTriangles(g,n=>/^(painted-runoff|ricard-runoff-base)\//.test(n))]));
+  const retained=catalogue(id,c,g),added=addSignatures(id,c,road,ground),facility=buildPitFacilities(id,c,ground,road);const repaired=repairLandmarks(id,c,ground);added.meshes.push(...facility.meshes,...repaired.meshes);added.features.push(...facility.features,...repaired.features);
   const extraTriangles=[];for(const m of added.meshes){const geometry=m.geometry.index?m.geometry.toNonIndexed():m.geometry,p=geometry.attributes.position;for(let i=0;i<p.count;i+=3)extraTriangles.push([0,1,2].map(k=>[p.getX(i+k),p.getY(i+k),p.getZ(i+k)]));}
   const pit=makePitLane(id,c,g,road,ground,new Surface([...arch.triangles,...extraTriangles]),root,facility.garages),cleared=clearCorridor(g,pit);
-  appendMeshes(staged,combineMeshes([...added.meshes,...pit.meshes,...cleared.meshes]),[...cleared.replacements,...removedNodes]);
+  appendMeshes(staged,combineMeshes([...added.meshes,...pit.meshes,...cleared.meshes,...landscape.meshes,...stands.meshes]),[...cleared.replacements,...removedNodes,...landscape.replacements,...stands.replacements]);
   compressAdditions(staged);
   const verify=await loadScene(staged);const audit=auditScene(verify);disposeScene(verify);if(!audit.passed)throw new Error(audit.errors.join('; '));
   const bytes=readFileSync(staged);writeFileSync(destination,bytes);

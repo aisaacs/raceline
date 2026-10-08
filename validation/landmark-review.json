@@ -1,0 +1,225 @@
+{
+  "schema": "raceline.landmark-visual-review/1",
+  "date": "2026-10-07",
+  "scope": "Visual overview pass across all 40 circuits and close inspection of catalogued landmarks. Final overview images use the rebuilt GLBs. The pass-01 through pass-10 captures record intermediate inspection, before some corrections.",
+  "limits": "Stylised circuit library, not a survey model. Automated checks cover driving corridors, pit junctions and aprons, retained structure centres, and grandstand support points; they do not inspect every facade in batched city geometry.",
+  "references": "../authoring/landmark-references.json",
+  "geometryReport": "details.json",
+  "landmarkReport": "landmarks.json",
+  "repeatableBuildReport": "landmark-rebuilds.json",
+  "regressionTests": {
+    "passed": 33,
+    "failed": 0
+  },
+  "circuits": [
+    {
+      "id": "Melbourne",
+      "sha256": "e73c230c852a294e71514d1a38b7e8d6afff644c49c03f6661f7990e646a0eff",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Estoril",
+      "sha256": "4686937193952a9e1364b02e403b494527dfe28017c0effc5a1b06b14d2a3880",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Imola",
+      "sha256": "a4e3358aef14ba702c2ca739718f366d8281b592a083e1fb76fa6f6381e71da0",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Mexico City",
+      "sha256": "72a2f16a02a5320259eed7fd14b82d42720b8be1c84720887523466283817610",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Portimao",
+      "sha256": "13a9e9304225167ff357aae4700d1d402a82e9c478f34be15263347e38865378",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Jacarepagua",
+      "sha256": "055fc7c75c4589d97f6d9c3cad249bba8168d429b0878f464b81b77f03868e86",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Mugello",
+      "sha256": "719ca299422f8433069cb5724d5d33bc7112719aa07fce5945f98cea9c2bb8a2",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "SaoPaulo",
+      "sha256": "bf3bd6d841aa9e541a46a6ba67ae9ed2c54ddc1d0398e5a222f79ecc29fb1c23",
+      "overviewCapture": "landmark-views/final-overviews-01.png"
+    },
+    {
+      "id": "Monza",
+      "sha256": "18dd4fceb22385bf245d2239779a74ea8bfe4190e6bcab95103a6032bd9246b7",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "BuenosAires",
+      "sha256": "507c86cdb684041a30b54bd2d8c5bce14459837b99363d0830f9c3303e2807c3",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "Sakhir",
+      "sha256": "9395296fdb6ca1901b45724d306804c93ffccd008dbfa82425dc01b3b43965d8",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "Baku",
+      "sha256": "e0b3e3097479b9ea7873e629b997fd81e51b8e75d64f211d747fcd5f3a4644cc",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "Catalunya",
+      "sha256": "9d8dfd41e12f89c9d18fa5467e8d1542e0843a9427ef844318dd5b0fb7db793f",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "Monaco",
+      "sha256": "96739a0b98f4f991b170cb361fba5b6f1aceee46d667c03af190762d0fcb3e47",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "MagnyCours",
+      "sha256": "b6dd8d300cdb7010849d006620641469e27b791daceb9c09024077d430cc0f6a",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "Spa",
+      "sha256": "d370a628c1b17da22569ae317bf1386f471c7bed005919a778e8f40833c2894c",
+      "overviewCapture": "landmark-views/final-overviews-02.png"
+    },
+    {
+      "id": "Montreal",
+      "sha256": "23dcfc8886ff1c7fe900a5c2400a86a88aa63a6164849993220bf7898a8a329e",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "Austin",
+      "sha256": "a1ad8583dc6a5c649c1607ddc94d873f7ae2a1a48b385b1c200be2c6cbc245b0",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "PaulRicard",
+      "sha256": "f3349e6ee960f4f5dadbe4710ce2371824c31310ef19da83e1f847a53261782c",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "Zandvoort",
+      "sha256": "d8e9e66e59329aae97e7b5f309b38d97f3bb823c0d798d83e0a75d70b8773559",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "Madrid",
+      "sha256": "3adc0841625faa01448fddcbb657246021baee4ab945717a44688b5394f6363e",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "Hockenheim",
+      "sha256": "1ee8b74e1cee3c18c0e9a83610125ff5280607e7c1a8215a63f31c43a6ac6ba3",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "Budapest",
+      "sha256": "644f1f25ebc506f814ccb9bfccc620915d8d64edf8ff92a3c8ff5a3b71736cd3",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "IMS",
+      "sha256": "8a30b60b26affeeabf5de10ea3fcb59d574756ba0bea9289466779e414113093",
+      "overviewCapture": "landmark-views/final-overviews-03.png"
+    },
+    {
+      "id": "Istanbul",
+      "sha256": "887b055bc83b4be8b7d212462aefc64256bc42c2c9c090623a3b71fc52840d85",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "Jeddah",
+      "sha256": "e9798776e2a41d7f6ac396766c100154881d70a39c4dcbc259a971bb96baf519",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "Kyalami",
+      "sha256": "080c78f1fb1f94b0deee7e8ef6d2f0a05ea143b1a8de45e418cbde0b504ee13e",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "LasVegas",
+      "sha256": "ea1acb01475f8e43821e4b813d7ae83570f7d821d0107de841070d4573f01c4a",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "Lusail",
+      "sha256": "9e85cfd6842c2e858c809da8300231c1b7e0fd41a8205249a42cdc9c0d91b777",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "Singapore",
+      "sha256": "c451787b812b7b74fcb6236824130f423260446c11104c8a488e8fdcbda4ec17",
+      "overviewCapture": "landmark-views/final-overviews-04.png",
+      "closeupCaptures": [
+        "landmark-views/singapore-hotel-final.png"
+      ]
+    },
+    {
+      "id": "Miami",
+      "sha256": "f0111cc65abd72a67326e27a88e553d4438a0d950c12aca3b86beee85fa070bd",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "Nuerburgring",
+      "sha256": "b8eadb86d4dc68aa40c5d01df55e8e672976bd57cc949a5ba49c4405a6f9f071",
+      "overviewCapture": "landmark-views/final-overviews-04.png"
+    },
+    {
+      "id": "Spielberg",
+      "sha256": "4a458266a5abf438daf8909afeb2397919a673a6e53d43a318dd9860d14c6166",
+      "overviewCapture": "landmark-views/final-overviews-05.png",
+      "closeupCaptures": [
+        "landmark-views/spielberg-bull-final.png"
+      ]
+    },
+    {
+      "id": "Sepang",
+      "sha256": "b70a90d8f5bb28f4696aaa80f120f9930514b511434ddc469dd1e656ea25428c",
+      "overviewCapture": "landmark-views/final-overviews-05.png"
+    },
+    {
+      "id": "Shanghai",
+      "sha256": "22e1d905a617f5fbf1e1cc5e4fb146177024803f2fae93c32ddf2e583ffe61d2",
+      "overviewCapture": "landmark-views/final-overviews-05.png"
+    },
+    {
+      "id": "Silverstone",
+      "sha256": "43904e920af2e581858bc4c1750531f6944cc7228b1503a1d4bbe3ddd9dad9ce",
+      "overviewCapture": "landmark-views/final-overviews-05.png"
+    },
+    {
+      "id": "Sochi",
+      "sha256": "a4ac4c735ea86db0121a59f78f86bb050bd1fdbec9f32d458628a0a0e9c1ade5",
+      "overviewCapture": "landmark-views/final-overviews-05.png"
+    },
+    {
+      "id": "Suzuka",
+      "sha256": "938df3cbcb4218ee3b5b940ec98213ac4716aa6a5f7d77c232b151f6a637cad9",
+      "overviewCapture": "landmark-views/final-overviews-05.png",
+      "closeupCaptures": [
+        "landmark-views/suzuka-grandstand.png"
+      ]
+    },
+    {
+      "id": "WatkinsGlen",
+      "sha256": "edf1857f6cb5391097a608d0de56451f86239386be06793f4e4f19fadf8328c8",
+      "overviewCapture": "landmark-views/final-overviews-05.png"
+    },
+    {
+      "id": "YasMarina",
+      "sha256": "d7b5e2d32964a18be13c61b57580a5fe57f146e5935b835545d9043b0faeaea9",
+      "overviewCapture": "landmark-views/final-overviews-05.png"
+    }
+  ]
+}

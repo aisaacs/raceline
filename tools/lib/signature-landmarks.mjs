@@ -2,6 +2,7 @@ import {readFileSync} from 'node:fs';
 import * as T from '../../vendor/three.module.js';
 import {Builder,rectangle,project} from './scene-additions.mjs';
 import {facadeRectangle} from './pit-facilities.mjs';
+import {steelBull} from './steel-bull.mjs';
 import {joinPitAsphalt} from './pit-junctions.mjs';
 const C={stone:0xb6a484,steel:0x99a6af,roof:0xe5e0cf,glass:0x385d72,red:0xb33737};
 export function addSignatures(id,c,road,ground){
@@ -21,13 +22,8 @@ export function addSignatures(id,c,road,ground){
  if(a){
   const rect=a.kind==='imola-tower'?facadeRectangle(a.footprint):rectangle(a.footprint),p=rect.center,axis=rect.axis,nearest=c.path.reduce((best,q)=>Math.hypot(q[0]-p[0],q[2]-p[1])<Math.hypot(best[0]-p[0],best[2]-p[1])?q:best,c.path[0]),y=ground.height(...p)??nearest[1];
   if(a.kind==='bull'){
-   const b=new Builder('signature-bull',[p[0],y,p[1]]);const metal=0x868d91;
-   b.box(0,.35,0,22,.7,9,0x74706a,'plinth');b.ellipsoid(0,10,0,7,3,2.8,metal);b.ellipsoid(-6,10.8,0,3,2.5,2.3,metal,'head');
-   for(const x of [-4,4])for(const z of [-1.9,1.9])b.beam([x,9,z],[x+(x<0?-1:1),.7,z],.7,metal,'legs');
-   for(const z of [-1,1]){b.beam([-7.5,12,z*1.8],[-9,14,z*3.8],.42,0xc4c9cb,'horns');b.beam([-9,14,z*3.8],[-8.5,15,z*4.2],.24,0xc4c9cb,'horns');}
-   b.beam([6,11,0],[9,8,0],.35,metal,'tail');
-   let last=null;for(let i=0;i<=24;i++){const angle=Math.PI*i/24,point=[Math.cos(angle)*13,Math.sin(angle)*17.2,.8];if(last)b.beam(last,point,.5,0x9caaa6,'arch');last=point;}
-   add(b,'Steel bull and arch',[p[0],y+8,p[1]],75,'https://www.redbullring.com/en/history/');
+   const b=steelBull([p[0],y,p[1]],axis);
+   add(b,'Steel bull and arch',[p[0],y+8,p[1]],40,'https://www.redbullring.com/en/history/','Original faceted interpretation of the Corten-steel bull: perforated plates, lowered head, folded forelegs, gold horns and a transverse arch. Overall height approximately 17.2 m.');features.at(-1).viewDirection=[.35,.28,-1];
   }else if(a.kind==='castle'){
    const originalCenter=[...p];let f;outer:for(let radius=0;radius<=36;radius+=4)for(let k=0;k<16;k++){const q=[originalCenter[0]+Math.cos(k*Math.PI/8)*radius,originalCenter[1]+Math.sin(k*Math.PI/8)*radius];try{f=fit(q,axis,34,12);p[0]=q[0];p[1]=q[1];break outer;}catch{}}if(!f)throw new Error('No clear Old City wall placement');const b=new Builder('signature-old-city',[p[0],y,p[1]],axis);
    b.box(0,5,0,f.w,10,f.d,C.stone);for(const x of [-f.w*.38,f.w*.38]){b.cylinder(x,6,0,f.d*.6,12,C.stone,'towers');for(let k=0;k<10;k++){const t=k/10*Math.PI*2;b.box(x+Math.cos(t)*f.d*.52,12.7,Math.sin(t)*f.d*.52,1.6,1.6,1.6,C.stone,'battlements');}}

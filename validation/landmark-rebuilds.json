@@ -1,0 +1,17 @@
+[
+  {
+    "id": "Singapore",
+    "identical": true,
+    "sha256": "c451787b812b7b74fcb6236824130f423260446c11104c8a488e8fdcbda4ec17"
+  },
+  {
+    "id": "Spielberg",
+    "identical": true,
+    "sha256": "4a458266a5abf438daf8909afeb2397919a673a6e53d43a318dd9860d14c6166"
+  },
+  {
+    "id": "Suzuka",
+    "identical": true,
+    "sha256": "938df3cbcb4218ee3b5b940ec98213ac4716aa6a5f7d77c232b151f6a637cad9"
+  }
+]
